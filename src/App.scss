@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100svw;
+  height: 100svh;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100svh;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: auto;
+  height: auto;
+  margin: 20px;
+}
+
+.title {
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.content {
+  text-indent: 10%;
+  text-align: justify;
+}
+
+@media ( max-width: 800px ) {
+  .wrapper {
+    grid-template-columns: auto;
+  }
+}
