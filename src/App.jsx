@@ -8,7 +8,9 @@ function App() {
         return (
           <section key='section' className='section'>
             <div key='title' className='title'>{item.title}</div>
+            <div key='subtitle' className='subtitle'>{item.subtitle}</div>
             <div key='content' className='content'>{item.content}</div>
+            {item.images}
           </section>
         )
       })}

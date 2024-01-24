@@ -19,4 +19,15 @@ export const info = [
         title:'HISTORIA DEL JIU JITSU',
         content:'El Jiu Jitsu es un Arte Marcial proveniente del Jiujitsu Kano (Nombre antiguo del Judo), que llegó a Brasil a través  de varios inmigrantes japoneses que se establecieron en el continente sudamericano, entre ellos el más populares están Geo Omori y el reconocido  Conde Koma. Este último enseñó a muchos brasileños, los cuales a su vez fueron enseñando esta arte marcial a sus coterráneos, entre ellos los que más destacan y los principales responsables de mantener vivo este arte marcial, la familia Gracie. Entre sus principales iconos históricos estarían Carlos Gracie, George Gracie, Helio Gracie, Rolls Gracie, Rickson Gracie y por sobre todo Royce Gracie quien fue el responsable de mostrar el Jiu Jitsu al mundo. Con el tiempo surgieron las grandes competencias y una evolución constante del Jiu Jitsu conocido desde los 90  en EEUU como Gracie JIu JItsu y Brazilian Jiu JItsu. Asi este nuevo Jiu Jitsu toma una identidad de estilo diferente a su raíz que es el Judo, transformándose desarrollando nuevas formas de resolver y plantear problemas de lucha con un repertorio que poseía técnicas nunca antes planteadas.'
     },
+    {
+        title:'Agarres / Grips',
+        subtitle:'¿QUÉ ES UN AGARRE O GRIP?',
+        content:'Un grip o agarre corresponde a puntos de control sobre mi oponente que establezco mediante el uso de mis manos o brazos.',
+    },
+    {
+        title:'Lista de agarres / grips',
+        subtitle:'Armdrag',
+        content:'Jalón de brazo. Concepto utilizado en diversas disciplinas de lucha; como variantes del wrestling, grappling y jiu jitsu',
+        images:'<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 146.3 122.4" style="enable-background:new 0 0 146.3 122.4;" xml:space="preserve"><g><image style="overflow:visible;" width="288" height="238" xlink:href="B16962FD.png"  transform="matrix(0.5079 0 0 0.5143 0 0)"></image></g></svg>'
+    },
 ]
