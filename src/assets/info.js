@@ -28,6 +28,6 @@ export const info = [
         title:'Lista de agarres / grips',
         subtitle:'Armdrag',
         content:'Jalón de brazo. Concepto utilizado en diversas disciplinas de lucha; como variantes del wrestling, grappling y jiu jitsu',
-        images:'<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 146.3 122.4" style="enable-background:new 0 0 146.3 122.4;" xml:space="preserve"><g><image style="overflow:visible;" width="288" height="238" xlink:href="B16962FD.png"  transform="matrix(0.5079 0 0 0.5143 0 0)"></image></g></svg>'
+        images:'/armdrag.png'
     },
 ]
