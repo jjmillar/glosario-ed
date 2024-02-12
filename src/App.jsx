@@ -17,7 +17,7 @@ function App() {
               <div key='content' className='content'>
                 {item.content}
               </div>
-              <img key='images' className='images' src={item.images} />
+              {item.images && <img key='images' className='images' src={item.images} />}
             </div>
           </section>
         )
