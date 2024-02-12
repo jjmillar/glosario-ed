@@ -30,4 +30,10 @@ export const info = [
         content:'Jalón de brazo. Concepto utilizado en diversas disciplinas de lucha; como variantes del wrestling, grappling y jiu jitsu',
         images:'/armdrag.png'
     },
+    {
+        title: null,
+        subtitle:'Butterfly grip',
+        content:'Variante de Gable grip en donde las manos se sujetan sobre los antebrazos.',
+        images:'/butterflyGrip.png'
+    },
 ]
