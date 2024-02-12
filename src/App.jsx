@@ -1,10 +1,9 @@
 import { info } from './assets/info'
 import './App.scss'
-
+//<a href='#Armdrag'>imagen</a>
 function App() {
   return (
     <div className='wrapper'>
-      <a href='#Armdrag'>imagen</a>
       {info.map((item) => {
         return (
           <section key='section' className='section'>

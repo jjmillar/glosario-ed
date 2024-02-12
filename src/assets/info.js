@@ -31,9 +31,28 @@ export const info = [
         images:'/armdrag.png'
     },
     {
-        title: null,
         subtitle:'Butterfly grip',
         content:'Variante de Gable grip en donde las manos se sujetan sobre los antebrazos.',
         images:'/butterflyGrip.png'
+    },
+    {
+        subtitle:'C-Grip',
+        content:'Agarre utilizado con gi. La mano toma la forma de la letra C, en donde el pulgar hace fuerza opuesta al resto de los dedos.',
+        images:'/CGrip.png'
+    },
+    {
+        subtitle:'Chicken Wing',
+        content:'Hiperextensión del hombro generalmente realizada desde el control de la espalda.',
+        images:'/chickenWing.jpg'
+    },
+    {
+        subtitle:'Chin Strap',
+        content:'Agarre del cuello y cabeza del oponente, fijando los dedos en la mandíbula del rival, se utiliza solo un brazo. Agarre utilizado para atacar Guillotinas y otro tipo de headlocks, se dice que posee un control superior sobre uke en comparación con el resto de agarres.',
+        images:'/chinStrap.jpg'
+    },
+    {
+        subtitle:'Collar Grip',
+        content:'Agarre utilizado con gi. Similar al C grip, pero en este caso el agarre va específicamente sobre el collar (cuello del gi) del oponente.',
+        images:'/collarGrip.png'
     },
 ]
