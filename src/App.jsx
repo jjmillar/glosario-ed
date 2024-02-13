@@ -19,10 +19,13 @@ function App() {
             )}
             <div key='section-wrapper' className='section-wrapper'>
               <div key='content' className='content'>
-                {item.content}
+                <div>{item.content}</div>
               </div>
               {item.images && (
                 <img key='images' className='images' src={item.images} />
+              )}
+              {item.definition && (
+                <div key='definition' className='definition'>{item.definition}</div>
               )}
             </div>
           </section>
