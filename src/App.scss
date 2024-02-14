@@ -54,7 +54,7 @@
   text-align: justify;
 }
 
-.grips-wrapper {
+.layout-wrapper {
   width: 100svw;
   height: auto;
   box-sizing: border-box;
@@ -65,7 +65,7 @@
   align-items: center;
 }
 
-.grip {
+.layout {
   width: 50svw;
   box-sizing: border-box;
   padding: 0 20px 20px 20px;
@@ -75,22 +75,22 @@
   justify-content: center;
 }
 
-.grip-content {
+.layout-content {
   width: 50%;
   box-sizing: border-box;
   padding: 10px;
 }
 
-.grip-content > div:first-child {
+.layout-content > div:first-child {
   padding: 0 20px 20px 20px;
 }
 
-.grip-content > div:last-child {
+.layout-content > div:last-child {
   text-align: justify;
   text-indent: 10%;
 }
 
-.grip-img {
+.layout-img {
   width: 50%;
   box-sizing: border-box;
   padding: 10px;
@@ -101,18 +101,18 @@
     width: 90svw;
   }
 
-  .grip {
+  .layout {
     width: 100svw;
     padding: 0 0 20px 0;
     flex-direction: column;
   }
 
-  .grip-content {
+  .layout-content {
     width: 90%;
     padding: 10px 0 10px 0;
   }
 
-  .grip-img {
+  .layout-img {
     width: 90%;
     padding: 10px 0 10px 0;
   }

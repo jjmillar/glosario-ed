@@ -10,17 +10,17 @@ function App() {
             {item.title && (<div id={item.title} key='title' className='title'>{item.title}</div>)}
             {item.subtitle && (<div id={item.subtitle} key='subtitle' className='subtitle'>{item.subtitle}</div>)}
             {item.content && (<div key='content' className='content'>{item.content}</div>)}
-            {item.grips &&  (
-            <div key='grips' id='grips' className='grips-wrapper'>
+            {item.layout &&  (
+            <div key='layout-wrapper' id='layout-wrapper' className='layout-wrapper'>
                 {
-                  item.grips.map((g) => {
+                  item.layout.map((layout) => {
                     return (
-                      <div key={g.grip} id={g.grip} className='grip'>
-                        <div key={g.grip} id={g.grip} className='grip-content'> 
-                          <div className='subtitle'>{g.grip}</div>
-                          <div>{g.gripContent}</div>
+                      <div key={layout.name} id={layout.name} className='layout'>
+                        <div key={layout.name} className='layout-content'> 
+                          <div className='subtitle'>{layout.name}</div>
+                          <div>{layout.content}</div>
                         </div>
-                        <img src={g.img} alt={g.grip} className='grip-img' />
+                        <img src={layout.img} alt={layout.name} className='layout-img' />
                       </div>
                     )
                   })
