@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100svw;
+  height: 100svh;
+  opacity: 0.05;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.background > img {
+  width: 50svw;
+}
+
 .section {
   display: flex;
   flex-flow: column wrap;

@@ -30,6 +30,8 @@ function App() {
           </section>
         )
       })}
+      <div key='background' id='background' className='background'><img src='/LogoED.svg' alt='logo elemental dojo'/></div>
+      
     </div>
   )
 }
