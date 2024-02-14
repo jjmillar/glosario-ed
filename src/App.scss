@@ -12,6 +12,7 @@
 }
 
 .title {
+  padding: 20px;
   font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
@@ -55,9 +56,16 @@
 }
 
 .grip-content {
-  width: 500%;
+  width: 50%;
   box-sizing: border-box;
   padding: 10px;
+}
+
+.grip-content > div:first-child {
+  padding: 0 20px 20px 20px;
+}
+
+.grip-content > div:last-child {
   text-align: justify;
   text-indent: 10%;
 }
@@ -70,11 +78,20 @@
 
 @media ( max-width: 1100px ) {
   .content {
-    width: 100svw;
+    width: 90svw;
   }
 
   .grip {
     width: 100svw;
+    flex-direction: column;
+  }
+
+  .grip-content {
+    width: 90%;
+  }
+
+  .grip-img {
+    width: 100%;
   }
   
 }
