@@ -39,6 +39,7 @@
   width: 100svw;
   height: auto;
   box-sizing: border-box;
+
   display: flex;
   flex-flow: row wrap;
   justify-items: center;
@@ -71,7 +72,7 @@
 }
 
 .grip-img {
-  min-width: 50%;
+  width: 50%;
   box-sizing: border-box;
   padding: 10px;
 }

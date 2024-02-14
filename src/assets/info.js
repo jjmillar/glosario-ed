@@ -165,9 +165,9 @@ export const info = [
                 img:'/underhook.png'
             },
             {
-                subtitle:'Whizzer',
-                content:'Usualmente confundido con el Overhook. La diferencia es que en el Whizzer se está ejerciendo presión  sobre el hombro y axila del oponente.',
-                images:'/whizzer.jpg'
+                grip:'Whizzer',
+                gripContent:'Usualmente confundido con el Overhook. La diferencia es que en el Whizzer se está ejerciendo presión  sobre el hombro y axila del oponente.',
+                img:'/whizzer.jpg'
             },
         ],
     },
