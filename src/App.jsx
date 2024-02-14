@@ -7,27 +7,26 @@ function App() {
       {info.map((item) => {
         return (
           <section key='section' className='section'>
-            {item.title && (
-              <div id={item.title} key='title' className='title'>
-                {item.title}
-              </div>
-            )}
-            {item.subtitle && (
-              <div id={item.subtitle} key='subtitle' className='subtitle'>
-                {item.subtitle}
-              </div>
-            )}
-            <div key='section-wrapper' className='section-wrapper'>
-              <div key='content' className='content'>
-                <div>{item.content}</div>
-              </div>
-              {item.images && (
-                <img key='images' className='images' src={item.images} />
-              )}
-              {item.definition && (
-                <div key='definition' className='definition'>{item.definition}</div>
-              )}
+            {item.title && (<div id={item.title} key='title' className='title'>{item.title}</div>)}
+            {item.subtitle && (<div id={item.subtitle} key='subtitle' className='subtitle'>{item.subtitle}</div>)}
+            {item.content && (<div key='content' className='content'>{item.content}</div>)}
+            {item.grips &&  (
+            <div key='grips' id='grips' className='grips-wrapper'>
+                {
+                  item.grips.map((g) => {
+                    return (
+                      <div key={g.grip} id={g.grip} className='grip'>
+                        <div key={g.grip} id={g.grip} className='grip-content'> 
+                          <div className='subtitle'>{g.grip}</div>
+                          <div>{g.gripContent}</div>
+                        </div>
+                        <img src={g.img} alt={g.grip} className='grip-img' />
+                      </div>
+                    )
+                  })
+                }
             </div>
+            )}
           </section>
         )
       })}
