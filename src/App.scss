@@ -48,7 +48,7 @@
 .grip {
   width: 50svw;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@
 
   .grip {
     width: 100svw;
-    padding: 20px 0 20px 0;
+    padding: 0 0 20px 0;
     flex-direction: column;
   }
 
