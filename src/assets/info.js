@@ -177,12 +177,478 @@ export const info = [
         content:'Nos referiremos por concepto a toda la terminología básica de lucha, que no corresponde a las demás categorías establecidas. También podemos considerar la definición clásica de la palabra, refiriéndonos a la representación mental de algo, un contenido mental. Podemos decir en la lucha en particular qué un concepto es la receta para poder realizar un mismo movimiento o técnica independiente la posición o contexto.'
     },
     {
-        subtitle: 'LISTA DE CONCEPTOS',
-        content: 'Arm lock:',
-        definition: 'Concepto que agrupa todas las técnicas que involucran una palanca a las articulaciones del brazo, desde el hombro hasta la muñeca, e incluso la mano.',
+        subtitle: 'LISTA DE CONCEPTOS'
     },
     {
-        content: 'Ashi:',
-        definition: 'Hace referencia al pie, pierna',
+        layout2: [
+            {
+                name: 'Arm lock',
+                content: 'Concepto que agrupa todas las técnicas que involucran una palanca a las articulaciones del brazo, desde el hombro hasta la muñeca, e incluso la mano.',
+            },
+            {
+                name: 'Ashi',
+                content: 'Hace referencia al pie, pierna.',
+            },
+            {
+                name: 'Ashi waza',
+                content: 'Se refiere a las técnicas ejecutadas con las piernas o pies en artes marciales japonesas como el Jiu Jitsu y Judo.',
+            },
+            {
+                name: 'Ashi barai',
+                content: 'Subclasificación del término De Ashi Barai o De Ashi barai en su transliteración al romaji (letras del latín) desde el japonés; barrido de pies. Perteneciente a las técnicas de Ashi Waza creadas originalmente por Jigoro Kano. De este modo ubicados de frente, uke y tori, buscarán desestabilizarse a través de la postura de pies en conjunto a los pasos del rival, además de la sujeción de las solapas y mangas; para finalmente desequilibrar la postura en el momento que el rival da el paso gracias al barrido del pie, guiados por la dirección de cadera y brazos  en forma circular para lograr la caída del adversario. ',
+            },
+            {
+                name: 'Atama',
+                content: 'Cabeza.',
+            },
+            {
+                name: 'Backtake',
+                content: 'Cualquier situación en que tori busque tomar la espalda de uke.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Budo',
+                content: 'Se refiere al camino que recorre el artista marcial.',
+            },
+            {
+                name: 'Butt Scoot',
+                content: 'Se refiere a avanzar hacia el oponente desde una posición de Seated guard.',
+            },
+            {
+                name: 'Choke',
+                content: 'Estrangulación.',
+            },
+            {
+                name: 'Collar',
+                content: 'Cuello del gi.',
+            },
+            {
+                name: 'Combate',
+                content: 'Se refiere a la orden de comenzar el combate. Hajime en japonés.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+            {
+                name: 'Belt',
+                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+            },
+        ]
     },
 ]

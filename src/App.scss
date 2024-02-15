@@ -98,6 +98,24 @@
   border-radius: 20px;
 }
 
+.layout2-wrapper {
+  width: 100svw;
+  height: 100svh;
+  box-sizing: content-box;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout2 {
+  width: 25svw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media ( max-width: 1100px ) {
   .content {
     width: 90svw;
@@ -107,6 +125,10 @@
     width: 100svw;
     padding: 0 0 20px 0;
     flex-direction: column;
+  }
+
+  .layout2 {
+    width: 90svw;
   }
 
   .layout-content {

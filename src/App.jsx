@@ -11,21 +11,35 @@ function App() {
             {item.subtitle && (<div id={item.subtitle} key='subtitle' className='subtitle'>{item.subtitle}</div>)}
             {item.content && (<div key='content' className='content'>{item.content}</div>)}
             {item.layout &&  (
-            <div key='layout-wrapper' id='layout-wrapper' className='layout-wrapper'>
-                {
-                  item.layout.map((layout) => {
-                    return (
-                      <div key={layout.name} id={layout.name} className='layout'>
-                        <div key={layout.name} className='layout-content'> 
-                          <div className='subtitle'>{layout.name}</div>
-                          <div>{layout.content}</div>
+              <div key='layout-wrapper' id='layout-wrapper' className='layout-wrapper'>
+                  {
+                    item.layout.map((layout) => {
+                      return (
+                        <div key={layout.name} id={layout.name} className='layout'>
+                          <div key={layout.name} className='layout-content'> 
+                            <div className='subtitle'>{layout.name}</div>
+                            <div>{layout.content}</div>
+                          </div>
+                          <img src={layout.img} alt={layout.name} className='layout-img' />
                         </div>
-                        <img src={layout.img} alt={layout.name} className='layout-img' />
+                      )
+                    })
+                  }
+              </div>
+            )}
+            {item.layout2 && (
+              <div key='layout2-wrapper' id='layout2-wrapper' className='layout2-wrapper'>
+                {
+                  item.layout2.map((layout2) => {
+                    return (
+                      <div key={layout2.name} id={layout2.name} className='layout2'>
+                        <div key={layout2.name} className='subtitle'>{layout2.name}:</div>
+                        <div key={layout2.name} className='layout2-content'>{layout2.content}</div>
                       </div>
                     )
                   })
                 }
-            </div>
+              </div>
             )}
           </section>
         )
