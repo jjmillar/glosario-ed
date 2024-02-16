@@ -32,7 +32,7 @@ function App() {
                 {
                   item.layout2.map((layout2) => {
                     return (
-                      <div key={layout2.name} id={layout2.name} className='layout2'>
+                      <div key={layout2.name} id={layout2.name} className='layout2 card'>
                         <div key={layout2.name} className='subtitle'>{layout2.name}:</div>
                         <div key={layout2.name} className='layout2-content'>{layout2.content}</div>
                       </div>
