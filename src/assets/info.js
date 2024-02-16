@@ -230,424 +230,220 @@ export const info = [
                 content: 'Se refiere a la orden de comenzar el combate. Hajime en japonés.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Contralateral',
+                content: 'Hablaremos de contralateral para referirnos a dos estructuras que están en lados opuestos. En el caso de la lucha, se tomará como referencia que tori se encuentra frente a uke, a menos que la descripción de la técnica señale lo contrario. Ejemplo: Tori toma mano contralateral de uke con su mano derecha. Esto indica que tori está tomando la mano derecha de uke, ya que se asume que están frente a frente .',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Do',
+                content: 'Camino.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Dojo',
+                content: 'Escuela de artes marciales.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Drill',
+                content: 'Ejercicio técnico de repeticiones, efectuado con diferentes niveles de resistencia del compañero/uke.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Framing',
+                content: 'Encuadre, estructura o escudo. Se refiere a utilizar la estructura ósea, por sobre la estructura muscular, para favorecer un posicionamiento defensivo.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Gedan',
+                content: 'Por debajo del cinturón.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Gi',
+                content: 'Kimono (abreviatura de dogi o keikogi).',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Grado',
+                content: 'Stripe en inglés.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Guard',
+                content: 'Guardia.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Hand fighting',
+                content: 'Pelea de manos. Fase del combate utilizada para establecer agarres ventajosos o evitar los mismos por parte del oponente.Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Hikikomi / Guard pull',
+                content: 'Llamar a la guardia.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Hip escape / Shrimp',
+                content: 'Fuga de cadera.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Inversion / Capoteo',
+                content: 'Voltear al rival pasando de la posición inferior a la superior sin haber estado en guardia (no confundir con Sweep), no da puntos en competición pero sí te saca de una posición desventajosa. Reversal en inglés.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Ippon',
+                content: 'Punto completo. Cuando se consigue a través de una acción exitosa y reglamentaria  el término de la lucha. Ejemplo: hacer tap en Jiu Jitsu, un K.o en boxeo, un derribo de espalda en Judo.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Ipsilateral',
+                content: 'Hablaremos de ipsilateral para referirnos a dos estructuras que están en el mismo lado. En el caso de la lucha, se tomará como referencia que tori se encuentra frente a uke, a menos que la descripción de la técnica señale lo contrario. Ejemplo: Tori toma mano ipsilateral de uke con su mano derecha. Esto indica que tori está tomando la mano izquiera de uke, ya que se asume que están frente a frente.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Kake',
+                content: 'Es la acción o movimiento final de la construcción de una técnica.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Kumikata',
+                content: 'Es la forma de agarrar o controlar al adversario, abriendo el paso a una diversidad de técnicas.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Kuzushi',
+                content: 'Desequilibrio. En el marco de la realización de una técnica la desestabilización del centro de gravedad del adversario. Se realiza a través de la tracción o empuje del adversario en diversas direcciones.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Kata',
+                content: 'Es el nombre que recibe una forma o secuencia de movimientos establecidos que se pueden practicar tanto en solitario como en grupo.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Lapel',
+                content: 'Solapa del kimono, tanto en la parte inferior como en la superior (cuello del kimono o collar).',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Leglock',
+                content: 'Puede referirse a cualquier llave de pierna, rodilla o tobillo.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Leverage',
+                content: 'Apalancamiento.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Nage / Takedown',
+                content: 'Derribo, proyección.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Nage waza',
+                content: 'Técnicas de derribo.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Ne waza',
+                content: 'Es un término usado sobre todo en el judo y jiu-jitsu, que designa la acción de luchar uno a uno al nivel del suelo, generalmente haciendo uso de luxaciones articulares, grappling o agarres, sumisiones y estrangulaciones. Este término engloba el uso de las técnicas de Osaekomi-waza o inmovilizaciones, shime-waza o estrangulaciones y kansetsu-waza o llaves articulares, a nivel del suelo.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'No-Gi',
+                content: 'Sin kimono. A veces utilizado como sinónimo de Grappling nogi.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Osaekomi waza',
+                content: 'Técnicas de inmovilización.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Parada técnica',
+                content: 'Technical stand up en inglés.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Postura',
+                content: 'Hace referencia a mantener la columna en una posición sólida, desde el cuello hasta la espalda baja.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Pin',
+                content: 'Hace referencia  a "Fijar" una parte del cuerpo del oponente. Inmovilización.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Puente',
+                content: 'Se utilizará también como Bridge.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Pummeling',
+                content: 'Hace referencia a la lucha por el control interno. Puede ser a través de brazos (Underhook) o piernas (inside sankaku).',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Randori',
+                content: 'Sparring, combate libre, Roll, Rolling.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Sweep',
+                content: 'Raspado, voltear al rival desde guardia pasando de la posición inferior a la superior (no confundir con «Inversión»), otorga dos puntos en competición.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Ryu',
+                content: 'Escuela, estilo, variante (Shito-ryu, Wado-ryu, etc.)',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Scramble',
+                content: 'Situación de lucha en movimiento, que puede concluir sin una posición dominante clara.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Sensei',
+                content: 'Maestro, profesor, instructor, entrenador.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Shime',
+                content: 'Estrangular',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Shime waza',
+                content: 'Técnicas de estrangulación',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Slam',
+                content: 'Azotar el oponente contra el suelo en posición dominante (arriba).',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Sprawl',
+                content: 'Contra.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Spider web',
+                content: 'Telaraña. Posición de ataque de llave de brazo con el rival defendiendo el brazo atacado. Es una posición habitual en las prórrogas de campeonatos de Grappling.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Sutemi',
+                content: 'Sacrificio.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Tai Sabaki',
+                content: 'Se relaciona con el movimiento de todo el cuerpo o reposicionamiento o gestión corporal. Sería como el desplazamiento utilizado para llegar a la realización de la técnica.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Tap',
+                content: 'Gesto técnico que indica la rendición de un luchador.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Tatami',
+                content: 'Colchoneta, tapiz, mat (inglés).',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Tori',
+                content: 'Atacante, quien realiza una técnica.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Torque',
+                content: 'Esfuerzo de torsión.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Tsukuri',
+                content: 'Preparación. Es el proceso que se realiza entre el kuzushi y el kake, sería como acomodarme en la posición correcta de mi cuerpo respecto al de mi adversario para conseguir el objetivo que quiero; sea derribar, raspar, finalizar, etc.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Uchi',
+                content: 'Interior.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Uke',
+                content: 'Defensor o luchador que recibe el ataque.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Ukemi',
+                content: 'Caída, caer correctamente. Break fall en inglés.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Ura',
+                content: 'Invertido/a.',
             },
             {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
-            },
-            {
-                name: 'Belt',
-                content: 'Cinturón, cinto. Utilizaremos también los conceptos de Faixa.',
+                name: 'Waza',
+                content: 'Técnica.',
             },
         ]
     },
