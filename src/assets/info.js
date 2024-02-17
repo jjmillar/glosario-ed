@@ -447,4 +447,26 @@ export const info = [
             },
         ]
     },
+    {
+        title: 'CONTROL DEL OPONENTE / PINS',
+        subtitle: '¿QUÉ ES CONTROL DEL OPONENTE O PIN?',
+        content: 'Nos referimos a un pin (inmovilización) o control del oponente, como todas las posiciones que nos entregan una ventaja con respecto a nuestro oponente. Por lo general estas posiciones entregan puntaje en los distintos reglamentos. ',
+    },
+    {
+        subtitle: 'LISTA DE PINS O CONTROLES DEL OPONENTE'
+    },
+    {
+        layout: [
+            {
+                name: 'All fours',
+                content: 'Cuatro apoyos o Cuadrupedo, Se refiere a la posición corporal de cuatro apoyos basales; de pies y manos.',
+                img: '/allFours.png'
+            },
+            {
+                name: 'Back control',
+                content: 'Control de espalda. Se considera control de espalda el tener ambos ganchos (piernas) y control del tren superior del oponente, usualmente a través de un Seatbelt grip o cinturón de seguridad.',
+                img: '/backControl.png'
+            },
+        ]
+    }
 ]
