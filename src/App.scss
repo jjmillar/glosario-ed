@@ -100,7 +100,7 @@
 
 .layout2-wrapper {
   width: 100svw;
-  height: 100svh;
+  height: fit-content;
   box-sizing: content-box;
 
   display: flex;
@@ -148,12 +148,12 @@
 
   .layout2 {
     width: 100svw;
-    margin: 0;
   }
 
   .card {
     background-color: transparent;
     border-radius: 0;
+    box-shadow: none;
   }
 
   .layout-content {
