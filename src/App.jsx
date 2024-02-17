@@ -10,6 +10,7 @@ function App() {
             {item.title && (<div id={item.title} key='title' className='title'>{item.title}</div>)}
             {item.subtitle && (<div id={item.subtitle} key='subtitle' className='subtitle'>{item.subtitle}</div>)}
             {item.content && (<div key='content' className='content'>{item.content}</div>)}
+            {item.img && (<img key='image' className='image' src={item.img}/>)}
             {item.layout &&  (
               <div key='layout-wrapper' id='layout-wrapper' className='layout-wrapper'>
                   {

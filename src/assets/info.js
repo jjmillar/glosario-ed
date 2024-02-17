@@ -467,6 +467,110 @@ export const info = [
                 content: 'Control de espalda. Se considera control de espalda el tener ambos ganchos (piernas) y control del tren superior del oponente, usualmente a través de un Seatbelt grip o cinturón de seguridad.',
                 img: '/backControl.png'
             },
+            {
+                name: 'Body lock',
+                content: 'Candado de cuerpo. Se realiza abrazando uke por sobre la cintura, generalmente con los brazos del oponente por fuera del candado. El body lock puede ser desde el frente o espalda. Usualmente utilizado para derribar o pasar la guardia.',
+                img: '/bodylock.png'
+            },
+            {
+                name: 'Body triangle',
+                content: 'Triángulo al cuerpo. Hablamos de Body triangle cuando tori, desde la espalda de uke (back control), busca ejercer una posición que prolongue el control y, por lo tanto, asegure mayores probabilidades para someterlo. Pues a diferencia de los ganchos desde la espalda, el triángulo al cuerpo no cuenta con puntuación dentro del deporte del Jiu Jitsu, pero brinda un mayor dominio. De tal modo, tori cruza una de nuestras piernas perpendicularmente al cuerpo del adversario, cerrando su empeine bajo la corva de la otra pierna dando forma a un triángulo o una figura de cuatro.',
+                img: '/bodyTriangle.png'
+            },
+            {
+                name: 'Crucifix',
+                content: 'Crucifijo. Se refiere a situación donde tori posee control de ambos brazos de uke, usualmente desde la espalda. Se utilizan los brazos para mantener un Kimura grip o chicken wing, y las piernas para inmovilizar el otro brazo de uke.',
+                img: '/crucifix.png'
+            },
+            {
+                name: 'Front headlock',
+                content: 'Posición en donde tori posee control sobre la cabeza de uke, ya sea a través de un Chin Strap o un Seat belt grip invertido (Tori y Uke estan mirando en la misma dirección, sus cuerpos estan situados en la misma dirección pero distinto sentido).',
+                img: '/frontHeadlock.png'
+            },
+            {
+                name: 'Half mount',
+                content: 'Media montada, Media Guardia (desde arriba).',
+                img: '/halfMount.png'
+            },
+            {
+                name: 'Kesa gatame',
+                content: 'Es una técnica de inmovilización de Judo suelo (Osae-Komi-Waza). Significa control lateral, donde el control se ejerce sobre el costado de Uke en “bandolera”. La pierna de Tori de estar estirada y para un mayor control de Uke puede colocarse debajo de su hombro.',
+                img: '/kesaGatame.png'
+            },
+            {
+                name: 'Knee staple',
+                content: 'Engrapar con rodilla. Control realizado mediante la inmovilización de alguna parte del cuerpo de uke, usualmente brazo o pierna, mediante la utilización de la tibia o canilla.',
+                img: '/kneeStaple.png'
+            },
+            {
+                name: 'Leg pin',
+                content: 'Popularizado por los atletas Kade y Tye Ruotolo. Sistema de pasaje de guardia donde tori pisa la canilla de uke. Especialmente utilizado para contrarrestar juego de leglocks.',
+                img: '/legPin.png'
+            },
+            {
+                name: 'Mount',
+                content: 'Montada.',
+                img: '/mount.png'
+            },
+            {
+                name: 'North south',
+                content: 'Norte-Sur. Posición donde uke se encuentra en prono en el tatami, mirando hacia arriba y tori sobre él en posición supina, usualmente con la cabeza del defensor a nivel del pecho.',
+                img: '/northSouth.png'
+            },
+            {
+                name: 'Side control',
+                content: 'Cien Kilos, control lateral. En el agarre, el control lateral es una posición dominante de inmovilización en el suelo donde tori está acostado mirando hacia abajo perpendicularmente con su torso sobre el torso de uke que se encuentra boca arriba de tal manera que las piernas están libres y no ejerce ningún control sobre uke en la parte inferior.',
+                img: '/sideControl.png'
+            },
+            {
+                name: 'Turtle',
+                content: 'Tortuga, codos y rodillas en el suelo, cerrado. Impidiendo los ganchos.',
+                img: '/turtle.png'
+            },
+            {
+                name: 'Three quarter mount',
+                content: 'Montada ¾. Similar a Half mount, pero en este caso la rodilla de tori se encuentra fuera de la media guardia de uke.',
+                img: '/threeQuarterMount.png'
+            },
+            {
+                name: 'Twister hook',
+                content: 'Popularizado por 10th planet. Se trata de un control de espalda donde tori tiene un gancho insertado en una cadera de uke mientras que posee control de la otra cadera con su torso.',
+                img: '/twisterHook.png'
+            },
+            {
+                name: 'Wedge',
+                content: 'Posición de relativo control y exposición de la espalda de uke para un posible backtake. Aquí tori se  posiciona en un ángulo respecto a uke tal que una pierna suya pase por debajo de la rodilla ipsilateral de uke mientras que la otra rodilla se posiciona a altura de espina iliaca ipsilateral de uke. Luego de esto, y tori estando por sobre uke girará sobre su hombro y llevará ambas plantas de sus pies al tatami, creando exposición de la espalda de uke.',
+                img: '/wedge.png'
+            },
         ]
-    }
+    },
+    {
+        title: 'LEG ENTANGLEMENTS',
+        subtitle: '¿QUÉ ES UN LEG ENTANGLEMENT?',
+        content: 'Corresponde a un leg entanglement a una posición donde Tori (y en ocasiones uke) puede ejecutar directamente un ataque a las piernas o “leg lock”. A diferencia de los pins o control del oponente éste leg entanglement controla una o ambas piernas de uke en vez de los brazos o torso de éste. Sin embargo, al igual que en “pins”, existe una jerarquía de posiciones, yendo desde posiciones donde uke y tori se encuentran en condiciones similares a otras como la “montada” donde tori posee una evidente ventaja posicional sobre uke.',
+    },
+    {
+        content: 'Luego, podemos categorizar las distintas variantes de Ashi en base a dos conceptos:',
+    },
+    {
+        content: '●	Lugar en que se realiza el cierre de mis piernas (lock). Puede ser fuera (outside), dentro (inside) o sin cierre (unlocked).',
+    },
+    {
+        content: '●	Posición de la pierna del oponente con respecto a mi cuerpo. Puede ser recta (straight), lo que quiere decir que la pierna pasa por el costado externo de mi torso, o cruzada (cross), que es cuando la pierna pasa por el costado interno de mi torso, usualmente conocida como una posición “interna”.',
+    },
+    {
+        img: '/legEntanglements.png',
+    },
+    {
+        subtitle: 'LISTA DE POSIBLES LEG ENTANGLEMENTS'
+    },
+    {
+        layout: [
+            {
+                name: 'Outside sankaku',
+                content: 'Término acuñado por John Danaher para describir un triángulo (sankaku) a la pierna, cerrado desde la posición externa (outside). Utilizado para atacar variedad de leg locks o llaves de pierna.',
+                img: '/outsideSankaku.png'
+            },
+        ]
+    },
 ]

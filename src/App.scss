@@ -32,7 +32,7 @@
 }
 
 .title {
-  padding: 20px;
+  padding: 40px 20px 20px 20px;
   font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
@@ -53,6 +53,13 @@
   padding: 20px 0 20px 0;
   text-indent: 10%;
   text-align: justify;
+}
+
+.image {
+  width: 70svw;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 1.5rem;
 }
 
 .layout-wrapper {
