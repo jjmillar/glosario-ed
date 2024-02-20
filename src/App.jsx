@@ -21,7 +21,7 @@ function App() {
                             <div className='subtitle'>{layout.name}</div>
                             <div>{layout.content}</div>
                           </div>
-                          <img src={layout.img} alt={layout.name} className='layout-img' />
+                          {layout.img && <img src={layout.img} alt={layout.name} className='layout-img' />}                          
                         </div>
                       )
                     })
