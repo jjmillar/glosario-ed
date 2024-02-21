@@ -847,7 +847,127 @@ export const info = [
                 name:'Ashi Garami',
                 content: 'Del Japonés Ashi: Pie, pierna. Garami: Luxación, torsión. Técnica realizada con ambas piernas donde se busca aislar una de las extremidades inferiores del rival. Así, desde el suelo, y cruzando una de las piernas exteriormente sobre la rodilla hasta la cadera y la otra bajo la pierna del adversario cerca de la ingle, presionando conjuntamente entre la acción de la rodilla y el pie. Se genera una torsión para controlar la sección mencionada y encadenar diversos ataques y defensas. El término también es conocido como Single x o Single x guard en inglés. Concepto japonés acuñado a la posición en que Tori, encontrándose de espalda al suelo, cruza una de sus piernas desde afuera y hacia adentro, en la porción superior y por sobre la línea de la rodilla de la pierna del mismo lado de Uke, quien podría encontrarse en pie, o de espalda al suelo. En jiu jitsu, nos referiremos a este concepto como cualquier posición que permita el control de las piernas del oponente y que involucra un grado de torsión de la articulación de la rodilla de la forma anteriormente descrita, o las que se derivan desde la misma: Straight Ashi garami, Reverse Ashi garami, Cross Ashi garami, entre otras.',
                 img: '/ashiGarami.png'
-            }
+            },
+            {
+                name:'Backside 50/50',
+                content: 'Guardia 50/50 desde la espalda del oponente. Usualmente utilizada para ejecutar leglocks. Corresponde a una posición más efectiva que su contraparte 50/50, de una jerarquía similar a un inside sunkaku.',
+                img: '/backside5050.png'
+            },
+            {
+                name:'Butterfly Guard',
+                content: 'Guardia Mariposa, inglés. Modo de guardia que responde al Inside Leg Position. Estas son posiciones que responden, primero defensivamente, desde el tren inferior interior del rival. Que en este caso, responden al uso de dos Hooks (véase) o ganchos ejecutados por la dorsiflexión de los pies del defensor. Para finalmente generar otras alternativas de Raspajes o diversas entradas de ataques a las piernas y pies del adversario.',
+                img: '/butterflyGuard.png'
+            },
+            {
+                name:'Butterfly Half Guard',
+                content: 'Similar a half guard o media guardia, en donde la pierna superior realiza un butterfly hook.',
+                img: '/butterflyHalfGuard.png'
+            },
+            {
+                name:'Closed guard',
+                content: 'Guardia Cerrada. Ambas piernas rodean al rival por sobre la cadera.',
+                img: '/closedGuard.png'
+            },
+            {
+                name:'Coyote guard',
+                content: 'Variante de media guardia donde el practicante usa un "Kosoto hook" teniendo una esgrimada y un scoop a la pierna contraria del rival. Luego de ésto el kosoto hook se usa para llevar el pie del rival al glúteo del practicante para que la rodilla del rival y por tanto su cadera se giren hacia adentro.',
+                img: '/coyoteGuard.png'
+            },
+            {
+                name:'Deep half',
+                content: 'Media guardia profunda: Variante de Half Guard/Media guardia, en la que el luchador que realiza esta guardia se sitúa por debajo del centro de la cadera del rival.',
+                img: '/deepHalf.png'
+            },
+            {
+                name:'De La Riva (DLR)',
+                content: 'Guardia De La Riva. Guardia realizada mediante la utilización de un gancho lateral externo ubicado en la parte trasera del muslo del rival.',
+                img: '/deLaRiva.png'
+            },
+            {
+                name:'Fifty Fifty / Guardia 50-50',
+                content: 'Un guardia se clasifica como 50/50 una vez que dos atletas involucrados en un partido de agarre se bloquean, con las piernas entrelazadas (es decir, la pierna derecha del competidor A alrededor de la pierna derecha del competidor B), lo que proporciona el mismo conjunto de circunstancias para ambos luchadores.',
+                img: '/fiftyFifty.png'
+            },
+            {
+                name:'Half guard',
+                content: 'Media guardia. Se habla de media guardia cuando las piernas están cerradas sobre una de las piernas del rival. Esta posición otorga al rival half mount o media montada.',
+                img: '/halfGuard.png'
+            },
+            {
+                name:'High guard / Guardia Alta',
+                content: 'Posición intermedia que habitualmente es realizada en la acción de ataque desde la guardia cerrada, implicando el control de unos de los hombros del rival por el interior del candado de piernas.',
+                img: '/highGuard.png'
+            },
+            {
+                name:'Inverted guard',
+                content: 'Guardia Invertida (pies sobre cabeza, soportado por el trapecio). Usualmente utilizada como método de recuperación de guardia.',
+                img: '/invertedGuard.png'
+            },
+            {
+                name:'Grasshopper guard',
+                content: 'Guardia saltamontes. Se debe tener control de ambas mangas del oponente, luego se deben ubicar ambos pies en la cadera del oponente y ejercer presión en los brazos con las respectivas tibias.',
+                img: '/grasshopperGuard.png'
+            },
+            {
+                name:'K guard',
+                content: 'Guardia K. En esta guardia se toma control de una de las piernas del oponente, al mismo tiempo que se utiliza la pierna directamente opuesta para presionar la cadera del rival y así mantener la distancia. Usualmente utilizada para entradas a llaves de pies o leg locks.',
+                img: '/kGuard.jpg'
+            },
+            {
+                name:'Lasso guard / Guardia lazo',
+                content: 'Se refiere al control de la manga del oponente, donde adicionalmente se ubica la pierna por dentro de la axila, simulando un underhook.',
+                img: '/lassoGuard.jpg'
+            },
+            {
+                name:'Octopus guard',
+                content: 'Guardia que puede nacer desde media guardia, guardia cerrada o incluso mariposa. Se le denomina a la guardia consecuencia de la acción de pasar un brazo por el lado contralateral de uke a lo largo de su espalda donde uke y tori estén de frente.',
+                img: '/octopusGuard.jpg'
+            },
+            {
+                name:'Open guard / Guardia Abierta',
+                content: 'Posición defensiva que prescinde de agarres sobre el rival permitiendo mayor movilidad dentro de la acción de una lucha.',
+                img: '/openGuard.jpg'
+            },
+            {
+                name:'Reverse de la riva (RDLR)',
+                content: 'Guardia De La Riva Invertida. Se debe posicionar un gancho DLR, pero en este caso desde la posición interna del rival. Similar a una half guard o media guardia con el rival de pie.',
+                img: '/rdlr.jpg'
+            },
+            {
+                name:'Rubber Guard',
+                content: 'Guardia de Goma. Guardia utilizada en el sistema de 10th planet. Consta de, comenzando desde una guardia convencional, utilizar la flexibilidad de una pierna para situar sobre la nuca del rival, luego se utiliza un brazo para asegurar la pierna, efectivamente bloqueando un hombro y la cabeza del rival.',
+                img: '/rubberGuard.jpg'
+            },
+            {
+                name:'Seated Guard',
+                content: 'El practicante de la guardia se encuentra sentado, usualmente buscando agarres para transicionar a un derribo u otra guardia.',
+                img: '/seatedGuard.jpg'
+            },
+            {
+                name:'Shin to Shin',
+                content: 'Canilla con canilla. En la posición de seated guard, se debe bloquear la tibia del rival utilizando la propia. Usualmente se bloquea utilizando la pierna directamente opuesta.',
+                img: '/shinToShin.jpg'
+            },
+            {
+                name:'Spider guard / Guardia araña',
+                content: 'Posición en la que el luchador agarra con ambas manos las mangas del GI del rival jalando el brazo del oponente hacia él, y ubicando los pies en el bicep del rival para generar fuerzas contrarias permitiendo que la cadera del luchador pueda desplazarse libremente para atacar o defender.',
+                img: '/spiderGuard.jpg'
+            },
+            {
+                name:'Waiter guard',
+                content: 'Posición en que tori obtiene un scoop grip al muslo  desde media guardia y eleva a uke para obtener un scoop grip con la mano lejana a uke a la canilla de éste.',
+                img: '/waiterGuard.jpg'
+            },
+            {
+                name:'Williams guard',
+                content: 'Desde la guardia cerrada, se inmoviliza un hombro del rival, utilizando la rodilla y los brazos.',
+                img: '/williamsGuard.jpg'
+            },
+            {
+                name:'Worm guard',
+                content: 'Guardia Gusano. Similar a Lasso guard, pero en este caso en vez de la manga del rival se utiliza un lapel.',
+                img: '/wormGuard.jpg'
+            },
         ],
     }
 ]
