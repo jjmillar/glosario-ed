@@ -968,6 +968,38 @@ export const info = [
                 content: 'Guardia Gusano. Similar a Lasso guard, pero en este caso en vez de la manga del rival se utiliza un lapel.',
                 img: '/wormGuard.jpg'
             },
+            {
+                name:'X guard',
+                content: 'Guardia X. El practicante debe ubicarse directamente debajo de las piernas del rival, controlando una de ellas mediante los brazos. El control de la otra pierna se realiza mediante las piernas, ubicando un gancho cercano a la ingle y otro detrás de la rodilla.',
+                img: '/xGuard.jpg'
+            },
+            {
+                name:'Z guard',
+                content: 'También conocida como knee shield. Es una variante de la Half guard o media guardia, en donde se ubica la rodilla en forma de frame o escudo.',
+                img: '/zGuard.jpg'
+            },
         ],
+    },
+    {
+        title: 'GUARDIA DE PIE / STANCE',
+        subtitle: '¿QUÉ ES UNA GUARDIA DE PIE O STANCE?',
+        content: 'Al igual que en una guardia tradicional, una guardia de pie se basa en una estructura construida con nuestro cuerpo, pero en este caso se realiza estando de pie. Esto busca estar en mejor posición para preparar derribos o evitar derribos de nuestro oponente.'
+    },
+    {
+        subtitle: 'LISTA DE GUARDIAS DE PIE'
+    },
+    {
+        layout: [
+            {
+                name: 'Square Stance',
+                content: 'Posición en donde ubicamos ambas piernas al mismo nivel, es decir, no existe una pierna guia.',
+                img: 'squareStance.png'
+            },
+            {
+                name: 'Staggered Stance',
+                content: 'Posición en donde tenemos nuestra pierna guia (pierna hábil) delante de nuestra otra pierna. ',
+                img: 'staggeredStance.png'
+            },
+        ]
     }
 ]
