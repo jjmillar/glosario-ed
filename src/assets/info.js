@@ -1000,6 +1000,152 @@ export const info = [
                 content: 'Posición en donde tenemos nuestra pierna guia (pierna hábil) delante de nuestra otra pierna. ',
                 img: 'staggeredStance.png'
             },
-        ]
-    }
+        ],
+    },
+    {
+        title: 'LLAVE / LOCK',
+        subtitle: '¿QUÉ ES UNA LLAVE O LOCK?',
+        content: 'Nos referimos por llave o lock a una técnica utilizada para aislar una extremidad de nuestro oponente y que además nos permita ejercer una fuerza de rompimiento sobre la extremidad de este. Las podemos categorizar en llaves de pierna y llaves de brazos.'
+    },
+    {
+        subtitle: 'LLAVES DE BRAZO / ARMLOCKS',
+    },
+    {
+        layout: [
+            {
+                name: 'Americana',
+                content: 'También conocida en otros sistemas como figure four lock, reverse kimura, keylock, ude garami. Llave dirigida al brazo atacando articulaciones de codo y hombro en su ejecución.',
+                img: '/americana.jpg'
+            },
+            {
+                name: 'Armbar / Juji gatame',
+                content: 'Palanca de brazo que en su realización busca la hiperextensión de codo. Es también conocida en otros sistemas como llave de brazo, palanca de brazo, llave recta de brazo, palanca recta de brazo. Se busca el aislamiento del brazo del rival mediante las piernas, ejerciendo fuerza con la cadera sobre el codo, logrando la hiperextensión.',
+                img: '/armbar.jpg'
+            },
+            {
+                name: 'Baratoplata',
+                content: 'Sumisión articular de hombro acuñada por el uso del competidor Rafael “Barata” Freitas. Surge como propuesta a posiciones defensivas, como el cruce de manos y brazos bajo el mentón evitando una posible estrangulación, o la exposición de articulaciones (codos o muñecas), sean desde la montada o desde el control lateral (Side Control).  Seguidamente buscaremos  el espacio para pasar un brazo de los nuestros y sujetar detrás del vértice creado por el codo flectado en forma de V del rival. Y a partir de ese gesto controlar el brazo de este; aislándolo entre nuestras piernas, logrando así tener parte de la dirección articular del hombro, cerrando la forma con la palma de nuestra mano en una de las extremidades inferiores.',
+                img: '/baratoplata.jpg'
+            },
+            {
+                name: 'Biceps Slicer',
+                content: 'Sometimiento en donde se aplica presión al bíceps del rival, utilizando un brazo o pierna y ubicándolo directamente entre el bíceps y antebrazo del oponente, para luego ejercer fuerza sobre la mano del rival, en dirección al hombro de este.',
+                img: '/bicepSlicer.png'
+            },
+            {
+                name: 'Kimura / Ude garami',
+                content: 'Una palanca ejercida sobre el brazo, en la cual se busca la luxación del hombro. Se debe sostener la muñeca del rival con una mano y pasar el otro brazo por dentro de la axila del rival, desde la espalda, tomando el brazo inicial (que sostiene la muñeca). Luego se debe ejercer torsión a favor del brazo ubicado directamente bajo el hombro del rival.',
+                img: '/kimura.jpg'
+            },
+            {
+                name: 'Omoplata',
+                content: 'Consiste en la hiperextensión del hombro mediante la utilización de una pierna, que aísla el brazo del rival al mismo tiempo que ejerce presión sobre su hombro.',
+                img: '/omoplata.jpg'
+            },
+            {
+                name: 'Sankaku gatame',
+                content: 'Llave de brazo desde Triángulo, ya sea normal o invertido.',
+                img: '/sankakuGatame.jpg'
+            },
+            {
+                name: 'Wristlock',
+                content: 'Mano de vaca, corresponde a una palanca a la articulación de la muñeca.',
+                img: '/wristlock.jpg'
+            },
+        ],
+    },
+    {
+        subtitle: 'LLAVE DE PIERNA / LEG LOCK'
+    },
+    {
+        layout: [
+            {
+                name: 'Ankle lock',
+                content: 'También conocida como Llave recta de tobillo o Botinha en portugués. Es una palanca que se aplica a cualquiera de las articulaciones de tobillo, típicamente hiperextendiendo la articulación talocrural. suele causar una presión en el tendón de Aquiles y en tríceps sural.',
+                img: '/ankleLock.jpg'
+            },
+            {
+                name: 'Aoki lock',
+                content: 'Se busca reforzar el ankle lock, no solo llevando el empeine del rival bajo la axila y cruzando parte del antebrazo (radio) perpendicularmente al tendón de aquiles. Como comúnmente se ejecuta. Sino que además, buscaremos cerrar en figura de cuatro (véase figure four) con los brazos, dirigiendo el tobillo del rival hacia el interior de la posición. Creando una suerte de corte y presión a la zona mencionada.',
+                img: '/aokiLock.jpg'
+            },
+            {
+                name: 'Calf slicer',
+                content: 'Ataque de prensa a la musculatura de la pantorrilla. Mecánica similar a la del bíceps slicer.',
+                img: '/calfSlicer.jpeg'
+            },
+            {
+                name: 'Heel hook',
+                content: 'Gancho de tobillo. Puede ser Heel Hook Interior (inside heel hook) o Heel Hook Exterior (outside heel hook). Llave prohibida en las normas IBJJF pero permitida en submission wrestling y otras organizaciones de grappling y BJJ Nogi (desde este año se puede en marrón-preta nogi).',
+                img: '/heelHook.jpg'
+            },
+            {
+                name: 'Mickey lock',
+                content: 'Corresponde a un ankle lock con ciertas modificaciones. En situacion donde tori y uke están sentados frente al otro, tori consigue un agarre ankle grip pero el talón de uke queda fuera del agarre. Finalmente tori ejerce presión en el tobillo de uke de manera similar a la que sería un inside heel hook.',
+                img: '/mickeyLock.jpg'
+            },
+            {
+                name: 'Outside heel hook',
+                content: 'Heel Hook Exterior, normalmente realizado desde el outside sankaku.',
+                img: '/outsideHeelHook.jpg'
+            },
+            {
+                name: 'Inside heel hook',
+                content: 'Heel Hook Interior, normalmente realizado desde el inside sankaku.',
+                img: '/insideHeelHook.png'
+            },
+            {
+                name: 'Kneebar',
+                content: 'Llave de Rodilla. Es un bloqueo para las piernas que puede hiperextender la rodilla. La técnica básica de la barra de rodilla es similar a la de un brazo. El practicante luego aplica presión con sus caderas, forzando la pierna del oponente a enderezarse, hiperextendiendo la articulación de la rodilla.',
+                img: '/kneebar.jpg'
+            },
+            {
+                name: 'Toe Hold',
+                content: 'Agarre de dedos (de pie). Americana Al pie.',
+                img: '/toeHold.jpg'
+            },
+            {
+                name: 'Z Lock',
+                content: 'Luxación que se provoca luego de un knee reap profundo donde tori logra enganchar el pie de la pierna que realiza el reap en la fosa poplitea de la pierna contraria de uke, para luego levantar el pie de uke provocando un exceso de rotación interna en la cadera de éste para realizar la luxacion. ',
+                img: '/zLock.jpg'
+            },
+        ],
+    },
+    {
+        title: 'PASADA DE GUARDIA / GUARD PASS',
+        subtitle: '¿QUE ES UNA PASADA DE GUARDIA O GUARD PASS?',
+        content: 'Nos referimos por pasada de guardia a la serie de movimientos que nos permiten sobrepasar la guardia de nuestro oponente, y nos dejan en una posición de control o cercanos a ella.'
+    },
+    {
+        subtitle: 'LISTA DE PASADAS DE GUARDIA O GUARD PASS'
+    },
+    {
+        layout: [
+            {
+                name: 'Back Step',
+                content: 'Paso hacia atrás, normalmente con un pie en la posición interna de la guardia del rival, buscando establecer un inside sankaku.',
+                img: '/backStep.jpg'
+            },
+            {
+                name: 'Cartwheel Pass',
+                content: 'Acción donde tori realiza una voltereta de carro o rueda para pasar la guardia de uke. Para esto generalmente sitúa una de sus manos en medio de las piernas de uke mientras que la otra la apoya en el hombro cruzado de uke al momento de realizar la acción.',
+                img: '/cartwheelPass.jpg'
+            },
+            {
+                name: 'Double Under Pass',
+                content: 'Pasaje de guardia utilizando tomadas con los brazos por el interior de las piernas del rival, y elevando su cadera del tatami.',
+                img: '/doubleUnderPass.jpg'
+            },
+            {
+                name: 'Knee Slice',
+                content: 'Corte de rodilla. Pasaje utilizado con una pierna desde la posición interna de la guardia del rival, la rodilla de la misma pierna corta en dirección opuesta, por sobre el muslo del rival.',
+                img: '/kneeSlice.jpg'
+            },
+            {
+                name: 'Leg Drag',
+                content: 'Jalón de pierna. El atacante jalara una de las piernas del defensor al costado directamente opuesto, y luego asegurará la posición a través del uso de cadera y tomadas al cuerpo o gi.',
+                img: '/legDrag.jpg'
+            },
+        ],
+    },
 ]
