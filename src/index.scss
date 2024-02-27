@@ -1,8 +1,10 @@
+@import './variables.module.scss';
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-size: 1.125rem;
-  color: rgba(255, 255, 255, 0.87);
+  color: $lightText;
 
   
   background-color: #242424;
@@ -10,6 +12,9 @@
 
 body {
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ::-webkit-scrollbar {

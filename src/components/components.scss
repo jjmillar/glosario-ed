@@ -1,10 +1,12 @@
+@import '../variables.module.scss';
+
 .hamburguesa {
     width: 60px;
     height: 60px;
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background-color: #B70000;
+    background-color: $edRed;
     border-radius: 50%;
     
     display: flex;
@@ -12,11 +14,34 @@
     justify-content: center;
 }
 
-.modal{
-    background-color: #B70000;
-    width: 80svw;
-    height: 80svh;
-    position: fixed;
-    top: 0;
-    right: 0;
+.modal {
+    background-color: $edRed;
+    width: auto;
+    height: 90svh;
+    border-radius: $borderRadius;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    margin: 0;
+    padding: 5%;
+    width: 100%;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.list {
+    text-decoration: none;
+    color: $lightText;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:visited {
+    color: $lightText;
 }

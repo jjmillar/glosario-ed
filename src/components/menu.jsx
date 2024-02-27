@@ -3,15 +3,15 @@ import './components.scss'
 
 function Menu () {
     return (
-        <div className='menu'>
+        <ul className='menu'>
             {info.map( (item) => {
                 return(
                     <>
-                    {item.title && <a href={`#${item.title}`}>{item.title}</a>}
+                    {item.title && <li><a href={`#${item.title}`} className='list'>{item.title}</a></li>}
                     </>
                 )
             })}
-        </div>
+        </ul>
     )
 }
 
