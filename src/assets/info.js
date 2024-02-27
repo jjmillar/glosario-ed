@@ -1146,6 +1146,143 @@ export const info = [
                 content: 'Jalón de pierna. El atacante jalara una de las piernas del defensor al costado directamente opuesto, y luego asegurará la posición a través del uso de cadera y tomadas al cuerpo o gi.',
                 img: '/legDrag.jpg'
             },
+            {
+                name: 'Leg Weave',
+                content: 'Tejido de pierna. Esta pasada debe ser utilizada en la media guardia del oponente. Ubicamos nuestro brazo por sobre la pierna superior del oponente y controlamos la pierna inferior, formando una especie de “tejido”. Luego se utiliza presión sobre el cuerpo del oponente y se comienza a pasar la guardia en dirección contraria a la presión, moviéndose circularmente en torno al oponente.',
+                img: '/legWeave.png'
+            },
+            {
+                name: 'Long Step',
+                content: 'Paso largo. Usualmente utilizado luego de un knee cut fallido, en donde la rodilla se mantiene sobre el muslo del rival. Se busca establecer control del torso del oponente para liberar la pierna atrapada en la media guardia mediante un paso largo explosivo.',
+                img: '/longStep.jpg'
+            },
+            {
+                name: 'Over Under',
+                content: 'Pasaje de guardia utilizando tomadas mixtas, con una tomada interior de la pierna del rival y otra exterior.',
+                img: '/overUnder.png'
+            },
+            {
+                name: 'Smash Pass',
+                content: 'Pasaje de aplastamiento. Se realiza buscando juntar las piernas del rival en la misma posición, mediante el uso de la cadera propia y direccionamiento de la cadera del rival.',
+                img: '/smashPass.jpg'
+            },
+            {
+                name: 'Step Over',
+                content: 'Paso adelante. Se realiza estando de pie, y a través de un paso penetra la guardia del rival, sobrepasando la línea de sus piernas.',
+                img: '/stepOver.jpg'
+            },
+            {
+                name: 'Stack Pass',
+                content: 'En la posición de double under pass, al forzar al rival a invertir, se considera un stack pass. ',
+                img: '/stackPass.jpeg'
+            },
         ],
     },
+    {
+        title: 'RASPAJE / SWEEP',
+        subtitle: '¿QUE ES UN RASPAJE O SWEEP?',
+        content: 'Nos referimos por raspaje, al movimiento que se realiza estando en un tipo de guardia, en donde se invierte la posición con el rival, pasando a una posición de ataque y dejando al oponente en posición defensiva o bajo algún tipo de control (por ej. side control o 100 kilos).'
+    },
+    {
+        subtitle:'LISTA DE RASPAJES'
+    },
+    {
+        layout: [
+            {
+                name: 'Elevator',
+                content: 'Raspaje elevador.',
+                img: '/elevator.jpg'
+            },
+            {
+                name: 'Scissor',
+                content: 'Raspaje de tijeras.',
+                img: '/scissor.jpg'
+            },
+            {
+                name: 'Hip Bump',
+                content: 'Raspaje con golpe de cadera.',
+                img: '/hipBump.png'
+            },
+            {
+                name: 'Flower or Pendulum',
+                content: 'Raspaje de flor o péndulo.',
+                img: '/pendulum.png'
+            },
+            {
+                name: 'Butterfly',
+                content: 'Raspaje de mariposa.',
+                img: '/butterfly.jpg'
+            },
+            {
+                name: 'Wrestle Up',
+                content: 'Se refiere a cualquier situación donde tori, partiendo desde guardia, logra ponerse de pie y comienza una acción de derribo antes de que pasen 3 segundos. Ésto provoca que se considere un raspado en vez de un derribo, además de permitir a tori volver a sentarse y seguir luchando desde abajo sin penalización ni la necesidad de llamar nuevamente a la guardia en caso de fallar el derribo.',
+                img: '/wrestleUp.jpg'
+            },
+        ]
+    },
+    {
+        title: 'TRANSICIONES / DESPLAZAMIENTOS',
+        subtitle: '¿QUE ES UNA TRANSICIÓN O DESPLAZAMIENTO?',
+        content: 'Nos referimos por transición a la serie de movimientos que nos permiten movernos desde una posición de control a otra, generalmente en respuesta a algún tipo de defensa de nuestro oponente.'
+
+    },
+    {
+        subtitle: 'LISTA DE TRANSICIONES'
+    },
+    {
+        layout: [
+            {
+                name:'Baby Bolo',
+                content: 'Movimiento que parte desde guardia de la riva. Tori desbalancea a uke hacia atrás provocando que éste de un pequeño backstep. Seguido de ésto tori toma la pierna lejana e inserta un gancho detras de la rodilla cercana de uke, luego toma su cadera con ambas manos y sienta a uke empujandolo para comenzar la tomada de espalda. Es común que este movimiento termine en un sweep debido a alguna reacción de uke.',
+                img: '/babyBolo.png'
+            },
+            {
+                name:'Berimbolo',
+                content: 'Término que se acuña a cualquier tipo de giro que se realice de parte de tori con el objetivo de tomar la espalda del rival. Comúnmente se le llama al movimiento donde tori realiza un raspado desde guardia de la riva y luego gira hombro-trapecio-hombro y expone la espalda de uke.',
+                img: '/berimbolo.jpg'
+            },
+            {
+                name:'False Reap',
+                content: 'Acción donde, generalmente desde guardia de la riva invertida o sit up guard, tori pasa la pierna de afuera hacia adentro manteniendo una tomada a la pierna, luego tori realiza una inversión hacia adentro y dobla la rodilla atacada de uke para liberar su pierna de abajo, una vez hecho ésto lleva las caderas a la cadera de uke para cerrar un inside sunkaku e iniciar el juego de leg locks.',
+                img: '/falseReap.png'
+            },
+            {
+                name:'Rolling Kimura',
+                content: 'Acción donde tori, en situación de pasador realiza un giro por sobre uke tomando una de las muñecas de uke y pasando su otro brazo para cerrar un agarre de kimura. Éste movimiento es parte de lo que se conoce como sistema "Kimura trap", empleado por John Danaher.',
+                img: '/rollingKimura.jpg'
+            },
+            {
+                name:'Side control to Side control',
+                content: '100 kilos a 100 kilos. Cuando el atacante se encuentra en posición de side control, una defensa usual del oponente es buscar el underhook  exterior, para recuperar la guardia. El atacante en este caso puede utilizar el underhook del defensor, generando un underhook con el brazo opuesto, y frotando circularmente por la cabeza del defensor, finalmente ubicándose en Side control desde el lado opuesto.',
+                img: '/sideToSide.jpg'
+            },
+            {
+                name:'Knee on belly to Knee on belly',
+                content: 'Rodilla en la barriga a Rodilla en la barriga. Cuando el atacante se encuentra en posición de Knee on belly, una defensa habitual del oponente es girar en dirección al atacante. En este caso, el atacante puede hacer uso del movimiento del rival, moviendo la pierna que inicialmente era un apoyo y ocupando la rodilla en la barriga del defensor, y la pierna que inicialmente estaba en la barriga, pasa al otro extremo del defensor, volviendo a posición de Knee on belly desde el lado opuesto.',
+                img: '/kneeToKnee.jpg'
+            },
+            {
+                name:'All fours to leg drag',
+                content: 'Cuadrupedo a jalon de pierna. Cuando el defensor se encuentra en posición de all four o turtle, una defensa habitual es realizar un giro para intentar recuperar la guardia (usualmente half guard). El atacante puede hacer uso de este movimiento, ubicando su rodilla entre las piernas del defensor, y siguiendo el giro de este, preferentemente buscando un body lock con uno o ambos brazos, finalmente llegando a la posición de Leg drag.',
+                img: '/a4ToLegDrag.jpg'
+            },
+            {
+                name:'All fours to leg drag',
+                content: 'Cuadrupedo a jalon de pierna. Cuando el defensor se encuentra en posición de all four o turtle, una defensa habitual es realizar un giro para intentar recuperar la guardia (usualmente half guard). El atacante puede hacer uso de este movimiento, ubicando su rodilla entre las piernas del defensor, y siguiendo el giro de este, preferentemente buscando un body lock con uno o ambos brazos, finalmente llegando a la posición de Leg drag.',
+                img: '/a4ToLegDrag.jpg'
+            },
+        ]
+    },
+    {
+        title: 'ESTRUCTURA DE JUEGO BÁSICA',
+        content: 'En el siguiente segmento, se presenta un diagrama con la estructura básica de juego, tanto en modalidades Gi y Nogi. Cabe destacar que este flujo no es absoluto, pero su objetivo es entregar un acercamiento a un juego básico con el que luego, cada individuo pueda desarrollar un juego personal en base a sus fortalezas y preferencia. Siendo el principal objetivo del jiujitsu el sometimiento del rival, se asume que en cada uno de estos pasos, es posible generar una finalización y por consecuencia someter al defensor. Sin embargo, es importante recalcar que llegar a posiciones de control, nos permitirá trabajar y preparar de mejor forma las distintas finalizaciones. Finalmente, también es importante mencionar que hay ciertas posiciones de control que generan mas oportunidades de finalizacion que otras, y es por esto que en torneos en base a puntos, estas son generalmente puntuadas con un mayor valor. Para estos fines, podemos considerar el orden de las posiciones de control, en orden descendiente segun el nivel de peligro que generan para el defensor de esta forma: Back control (Espalda) > Mount (Montada) > Knee on belly (Rodilla en la barriga) > Side control (100 kilos) > Top half guard (Media montada) > Guard / Stance (Guardia de suelo o guardia de pie)'
+    },
+    {
+        img: '/gamePlan.png'
+    },
+    {
+        title: 'POSICIONES DE CONTROL PARA LEGLOCKS',
+        content: 'A continuación, se presenta un esquema para entender de mejor forma las posiciones de control desarrolladas para la aplicación de llaves de pie o leglocks.'
+    },
+    
 ]

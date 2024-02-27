@@ -1,0 +1,22 @@
+.hamburguesa {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #B70000;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background-color: #B70000;
+    width: 80svw;
+    height: 80svh;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
