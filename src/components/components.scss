@@ -65,8 +65,8 @@ a:visited {
  */
 
 .scale-in-br {
-	-webkit-animation: scale-in-br 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-br 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: scale-in-br 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-br 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
  @-webkit-keyframes scale-in-br {
