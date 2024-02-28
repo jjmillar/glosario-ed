@@ -16,6 +16,3 @@ function Menu () {
 }
 
 export default Menu
-
-//<a href='#Armdrag'>imagen</a>
-

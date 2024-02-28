@@ -18,7 +18,7 @@ const Index = () => {
       />
         </div>
       <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-        <div className='modal'>
+        <div className='modal scale-in-br'>
           <a className='close' onClick={closeModal}>
           </a>
           <Menu />
