@@ -1,9 +1,9 @@
 export const info = [
-    {
-        title: 'Introducción',
-        content: 'Con el pasar del tiempo los deportes de combate y en especial los de grappling han desarrollado una cultura conceptual muy amplia y diversa, incorporando además un nombre específico para cada acción particular, lo que hace que muchas veces se nos haga difícil conocer cada uno de estos nombres. Es por esta necesidad que nace el presente texto, como una solución aún incompleta pero que nos ayuda a avanzar ante el problema que nos aqueja.El objetivo de este texto es ser una guía conceptual para nuestros profesores y estudiantes, de tal forma que tengamos nuestro propio diccionario y guía de grappling en general y Jiu Jitsu en particular al cual recurrir en caso de vernos superados ante alguna materia conceptual. Cabe señalar que la naturaleza de este texto no es estática, sino que la idea es mantenerlo en una constante actualización, buscando que pueda colaborar todo el que guste. y así llegar a una versión cada vez más completa. En definitiva se busca que todos y todas lo construyamos.'
-    },
-    {
+  {
+    title: 'Introducción',
+    content: 'Con el pasar del tiempo los deportes de combate y en especial los de grappling han desarrollado una cultura conceptual muy amplia y diversa, incorporando además un nombre específico para cada acción particular, lo que hace que muchas veces se nos haga difícil conocer cada uno de estos nombres. Es por esta necesidad que nace el presente texto, como una solución aún incompleta pero que nos ayuda a avanzar ante el problema que nos aqueja.El objetivo de este texto es ser una guía conceptual para nuestros profesores y estudiantes, de tal forma que tengamos nuestro propio diccionario y guía de grappling en general y Jiu Jitsu en particular al cual recurrir en caso de vernos superados ante alguna materia conceptual. Cabe señalar que la naturaleza de este texto no es estática, sino que la idea es mantenerlo en una constante actualización, buscando que pueda colaborar todo el que guste. y así llegar a una versión cada vez más completa. En definitiva se busca que todos y todas lo construyamos.'
+  },
+  {
         title: '¿Qué es el Grappling?',
         content: 'El grappling, traducido al castellano como "agarres", se refiere a todos aquellos sistemas de lucha cuerpo a cuerpo que no involucran golpes para vencer al rival, sino que se utilizan técnicas de derribo, de posición o sumisión para conseguir puntos o forzar su rendición. En general podemos hacer dos grandes clasificaciones; los que agarran la vestimenta y los que no. Los que contemplan sólo el derribó y aquellos que continúan la lucha buscando la finalización.'
     },

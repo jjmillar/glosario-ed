@@ -2,7 +2,7 @@ import { info } from './assets/info'
 import './App.scss'
 import Index from './components/dropdown'
 
-function App() {
+function App () {
   return (
     <div className='wrapper'>
       <Index />
