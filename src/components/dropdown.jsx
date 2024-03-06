@@ -10,13 +10,13 @@ const Index = () => {
 
   return (
     <div>
-      <div className='hamburguesa'>
+      <button className='hamburguesa'>
         <Hamburger
           toggled={open}
           toggle={setOpen}
           onClick={() => setOpen((o) => !o)}
         />
-      </div>
+      </button>
       <Popup open={open} closeOnDocumentClick onClose={closeModal}>
         <div className='modal scale-in-br'>
           <a className='close' onClick={closeModal} />
