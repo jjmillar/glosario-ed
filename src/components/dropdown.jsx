@@ -11,11 +11,7 @@ const Index = () => {
   return (
     <div>
       <div className='hamburguesa'>
-        <Hamburger
-          toggled={open}
-          toggle={setOpen}
-          onClick={() => setOpen((o) => !o)}
-        />
+        <Hamburger onToggle={toggled => { toggled ? setOpen(true) : closeModal() }} />
       </div>
       <Popup open={open} closeOnDocumentClick onClose={closeModal}>
         <div className='modal scale-in-br'>

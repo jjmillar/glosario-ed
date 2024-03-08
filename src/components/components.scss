@@ -51,11 +51,8 @@
 }
 
 .sub-list {
+        color: $subListText;
         text-indent: 5rem;
-}
-
-a:visited {
-    color: $lightText;
 }
 
 @media ( max-width: 1100px ) {
