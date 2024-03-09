@@ -11,11 +11,10 @@ const Index = () => {
   return (
     <div>
       <div className='hamburguesa'>
-        <Hamburger onToggle={toggled => { toggled ? setOpen(true) : closeModal() }} />
+        <Hamburger onToggle={toggled => { toggled ? setOpen(true) : setOpen(false) }} />
       </div>
       <Popup open={open} closeOnDocumentClick onClose={closeModal}>
         <div className='modal scale-in-br'>
-          <a className='close' onClick={closeModal} />
           <Menu />
         </div>
       </Popup>
