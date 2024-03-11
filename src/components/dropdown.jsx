@@ -7,11 +7,13 @@ import './components.scss'
 const Index = () => {
   const [open, setOpen] = useState(false)
   const closeModal = () => setOpen(false)
+  const openModal = () => setOpen(true)
+  const isOpen = () => { open ? closeModal() : openModal() }
 
   return (
     <>
-      <button className='hamburguesa' onClick={() => setOpen(!open)}>
-        <Hamburger toggled={open} toggle={closeModal} />
+      <button className='hamburguesa' onClick={() => isOpen}>
+        <Hamburger toggled={open} toggle={isOpen} />
       </button>
       <Popup open={open} closeOnDocumentClick onClose={closeModal}>
         <div className='modal scale-in-br'>
