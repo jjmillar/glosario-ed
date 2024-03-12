@@ -6,16 +6,17 @@ import './components.scss'
 
 const Index = () => {
   const [open, setOpen] = useState(false)
-  const closeModal = () => { setOpen(false); console.log('closeModal') }
-  const openModal = () => setOpen(true)
-  const isOpen = () => { open ? closeModal() : openModal(); console.log('isOpen') }
+  const isOpen = () => open ? setOpen(false) : setOpen(true)
+
+  function delay (ms) { return new Promise(resolve => setTimeout(resolve, ms)) }
+  async function close () { await delay(100); setOpen(false) }
 
   return (
     <>
       <button className='hamburguesa'>
         <Hamburger toggled={open} toggle={isOpen} />
       </button>
-      <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+      <Popup open={open} closeOnDocumentClick onClose={close}>
         <div className='modal scale-in-br'>
           <Menu />
         </div>
