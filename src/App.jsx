@@ -8,7 +8,7 @@ function App () {
       <Index />
       {info.map((item) => {
         return (
-          <section key='section' className='section'>
+          <section key={item.title} className='section'>
             {item.title && (<div id={item.title} key='title' className='title'>{item.title}</div>)}
             {item.subtitle && (<div id={item.subtitle} key='subtitle' className='subtitle'>{item.subtitle}</div>)}
             {item.content && (<div key='content' className='content'>{item.content}</div>)}
@@ -18,7 +18,7 @@ function App () {
                 {item.layout.map((layout) => {
                   return (
                     <div key={layout.name} id={layout.name} className='layout'>
-                      <div key={layout.name} className='layout-content'>
+                      <div className='layout-content'>
                         <div className='subtitle'>{layout.name}</div>
                         <div>{layout.content}</div>
                       </div>
@@ -33,8 +33,8 @@ function App () {
                 {item.layout2.map((layout2) => {
                   return (
                     <div key={layout2.name} id={layout2.name} className='layout2 card'>
-                      <div key={layout2.name} className='subtitle'>{layout2.name}:</div>
-                      <div key={layout2.name} className='layout2-content'>{layout2.content}</div>
+                      <div className='subtitle'>{layout2.name}:</div>
+                      <div className='layout2-content'>{layout2.content}</div>
                     </div>
                   )
                 })}

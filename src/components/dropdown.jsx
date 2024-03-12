@@ -6,13 +6,13 @@ import './components.scss'
 
 const Index = () => {
   const [open, setOpen] = useState(false)
-  const closeModal = () => setOpen(false)
+  const closeModal = () => { setOpen(false); console.log('closeModal') }
   const openModal = () => setOpen(true)
-  const isOpen = () => { open ? closeModal() : openModal() }
+  const isOpen = () => { open ? closeModal() : openModal(); console.log('isOpen') }
 
   return (
     <>
-      <button className='hamburguesa' onClick={() => isOpen}>
+      <button className='hamburguesa'>
         <Hamburger toggled={open} toggle={isOpen} />
       </button>
       <Popup open={open} closeOnDocumentClick onClose={closeModal}>
