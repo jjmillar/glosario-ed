@@ -1,7 +1,7 @@
 import { useState } from 'react'
+import { info } from '../assets/info'
 import Popup from 'reactjs-popup'
 import { Twirl as Hamburger } from 'hamburger-react'
-import Menu from './menu'
 import './components.scss'
 
 const Index = () => {
@@ -18,7 +18,17 @@ const Index = () => {
       </button>
       <Popup open={open} closeOnDocumentClick onClose={close}>
         <div className='modal scale-in-br'>
-          <Menu />
+          <ul className='menu'>
+            {info.map((item) => {
+              return (
+                <div key='section'>
+                  {item.title && <li><a href={`#${item.title}`} className='list' onClick={close}>{item.title}</a></li>}
+                  {item.layout && item.layout.map((i) => { return (<li key={`1${i.name}`}><a href={`#${i.name}`} className='sub-list' onClick={close}>{i.name}</a></li>) })}
+                  {item.layout2 && item.layout2.map((i) => { return (<li key={`2${i.name}`}><a href={`#${i.name}`} className='sub-list' onClick={close}>{i.name}</a></li>) })}
+                </div>
+              )
+            })}
+          </ul>
         </div>
       </Popup>
     </>
