@@ -1,11 +1,15 @@
 import { info } from './assets/info'
 import './App.scss'
-import Index from './components/dropdown'
+import Index from './components'
+import Edit from './components/edit'
 
 function App () {
   return (
     <div className='wrapper'>
-      <Index />
+      <div key='button-wrapper' id='button-wrapper' className='button-wrapper'>
+        <Edit />
+        <Index />
+      </div>
       {info.map((item) => {
         return (
           <section key={item.title} className='section'>

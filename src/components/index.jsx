@@ -13,7 +13,7 @@ const Index = () => {
 
   return (
     <>
-      <button className='hamburguesa'>
+      <button className='button'>
         <Hamburger toggled={open} toggle={isOpen} />
       </button>
       <Popup open={open} closeOnDocumentClick onClose={close}>

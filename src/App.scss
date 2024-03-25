@@ -140,6 +140,30 @@
   text-indent: 10%;
 }
 
+.button-wrapper {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  color: $lightText;
+  cursor: pointer;
+  background-color: $edRed;
+  border-radius: 50%;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 .card {
   background-color: #242424;
   border-radius: $borderRadius;
@@ -191,6 +215,12 @@
   .image {
     width: 90%;
     padding: 10px 0 10px 0;
+  }
+
+  .button-wrapper {
+    bottom: 10px;
+    right: 10px;
+
   }
   
 }

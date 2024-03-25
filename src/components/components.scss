@@ -1,22 +1,5 @@
 @import '../variables.module.scss';
 
-.hamburguesa {
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    color: $lightText;
-    background-color: $edRed;
-    border-radius: 50%;
-    border: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .modal {
     background-color: $edRed;
     padding: 10px;
@@ -53,18 +36,13 @@
 }
 
 .sub-list {
-        color: $subListText;
-        text-indent: 5rem;
+    color: $subListText;
+    text-indent: 5rem;
 }
 
 @media ( max-width: 1100px ) {
     .modal{
         height: 70svh;
-    }
-
-    .hamburguesa {
-        bottom: 10px;
-        right: 10px;
     }
 }
 
