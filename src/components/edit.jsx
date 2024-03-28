@@ -28,10 +28,10 @@ const Edit = () => {
         <div className='modal scale-in-br'>
           <form ref={form} onSubmit={sendEmail} className='form'>
             <label>NOMBRE</label>
-            <input id='user_name' type='text' name='user_name' className='text' />
+            <input id='user_name' type='text' name='user_name' className='text' autofocus='false' />
             <label>COMENTE DETALLADAMENTE LO QUE SUGUIERE MODIFICAR</label>
             <textarea name='message' />
-            <input type='submit' value='Enviar' />
+            <input type='submit' value='Enviar' className='submit-btn' />
             <a id='link' href='https://wa.me/56972151199?text=kiubo' />
           </form>
         </div>
