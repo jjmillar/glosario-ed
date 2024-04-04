@@ -40,6 +40,7 @@ const Edit = () => {
       <Popup open={open} closeOnDocumentClick onClose={close}>
         <div className='modal scale-in-br'>
           <form ref={form} onSubmit={sendEmail} className='form'>
+            <div className='subtitle'>SUGERENCIA DE MODIFICACIÓN DE TEXTO</div>
             <label>NOMBRE</label>
             <input id='user_name' type='text' name='user_name' className='text' autofocus='false' />
             <label>COMENTE DETALLADAMENTE LO QUE SUGUIERE MODIFICAR</label>
