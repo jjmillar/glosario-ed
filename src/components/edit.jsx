@@ -28,6 +28,7 @@ const Edit = () => {
         }
       )
     close()
+    window.alert('Mensaje enviado exitosamente para revisión')
   }
   return (
     <>

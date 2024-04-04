@@ -70,12 +70,11 @@ textarea {
         font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
         line-height: 1.5;
         font-size: 1.125rem;
-}
-
-.text, textarea {
+        padding: 0 6px 0 6px;
         width: 95%;
         border: none;
         border-radius: 5px;
+        margin: auto;
         &:focus {
                 outline: none;
             }
