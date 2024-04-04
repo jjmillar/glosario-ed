@@ -3,6 +3,7 @@ import Popup from 'reactjs-popup'
 import './components.scss'
 import { MdOutlineEdit } from 'react-icons/md'
 import { IconContext } from 'react-icons'
+import emailjs from '@emailjs/browser'
 
 const Edit = () => {
   const [open, setOpen] = useState(false)
@@ -14,8 +15,19 @@ const Edit = () => {
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault()
+    emailjs
+      .sendForm('service_fytmjbg', 'template_fbe4x2z', form.current, {
+        publicKey: '2rAyQl2u0RW98YIaQ'
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!')
+        },
+        (error) => {
+          console.log('FAILED...', error.text)
+        }
+      )
     close()
-    window.alert('Funcion en construccion Q(^.^Q)')
   }
   return (
     <>
