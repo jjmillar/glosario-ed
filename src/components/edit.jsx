@@ -46,7 +46,6 @@ const Edit = () => {
             <label>COMENTE DETALLADAMENTE LO QUE SUGUIERE MODIFICAR</label>
             <textarea name='message' />
             <input type='submit' value='Enviar' className='submit-btn' />
-            <a id='link' href='https://wa.me/56972151199?text=kiubo' />
           </form>
         </div>
       </Popup>
