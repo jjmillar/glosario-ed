@@ -80,6 +80,7 @@ textarea {
         width: 95%;
         border: none;
         border-radius: 5px;
+        box-shadow: 4px 4px 15px -6px rgba(0,0,0,0.75);
         &:focus {
                 outline: none;
             }
@@ -90,9 +91,12 @@ textarea {
 }
 
 .submit-btn {
+        width: 40%;
+        padding: 5px 0 5px 0;
         font-size: 1.125rem;
         border: none;
         border-radius: $borderBtn;
+        box-shadow: 4px 4px 15px -6px rgba(0,0,0,0.75);
 }
 
 @media ( max-width: 1100px ) {
