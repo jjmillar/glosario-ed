@@ -2,10 +2,12 @@ import { info } from './assets/info'
 import './App.scss'
 import Index from './components'
 import Edit from './components/edit'
+import IntroAnimation from './components/intro'
 
 function App () {
   return (
     <div className='wrapper'>
+      <IntroAnimation />
       <div key='button-wrapper' id='button-wrapper' className='button-wrapper'>
         <Edit />
         <Index />

@@ -1,5 +1,35 @@
 @import '../variables.module.scss';
 
+.intro__wrapper{
+        width: 100svw;
+        height: 100svh;
+        box-sizing: border-box;
+        background-color: $backgroundColor;
+        position: fixed;
+        z-index: 3;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.intro__text {
+        width: 80%;
+        padding: 2rem 0 2rem 0;
+        font-size: 4rem;
+        text-align: center
+}
+
+.intro__img--wrapper {
+        height: 30svh;
+        box-sizing: border-box;
+}
+
+.intro__img--wrapper > img {
+        height: 100%;
+}
+
 .modal {
     background-color: $edRed;
     padding: 10px;
@@ -106,6 +136,10 @@ textarea {
 
     textarea {
         height: 20svh;
+    }
+
+    .intro__text {
+        font-size: 3rem;
     }
 }
 
