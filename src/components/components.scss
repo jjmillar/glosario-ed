@@ -15,10 +15,12 @@
 }
 
 .intro__text {
-        width: 80%;
+        width: 70%;
         padding: 2rem 0 2rem 0;
         font-size: 4rem;
-        text-align: center
+        font-weight: 600;
+        text-align: center;
+        text-shadow: $intro-text-shadow;
 }
 
 .intro__img--wrapper {
@@ -110,7 +112,7 @@ textarea {
         width: 95%;
         border: none;
         border-radius: 5px;
-        box-shadow: 4px 4px 15px -6px rgba(0,0,0,0.75);
+        box-shadow: $box-shadow;
         &:focus {
                 outline: none;
             }
@@ -139,8 +141,13 @@ textarea {
     }
 
     .intro__text {
-        font-size: 3rem;
+        padding: 1rem 0 1rem 0;
+        font-size: 2rem;
     }
+
+    .intro__img--wrapper > img {
+        width: 50svw;
+}
 }
 
 .form__hidden {
