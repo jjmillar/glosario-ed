@@ -5,7 +5,7 @@ function IntroAnimation () {
   const introProps = useSpring({
     opacity: 0, // Start with opacity 0
     from: { opacity: 1 }, // Animate from opacity 1
-    delay: 3000
+    delay: 3500
   })
 
   return (

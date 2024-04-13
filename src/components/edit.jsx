@@ -41,7 +41,7 @@ const Edit = () => {
         <div className='modal scale-in-br'>
           <form ref={form} onSubmit={sendEmail} className='form'>
             <input type='text' className='form__hidden' />
-            <div className='form__div'>SUGERENCIA DE MODIFICACIÓN DE TEXTO</div>
+            <div className='form__div'>SUGERENCIA DE MODIFICACIÓN</div>
             <label>NOMBRE</label>
             <input id='user_name' type='text' name='user_name' className='text' />
             <label>COMENTE DETALLADAMENTE LO QUE SUGUIERE MODIFICAR</label>
