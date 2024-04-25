@@ -310,15 +310,15 @@ export const info = [
         content: 'Guardia.'
       },
       {
-        name: 'Hand fighting',
+        name: 'Hand Fighting',
         content: 'Pelea de manos. Fase del combate utilizada para establecer agarres ventajosos o evitar los mismos por parte del oponente.'
       },
       {
-        name: 'Hikikomi / Guard pull',
+        name: 'Hikikomi / Guard Pull',
         content: 'Llamar a la guardia.'
       },
       {
-        name: 'Hip escape / Shrimp',
+        name: 'Hip Escape / Shrimp',
         content: 'Fuga de cadera.'
       },
       {
@@ -366,11 +366,11 @@ export const info = [
         content: 'Derribo, proyección.'
       },
       {
-        name: 'Nage waza',
+        name: 'Nage Waza',
         content: 'Técnicas de derribo.'
       },
       {
-        name: 'Ne waza',
+        name: 'Ne Waza',
         content: 'Es un término usado sobre todo en el judo y jiu-jitsu, que designa la acción de luchar uno a uno al nivel del suelo, generalmente haciendo uso de luxaciones articulares, grappling o agarres, sumisiones y estrangulaciones. Este término engloba el uso de las técnicas de Osaekomi-waza o inmovilizaciones, shime-waza o estrangulaciones y kansetsu-waza o llaves articulares, a nivel del suelo.'
       },
       {
@@ -378,11 +378,11 @@ export const info = [
         content: 'Sin kimono. A veces utilizado como sinónimo de Grappling nogi.'
       },
       {
-        name: 'Osaekomi waza',
+        name: 'Osaekomi Waza',
         content: 'Técnicas de inmovilización.'
       },
       {
-        name: 'Parada técnica',
+        name: 'Parada Técnica',
         content: 'Technical stand up en inglés.'
       },
       {
@@ -442,7 +442,7 @@ export const info = [
         content: 'Contra.'
       },
       {
-        name: 'Spider web',
+        name: 'Spider Web',
         content: 'Telaraña. Posición de ataque de llave de brazo con el rival defendiendo el brazo atacado. Es una posición habitual en las prórrogas de campeonatos de Grappling.'
       },
       {
@@ -506,274 +506,284 @@ export const info = [
   {
     layout: [
       {
-        name: 'All fours',
+        name: 'All Fours',
         content: 'Cuatro apoyos o Cuadrupedo, Se refiere a la posición corporal de cuatro apoyos basales; de pies y manos.',
         img: '/allFours.png'
       },
-    {
-        name: 'Back control',
+      {
+        name: 'Back Control',
         content: 'Control de espalda. Se considera control de espalda el tener ambos ganchos (piernas) y control del tren superior del oponente, usualmente a través de un Seatbelt grip o cinturón de seguridad.',
         img: '/backControl.png'
-    },
-    {
-        name: 'Body lock',
+      },
+      {
+        name: 'Body Lock',
         content: 'Candado de cuerpo. Se realiza abrazando uke por sobre la cintura, generalmente con los brazos del oponente por fuera del candado. El body lock puede ser desde el frente o espalda. Usualmente utilizado para derribar o pasar la guardia.',
         img: '/bodylock.png'
-    },
-    {
-        name: 'Body triangle',
+      },
+      {
+        name: 'Body Triangle',
         content: 'Triángulo al cuerpo. Hablamos de Body triangle cuando tori, desde la espalda de uke (back control), busca ejercer una posición que prolongue el control y, por lo tanto, asegure mayores probabilidades para someterlo. Pues a diferencia de los ganchos desde la espalda, el triángulo al cuerpo no cuenta con puntuación dentro del deporte del Jiu Jitsu, pero brinda un mayor dominio. De tal modo, tori cruza una de nuestras piernas perpendicularmente al cuerpo del adversario, cerrando su empeine bajo la corva de la otra pierna dando forma a un triángulo o una figura de cuatro.',
         img: '/bodyTriangle.png'
-    },
-    {
+      },
+      {
+        name: 'Collar Choke',
+        content: 'Estrangulación utilizando el cuello del gi (collar) de uke.',
+        img: '/collarChoke.jpg'
+      },
+      {
         name: 'Crucifix',
         content: 'Crucifijo. Se refiere a situación donde tori posee control de ambos brazos de uke, usualmente desde la espalda. Se utilizan los brazos para mantener un Kimura grip o chicken wing, y las piernas para inmovilizar el otro brazo de uke.',
         img: '/crucifix.png'
-    },
-    {
-        name: 'Front headlock',
-        content: 'Posición en donde tori posee control sobre la cabeza de uke, ya sea a través de un Chin Strap o un Seat belt grip invertido (Tori y Uke estan mirando en la misma dirección, sus cuerpos estan situados en la misma dirección pero distinto sentido).',
+      },
+      {
+        name: 'Front Headlock',
+        content: 'Posición en donde tori posee control sobre la cabeza de uke, ya sea a través de un Chin Strap o un Seat belt grip invertido (Tori y Uke estan mirando en la misma dirección, sus cuerpos estan situados en la misma dirección, pero distinto sentido).',
         img: '/frontHeadlock.png'
-    },
-    {
-        name: 'Half mount',
+      },
+      {
+        name: 'Half Mount',
         content: 'Media montada, Media Guardia (desde arriba).',
         img: '/halfMount.png'
-    },
-    {
-        name: 'Kesa gatame',
+      },
+      {
+        name: 'Kesa Gatame',
         content: 'Es una técnica de inmovilización de Judo suelo (Osae-Komi-Waza). Significa control lateral, donde el control se ejerce sobre el costado de Uke en “bandolera”. La pierna de Tori de estar estirada y para un mayor control de Uke puede colocarse debajo de su hombro.',
         img: '/kesaGatame.png'
-    },
-    {
-        name: 'Knee staple',
+      },
+      {
+        name: 'Knee Staple',
         content: 'Engrapar con rodilla. Control realizado mediante la inmovilización de alguna parte del cuerpo de uke, usualmente brazo o pierna, mediante la utilización de la tibia o canilla.',
         img: '/kneeStaple.png'
-    },
-    {
-        name: 'Leg pin',
+      },
+      {
+        name: 'Leg Pin',
         content: 'Popularizado por los atletas Kade y Tye Ruotolo. Sistema de pasaje de guardia donde tori pisa la canilla de uke. Especialmente utilizado para contrarrestar juego de leglocks.',
         img: '/legPin.png'
-    },
-    {
+      },
+      {
+        name: 'Lockdown',
+        content: 'Posición que permite controlar desde la media guardia mediante atrapando la pierna atrapada en la media. Permite transicionar a otros ataques y raspados (muy utilizado en la escuela de Eddie bravo).',
+        img: '/lockdown.png'
+      },
+      {
         name: 'Mount',
         content: 'Montada.',
         img: '/mount.png'
-    },
-    {
-        name: 'North south',
+      },
+      {
+        name: 'North South',
         content: 'Norte-Sur. Posición donde uke se encuentra en prono en el tatami, mirando hacia arriba y tori sobre él en posición supina, usualmente con la cabeza del defensor a nivel del pecho.',
         img: '/northSouth.png'
-    },
-    {
-        name: 'Side control',
+      },
+      {
+        name: 'Side Control',
         content: 'Cien Kilos, control lateral. En el agarre, el control lateral es una posición dominante de inmovilización en el suelo donde tori está acostado mirando hacia abajo perpendicularmente con su torso sobre el torso de uke que se encuentra boca arriba de tal manera que las piernas están libres y no ejerce ningún control sobre uke en la parte inferior.',
         img: '/sideControl.png'
-    },
-    {
+      },
+      {
         name: 'Turtle',
         content: 'Tortuga, codos y rodillas en el suelo, cerrado. Impidiendo los ganchos.',
         img: '/turtle.png'
-    },
-    {
+      },
+      {
         name: 'Three quarter mount',
         content: 'Montada ¾. Similar a Half mount, pero en este caso la rodilla de tori se encuentra fuera de la media guardia de uke.',
         img: '/threeQuarterMount.png'
-    },
-    {
+      },
+      {
         name: 'Twister hook',
         content: 'Popularizado por 10th planet. Se trata de un control de espalda donde tori tiene un gancho insertado en una cadera de uke mientras que posee control de la otra cadera con su torso.',
         img: '/twisterHook.png'
-    },
-    {
+      },
+      {
         name: 'Wedge',
         content: 'Posición de relativo control y exposición de la espalda de uke para un posible backtake. Aquí tori se  posiciona en un ángulo respecto a uke tal que una pierna suya pase por debajo de la rodilla ipsilateral de uke mientras que la otra rodilla se posiciona a altura de espina iliaca ipsilateral de uke. Luego de esto, y tori estando por sobre uke girará sobre su hombro y llevará ambas plantas de sus pies al tatami, creando exposición de la espalda de uke.',
         img: '/wedge.png'
-    },
-]
-},
-{
-title: 'LEG ENTANGLEMENTS',
-subtitle: '¿QUÉ ES UN LEG ENTANGLEMENT?',
-content: 'Corresponde a un leg entanglement a una posición donde Tori (y en ocasiones uke) puede ejecutar directamente un ataque a las piernas o “leg lock”. A diferencia de los pins o control del oponente éste leg entanglement controla una o ambas piernas de uke en vez de los brazos o torso de éste. Sin embargo, al igual que en “pins”, existe una jerarquía de posiciones, yendo desde posiciones donde uke y tori se encuentran en condiciones similares a otras como la “montada” donde tori posee una evidente ventaja posicional sobre uke.',
-},
-{
-content: 'Luego, podemos categorizar las distintas variantes de Ashi en base a dos conceptos:',
-},
-{
-content: '●	Lugar en que se realiza el cierre de mis piernas (lock). Puede ser fuera (outside), dentro (inside) o sin cierre (unlocked).',
-},
-{
-content: '●	Posición de la pierna del oponente con respecto a mi cuerpo. Puede ser recta (straight), lo que quiere decir que la pierna pasa por el costado externo de mi torso, o cruzada (cross), que es cuando la pierna pasa por el costado interno de mi torso, usualmente conocida como una posición “interna”.',
-},
-{
-img: '/legEntanglements.png',
-},
-{
-subtitle: 'LISTA DE POSIBLES LEG ENTANGLEMENTS'
-},
-{
-layout: [
-    {
-        name: 'Outside sankaku',
-        content: 'Término acuñado por John Danaher para describir un triángulo (sankaku) a la pierna, cerrado desde la posición externa (outside). Utilizado para atacar variedad de leg locks o llaves de pierna.',
-        img: '/outsideSankaku.png'
-    },
-    {
-        name: 'Fifty Fifty / Guardia 50-50',
-        content: 'Un guardia se clasifica como 50/50 una vez que dos atletas involucrados en un partido de agarre se bloquean, con las piernas entrelazadas (es decir, la pierna derecha del competidor A alrededor de la pierna derecha del competidor B), lo que proporciona el mismo conjunto de circunstancias para ambos luchadores.',
-        img: '/fiftyFifty.png'
-    },
-    {
+      }
+    ]
+  },
+  {
+    title: 'LEG ENTANGLEMENTS',
+    subtitle: '¿QUÉ ES UN LEG ENTANGLEMENT?',
+    content: 'Corresponde a un leg entanglement a una posición donde Tori (y en ocasiones uke) puede ejecutar directamente un ataque a las piernas o “leg lock”. A diferencia de los pins o control del oponente éste leg entanglement controla una o ambas piernas de uke en vez de los brazos o torso de éste. Sin embargo, al igual que en “pins”, existe una jerarquía de posiciones, yendo desde posiciones donde uke y tori se encuentran en condiciones similares a otras como la “montada” donde tori posee una evidente ventaja posicional sobre uke.'
+  },
+  {
+    content: 'Luego, podemos categorizar las distintas variantes de Ashi en base a dos conceptos:'
+  },
+  {
+    content: '● Lugar en que se realiza el cierre de mis piernas (lock). Puede ser fuera (outside), dentro (inside) o sin cierre (unlocked).'
+  },
+  {
+    content: '● Posición de la pierna del oponente con respecto a mi cuerpo. Puede ser recta (straight), lo que quiere decir que la pierna pasa por el costado externo de mi torso, o cruzada (cross), que es cuando la pierna pasa por el costado interno de mi torso, usualmente conocida como una posición “interna”.'
+  },
+  {
+    img: '/legEntanglements.png'
+  },
+  {
+    subtitle: 'LISTA DE POSIBLES LEG ENTANGLEMENTS'
+  },
+  {
+    layout: [
+      {
         name: '90/10',
         content: 'Posición donde, a diferencia del inside sunkaku, aquí tori ubica sus piernas por fuera de uke, con la planta del pie de la pierna que va por dentro a la altura de su abdomen, mientras que la pierna que entra por fuera pasa con la tibia a lo largo del abdomen de uke.',
         img: '/9010.jpg'
-    },
-    {
+      },
+      {
         name: 'Ashi Garami',
         content: 'Nos referiremos por Ashi Garami (o simplemente Ashi) a la posición base de ataque a piernas, también conocida como guardia X simple (single leg X). Posición neutral sin cierre de piernas y con la pierna de mi oponente “recta”.',
         img: '/ashiGarami.png'
-    },
-    {
-        name: 'Cross inside Ashi Garami/Inside sankaku',
+      },
+      {
+        name: 'Cross inside Ashi Garami / Inside Sankaku',
         content: 'Saddle, Honey Hole. Término acuñado por John Danaher describir un triángulo (sankaku) a la pierna, cerrado desde la posición interna (inside). Utilizado para atacar variedad de leg locks o llaves de pierna.',
         img: '/insideSankaku.png'
-    },
-    {
+      },
+      {
+        name: 'Cross Outside Ashi Garami',
+        content: 'Misma posición que Inside Ashi Garami, pero en este caso la pierna de nuestro oponente se encuentra en una posición cruzada. Esta posición es usualmente conocida como 50/50.',
+        img: '/crossOutsideAshiGarami.png'
+      },
+      {
+        content: 'Cabe destacar que la posición de la pierna del rival (straight o cross), dictará las potenciales sumisiones disponibles, en caso de la pierna cruzada puedo realizar un inside heelhook, y en caso de la pierna straight un Outside heelhook.'
+      },
+      {
+        content: 'Finalmente, existe una posición final que no obedece a los criterios antes mencionados, que es utilizada principalmente para realizar llaves de rodilla.'
+      },
+      {
+        content: '● Rear Ashi Garami: Nos referimos a rear ashi garami cuando nos encontramos en control de una pierna de nuestro oponente (entremedio de nuestras piernas), mientras nos encontramos dando la espalda al rival (paralelos y ambos mirando en la misma dirección).'
+      },
+      {
+        name: 'Fifty Fifty / Guardia 50-50',
+        content: 'Un guardia se clasifica como 50/50 una vez que dos atletas involucrados en un partido de agarre se bloquean, con las piernas entrelazadas (es decir, la pierna derecha del competidor A alrededor de la pierna derecha del competidor B), lo que proporciona el mismo conjunto de circunstancias para ambos luchadores.',
+        img: '/fiftyFifty.png'
+      },
+      {
         name: 'Inside Ashi Garami / Game Over',
         content: 'Reap. En este caso, realizamos un cierre con nuestras piernas (cruzar piernas o formar un triángulo) sobre la pierna de nuestro oponente, cerrando ambas piernas en una posición interna (entre las piernas de nuestro oponente). La pierna del oponente permanece recta.',
         img: '/gameOver.png'
-    },
-    {
-        name: 'Cross ashi garami',
-        content: '1.	Outside Ashi Garami: En este caso, realizamos un cierre con nuestras piernas (cruzar piernas o formar un triángulo) sobre la pierna de nuestro oponente, cerrando ambas piernas en una posición externa (a un lado del torso del oponente). La pierna del oponente permanece recta.',
-    },
-    {
-        content: '2.	Cross Outside Ashi Garami: Misma posición que la anterior (número 5), pero en este caso la pierna de nuestro oponente se encuentra en una posición cruzada. Esta posición es usualmente conocida como 50/50.',
-    },
-    {
-        content: 'Cabe destacar que la posición de la pierna del rival (straight o cross), dictará las potenciales sumisiones disponibles, en caso de la pierna cruzada puedo realizar un inside heelhook, y en caso de la pierna straight un Outside heelhook. Finalmente, existe una posición final que no obedece a los criterios antes mencionados, que es utilizada principalmente para realizar llaves de rodilla.',
-    },
-    {
-        name: 'Rear ashi garami',
-        content: 'Nos referimos a rear ashi garami cuando nos encontramos en control de una pierna de nuestro oponente (entremedio de nuestras piernas), mientras nos encontramos dando la espalda al rival (paralelos y ambos mirando en la misma dirección).',
-    },
-]
-},
-{
-title: 'DERRIBOS / TAKEDOWNS',
-subtitle: '¿QUÉ ES UN DERRIBO O TAKEDOWN?',
-content: 'Nos referimos por derribo cuando durante la lucha de pie, se usan técnicas para llevar al adversario hacia el suelo, manteniendo una posición favorable (quedar sobre el oponente).'
-},
-{
-subtitle: 'ESTRUCTURA DE UN DERRIBO'
-},
-{
-subtitle: 'KUMIKATA(GRIPS, TOMADA) —>KUZUCHI (DESEQUILIBRIO) —>TSUKURE (ACOMODARSE PARA EL DERRIBO, A TRAVÉS DE ALGÚN TAISABAKI) —>KAKE (ACCIÓN EN LA QUE EL UKE CAE)'
-},
-{
-subtitle: 'LISTA DE DERRIBOS O TAKEDOWNS'
-},
-{
-layout: [
-    {
-        name:'Anckle pick',
-        content:'Es un tipo de derribo de una sola pierna que funciona tirando del tobillo y la pierna de uke en una dirección mientras usa el otro brazo para empujar el torso y la parte superior del cuerpo de uke en la dirección opuesta.',
+      }
+    ]
+  },
+  {
+    title: 'DERRIBOS / TAKEDOWNS',
+    subtitle: '¿QUÉ ES UN DERRIBO O TAKEDOWN?',
+    content: 'Nos referimos por derribo cuando durante la lucha de pie, se usan técnicas para llevar al adversario hacia el suelo, manteniendo una posición favorable (quedar sobre el oponente).'
+  },
+  {
+    subtitle: 'ESTRUCTURA DE UN DERRIBO'
+  },
+  {
+    subtitle: 'KUMIKATA (GRIPS, TOMADA) —>KUZUCHI (DESEQUILIBRIO) —>TSUKURE (ACOMODARSE PARA EL DERRIBO, A TRAVÉS DE ALGÚN TAI SABAKI) —>KAKE (ACCIÓN EN LA QUE EL UKE CAE)'
+  },
+  {
+    subtitle: 'LISTA DE DERRIBOS O TAKEDOWNS'
+  },
+  {
+    layout: [
+      {
+        name: 'Anckle Pick',
+        content: 'Es un tipo de derribo de una sola pierna que funciona tirando del tobillo y la pierna de uke en una dirección mientras usa el otro brazo para empujar el torso y la parte superior del cuerpo de uke en la dirección opuesta.',
         img: '/anklePick.png'
-    },
-    {
-        name:'Double leg',
-        content:'Derribo realizado mediante una proyección frontal y posterior agarre de ambas piernas de uke para generar  desequilibrio y llevarlo al suelo. Usualmente se usa llevando una rodilla al suelo para aumentar la distancia de penetración.',
+      },
+      {
+        name: 'Double Leg',
+        content: 'Derribo realizado mediante una proyección frontal y posterior agarre de ambas piernas de uke para generar desequilibrio y llevarlo al suelo. Usualmente se usa llevando una rodilla al suelo para aumentar la distancia de penetración.',
         img: '/doubleLeg.png'
-    },
-    {
-        name:'High double leg',
-        content:'Variante de double leg donde tori no usa una rodilla al suelo, mientras que toma ambas fosas popliteas de uke y empuja el pecho con su cabeza para crear kuzushi y luego sigue empujando hacia atrás de uke para ejecutar el derribo.',
+      },
+      {
+        name: 'Harai Goshi',
+        content: 'Proyección desde pie donde tori, desde kumi kata, desbalancea a uke tirándole hacia sí para luego realizar una proyección pasando la pierna por la cadera lejana de uke. En español significa "derribo de cadera".',
+        img: '/haraiGoshi.png'
+      },
+      {
+        name: 'High Double Leg',
+        content: 'Variante de double leg donde tori no usa una rodilla al suelo, mientras que toma ambas fosas poplíteas de uke y empuja el pecho con su cabeza para crear kuzushi y luego sigue empujando hacia atrás de uke para ejecutar el derribo.',
         img: '/highDoubleLeg.png'
-    },
-    {
-        name:'Imanari roll',
-        content:'Rodamiento de pie (principalmente), en que se concluye en inside sankaku, que favorece la ejecución de llave de talón interior (Inside heel hook).',
+      },
+      {
+        name: 'Imanari Roll',
+        content: 'Rodamiento de pie (principalmente), en que se concluye en inside sankaku, que favorece la ejecución de llave de talón interior (Inside heel hook).',
         img: '/imanariRoll.jpg'
-    },
-    {
-        name:'Inside trip',
-        content:'También conocido como Ouchi gari (japones). Esta técnica se realiza desde un posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Acción donde tori pasa una de sus piernas entremedio de las piernas de uke y desbalancea hacia el lado ipsilateral de la pierna que pasa, luego realiza acccion de zancadilla para derribar a uke.',
+      },
+      {
+        name: 'Inside Trip',
+        content: 'También conocido como Ouchi gari (japones). Esta técnica se realiza desde una posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Acción donde tori pasa una de sus piernas entremedio de las piernas de uke y desbalancea hacia el lado ipsilateral de la pierna que pasa, luego realiza acccion de zancadilla para derribar a uke.',
         img: '/insideTrip.png'
-    },
-    {
-        name:'Kani basami / Flying Scissor',
-        content:'Es una técnica originaria del jiujitsu cuya ejecución contempla a tori usando las piernas a modo de tijeras para derribar a uke. Es considerada en judo una de las cuatro técnicas prohibidas o Kinshi-waza.',
+      },
+      {
+        name: 'Kani Basami / Flying Scissor',
+        content: 'Es una técnica originaria del jiujitsu cuya ejecución contempla a tori usando las piernas a modo de tijeras para derribar a uke. Es considerada en judo una de las cuatro técnicas prohibidas o Kinshi-waza.',
         img: '/kaniBasami.png'
-    },
-    {
-        name:'Kata guruma',
-        content:'Proyección del Bombero Kata guruma "rueda de brazo" o " técnica de torneado de brazo ") es la 24a técnica de judo de Gokyo. Este prefiere el uso de manos y brazos (Te-Waza).',
+      },
+      {
+        name: 'Kata Guruma',
+        content: 'Proyección del Bombero Kata guruma "rueda de brazo" o " técnica de torneado de brazo ". Es la 24a técnica de judo de Gokyo. Este prefiere el uso de manos y brazos (Te-Waza).',
         img: '/kataGuruma.png'
-    },
-    {
-        name:'Outside trip',
-        content:'También conocido como Osoto gari (japones). Esta técnica se realiza desde un posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Consiste en utilizar nuestra pierna para bloquear, desde el exterior, la pierna directamente opuesta del oponente, al mismo tiempo que se empuja, en la misma dirección de la pierna bloqueada, el cuerpo de este.',
+      },
+      {
+        name: 'Outside Trip',
+        content: 'Esta técnica se realiza desde una posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Consiste en utilizar las piernas desde una posición externa al cuerpo de nuestro uke, para conseguir desestabilizar su pierna cercana o lejana.',
         img: '/outsideTrip.png'
-    },
-    {
-        name:'O-goshi',
-        content:'Tori, situado frente a uke, lo atrae hacia sí tirando de sus brazos, girando levemente hacia un lado para presionar su cadera contra el abdomen del defensor y situando el brazo más cercano al defensor en la parte baja de su espalda y el más alejado apresando el brazo correspondiente. Desde esa posición, tori tira de uke hacia delante por la presa del brazo y hacia arriba por la de la espalda y gira sobre sí mismo usando la cadera como pivote, alzando en vilo a uke y haciéndole caer al piso.',
+      },
+      {
+        name: 'O-Goshi',
+        content: 'Tori, situado frente a uke, lo atrae hacia sí tirando de sus brazos, girando levemente hacia un lado para presionar su cadera contra el abdomen del defensor y situando el brazo más cercano al defensor en la parte baja de su espalda y el más alejado apresando el brazo correspondiente. Desde esa posición, tori tira de uke hacia delante por la presa del brazo y hacia arriba por la de la espalda y gira sobre sí mismo usando la cadera como pivote, alzando en vilo a uke y haciéndole caer al piso.',
         img: '/ogoshi.png'
-    },
-    {
-        name:'O-soto guruma',
-        content:'En este movimiento, tori se sitúa frente a uke y agarra su brazo con una mano y su solapa con la otra. Entonces, estirando una pierna y situándose detrás de las de uke, la retrae al tiempo que empuja la parte superior de su cuerpo y proyecta a su oponente sobre el piso. También puede ser utilizado en nogi cambiando el tipo de control (underhook, overhook, bodylock).',
+      },
+      {
+        name: 'O-Soto Guruma',
+        content: 'En este movimiento, tori se sitúa frente a uke y agarra su brazo con una mano y su solapa con la otra. Entonces, estirando una pierna y situándose detrás de las de uke, la retrae al tiempo que empuja la parte superior de su cuerpo y proyecta a su oponente sobre el piso. También puede ser utilizado en nogi cambiando el tipo de control (underhook, overhook, bodylock).',
         img: '/osotoGuruma.png'
-    },
-    {
-        name:'Seoi nage',
-        content:'Tori se sitúa frente a uke y apresa el cuello de su gi con la mano derecha y el brazo derecho de uke con la izquierda. Entonces, levantando el brazo derecho de uke y soltando la mano del cuello, el atacante pasa la mano derecha bajo el brazo levantado sin soltarlo con la izquierda, flexionando el codo bajo la axila de uke y su brazo sobre su hombro. Desde esa posición, tori hace retroceder su pie izquierdo y rota sobre el derecho para dar la espalda al rival sin soltar ambas manos de su brazo. Llegado a este punto, tori se inclina hacia delante hasta poner su pecho paralelo al suelo, cargando el defensor sobre sus espaldas, y tira del brazo apresado, haciendo que uke caiga lateralmente de su espalda al suelo por el lado derecho.',
+      },
+      {
+        name: 'Seoi nage',
+        content: 'Tori se sitúa frente a uke y apresa el cuello de su gi con la mano derecha y el brazo derecho de uke con la izquierda. Entonces, levantando el brazo derecho de uke y soltando la mano del cuello, el atacante pasa la mano derecha bajo el brazo levantado sin soltarlo con la izquierda, flexionando el codo bajo la axila de uke y su brazo sobre su hombro. Desde esa posición, tori hace retroceder su pie izquierdo y rota sobre el derecho para dar la espalda al rival sin soltar ambas manos de su brazo. Llegado a este punto, tori se inclina hacia delante hasta poner su pecho paralelo al suelo, cargando el defensor sobre sus espaldas, y tira del brazo apresado, haciendo que uke caiga lateralmente de su espalda al suelo por el lado derecho.',
         img: '/seoiNage.jpg'
-    },
-    {
-        name:'Single leg',
-        content:'Proyección frontal con agarre a una pierna y posterior desequilibrio de uke.',
+      },
+      {
+        name: 'Single leg',
+        content: 'Proyección frontal con agarre a una pierna y posterior desequilibrio de uke.',
         img: '/singleLeg.png'
-    },
-    {
-        name:'Sumi gaeshi',
-        content:'Se realiza agarrando a uke, más específicamente por debajo del cuello. Tori luego planta su pie o canilla en la parte superior del muslo ipsilateral pelvis de uke, teniendo cuidado de no golpear la ingle. Luego, tori rueda hacia atrás utilizando el impulso de uke para proyectarlo sobre sí mismo.',
+      },
+      {
+        name: 'Sumi gaeshi',
+        content: 'Se realiza agarrando a uke, más específicamente por debajo del cuello. Tori luego planta su pie o canilla en la parte superior del muslo ipsilateral pelvis de uke, teniendo cuidado de no golpear la ingle. Luego, tori rueda hacia atrás utilizando el impulso de uke para proyectarlo sobre sí mismo.',
         img: '/sumiGaeshi.png'
-    },
-    {
-        name:'Suplex',
-        content:'Proyección de gran amplitud de lucha libre y grecorromana, generalmente prohibida en grappling y BJJ donde Tori toma la espalda de Uke en posición de pie y lo lanza verticalmente arqueando su columna hacia atrás.',
+      },
+      {
+        name: 'Suplex',
+        content: 'Proyección de gran amplitud de lucha libre y grecorromana, generalmente prohibida en grappling y BJJ donde Tori toma la espalda de Uke en posición de pie y lo lanza verticalmente arqueando su columna hacia atrás.',
         img: '/suplex.png'
-    },
-    {
-        name:'Tai otoshi',
-        content:'Tori se sitúa frente al uke y apresa el cuello de su judogi con la mano derecha y el brazo derecho de uke con la izquierda. Entonces, gira sobre sí mismo para presentar su hombro derecho al rival, aún agarrando sus brazos, y se inclina en un ángulo ligeramente bajo para obligarle a inclinarse también. El defensor intentará instintivamente detener el movimiento con su pierna derecha, pero ya que su cuerpo está fuera de equilibrio al estar inclinado hacia delante, intentará hacer retroceder su pie derecho para intentar recuperar la verticalidad. En ese momento, el atacante extiende su pierna derecha ante el tobillo derecho del defensor y gira su cuerpo hacia la izquierda, mientras retrae la mano izquierda en un movimiento ascendente y empuja con la derecha. Con el defensor no pudiendo cambiar su peso al pie izquierdo, la pierna derecha del atacante obstruye el movimiento del defensor y le hace así perder el equilibrio, siendo el defensor volteado en un movimiento circular contra el piso.',
+      },
+      {
+        name: 'Tai otoshi',
+        content: 'Tori se sitúa frente al uke y apresa el cuello de su judogi con la mano derecha y el brazo derecho de uke con la izquierda. Entonces, gira sobre sí mismo para presentar su hombro derecho al rival, aún agarrando sus brazos, y se inclina en un ángulo ligeramente bajo para obligarle a inclinarse también. El defensor intentará instintivamente detener el movimiento con su pierna derecha, pero ya que su cuerpo está fuera de equilibrio al estar inclinado hacia delante, intentará hacer retroceder su pie derecho para intentar recuperar la verticalidad. En ese momento, el atacante extiende su pierna derecha ante el tobillo derecho del defensor y gira su cuerpo hacia la izquierda, mientras retrae la mano izquierda en un movimiento ascendente y empuja con la derecha. Con el defensor no pudiendo cambiar su peso al pie izquierdo, la pierna derecha del atacante obstruye el movimiento del defensor y le hace así perder el equilibrio, siendo el defensor volteado en un movimiento circular contra el piso.',
         img: '/taiOtoshi.png'
-    },
-    {
-        name:'Tani otoshi',
-        content:'También conocido como Valley Drop (inglés). Tori se sitúa frente a Uke, controlando un brazo con una mano y su solapa con otra. Entonces, tirando del oponente hacia abajo, tori sitúa una pierna detrás de las suyas y se deja caer para arrastrarlo al piso, con uke cayendo de espaldas y tori de lado. También puede ser utilizado en nogi cambiando el tipo de control (underhook, single leg, bodylock).',
+      },
+      {
+        name: 'Tani otoshi',
+        content: 'También conocido como Valley Drop (inglés). Tori se sitúa frente a Uke, controlando un brazo con una mano y su solapa con otra. Entonces, tirando del oponente hacia abajo, tori sitúa una pierna detrás de las suyas y se deja caer para arrastrarlo al piso, con uke cayendo de espaldas y tori de lado. También puede ser utilizado en nogi cambiando el tipo de control (underhook, single leg, bodylock).',
         img: '/taniOtoshi.png'
-    },
-    {
-        name:'Uchi mata',
-        content:'En este movimiento, tori se sitúa frente al oponente y agarra su brazo con una mano y su solapa con la otra. Entonces, girando el cuerpo para tirar de uke hacia sí y presentarle la cadera, tori usa uno de sus pies para empujar la pierna de uke y se agacha para proyectarle contra el suelo.',
+      },
+      {
+        name: 'Uchi mata',
+        content: 'En este movimiento, tori se sitúa frente al oponente y agarra su brazo con una mano y su solapa con la otra. Entonces, girando el cuerpo para tirar de uke hacia sí y presentarle la cadera, tori usa uno de sus pies para empujar la pierna de uke y se agacha para proyectarle contra el suelo.',
         img: '/uchiMata.png'
-    },
-],
-},
-{
-title: 'ESTRANGULACIONES / STRANGLES',
-subtitle: '¿QUE ES UNA ESTRANGULACIÓN O STRANGLE?',
-content: 'Nos referimos por estrangulación a las técnicas que nos permitan impedir el correcto flujo sanguíneo hacia el cerebro de nuestro oponente. Esto se logra mediante técnicas que apliquen presión a las arterias del cuello.'
-},
-{
-subtitle: 'LISTA DE ESTRANGULACIONES O STRANGLES'
-},
-{
-layout: [
-    {
+      }
+    ]
+  },
+  {
+    title: 'ESTRANGULACIONES / STRANGLES',
+    subtitle: '¿QUE ES UNA ESTRANGULACIÓN O STRANGLE?',
+    content: 'Nos referimos por estrangulación a las técnicas que nos permitan impedir el correcto flujo sanguíneo hacia el cerebro de nuestro oponente. Esto se logra mediante técnicas que apliquen presión a las arterias del cuello.'
+  },
+  {
+    subtitle: 'LISTA DE ESTRANGULACIONES O STRANGLES'
+  },
+  {
+    layout: [
+      {
         name: 'Anaconda choke',
         content: 'Tipo de estrangulación que se inicia a partir del control frontal de la cabeza del rival dado en la lucha. También conocida como Front headlock. De este modo, uno de los brazos del ejecutante (tori véase) pasará diagonalmente desde el hombro hasta la axila opuesta del contrincante. Donde buscará cerrar la estrangulación llevando la palma del brazo diagonal al bíceps de su brazo asistente. Así, el brazo colaborador puede cerrar la estrangulación sobre la espalda o la nuca del adversario (uke véase). Estrangulación en que Tori entra con un brazo por el costado de la cabeza desde el hombro hasta la axila opuesta de Uke, con Uke en posición de cuatro apoyos. En la axila se produce un cierre de la mano atacante sobre el bíceps del brazo asistente, manteniendo el brazo de Uke por debajo del bíceps de Tori. La mano del brazo asistente de Tori puede cerrar la estrangulación sobre la nuca o sobre la espalda de Uke.',
         img: '/anacondaChoke.png'
