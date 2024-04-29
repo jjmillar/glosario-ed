@@ -784,555 +784,682 @@ export const info = [
   {
     layout: [
       {
-        name: 'Anaconda choke',
+        name: 'Anaconda Choke',
         content: 'Tipo de estrangulación que se inicia a partir del control frontal de la cabeza del rival dado en la lucha. También conocida como Front headlock. De este modo, uno de los brazos del ejecutante (tori véase) pasará diagonalmente desde el hombro hasta la axila opuesta del contrincante. Donde buscará cerrar la estrangulación llevando la palma del brazo diagonal al bíceps de su brazo asistente. Así, el brazo colaborador puede cerrar la estrangulación sobre la espalda o la nuca del adversario (uke véase). Estrangulación en que Tori entra con un brazo por el costado de la cabeza desde el hombro hasta la axila opuesta de Uke, con Uke en posición de cuatro apoyos. En la axila se produce un cierre de la mano atacante sobre el bíceps del brazo asistente, manteniendo el brazo de Uke por debajo del bíceps de Tori. La mano del brazo asistente de Tori puede cerrar la estrangulación sobre la nuca o sobre la espalda de Uke.',
         img: '/anacondaChoke.png'
-    },
-    {
-        name: 'Brabo choke',
-        content: 'Estrangulación hecha comúnmente con uno de los extremos inferiores de la chaqueta del Gi llamado lapel. Así, desde posiciones como el Side Control o Knee on Belly, tori buscará abrir parte superior del Gi y tomar la lapel para luego  cruzarla tras la nuca de uke y tomar ese extremo con la mano inversa de la posición. Más la otra tomada o Grip cruzando el cuello con el antebrazo desde el excedente de la tela creada por la misma tomada; generando una especie de x con ambos antebrazos sobre el cuello para asfixiar al uke.',
-        img: '/braboChoke.png'
-    },
-    {
-        name: 'Buggy choke',
-        content: 'Estrangulación realizada estando bajo  el Side Control del rival. De esta manera, estando en situación de desventaja, tori busca extender el brazo más cercano a la cabeza del oponente y lo pasará completamente tras el cuello y nuca del adversario,  para tomar nuestra pierna más cercana, atravesandola bajo la corva y cerrando la tomada palma con palma, formando una figura similar a la llamada Rubber Guard, pero desde el inconveniente señalado más arriba. Combinadamente el cierre de la llave será con el gancho (Hook Véase) del pie a nuestra pierna libre. Además de la tomada de las manos, el objetivo será ocasionar constricción y disminución del movimiento del rival hasta la asfixia. También, la técnica es conocida popularmente como pretzel. Existe además una variante donde tori puede ejecutar un buggy choke solo con la tomada de un brazo con el borde interno de su pie ipsilateral. La constricción del choke se realiza finalmente con el musculo dorsal ancho.',
-        img: '/buggyChoke.png'
-    },
-    {
-        name: 'Bulldog choke',
-        content: 'Clásica estrangulación efectuada en diversos tipos de lucha. Así, situado lateralmente junto a la postura cuadrúpedo defensivo de uke,con un pie semi-extendido en la superficie y su rodilla y pie como bases,  más la cadera y pecho pegados a este , distribuyendo gran parte de nuestro peso sobre la posición descrita; uke utilizará de modo similar a una tomada Seat Belt par luego buscar dominar el cuello del adversario y aislar la cabeza, quedando esta bajo su axila, en una especie de Guillotina invertida, posicionándose a un costado y en la misma dirección del contrincante. Finalmente, uke dará un extenso paso hacia adelante con el pie trasero, llevando su pierna por delante de la forma descrita para bloquear el hombro de uke con su cadera, inclinado hacia atrás la forma para generar la fuerza y torsión necesarios para la ejecución de la técnica.',
-        img: '/bulldogChoke.png'
-    },
-    {
-        name: 'Bow and Arrow / Arco y Flecha',
-        content: 'Estrangulación con el collar (cuello) de la chaqueta del gi de uke pasando el brazo por debajo de la nuca y a su vez el ejecutante desde un costado asegura la pierna para limitar el movimiento y finalizar el ataque.',
-        img: '/bowAndArrow.png'
-    },
-    {
+      },
+      {
         name: 'Canto Choke',
         content: 'El estrangulamiento de Canto es un movimiento Gi, ya que requiere un collar para cortar el suministro de sangre de uke. Tori se sitúa en posición side control sobre uke, toma la solapa cercana con el brazo mas cercano a la cabeza de uke y con la palma hacia abajo y la solapa lejana con el brazo lejano a la cabeza de uke y la palma hacia arriba. Luego la constricción la realizará con el antebrazo.',
         img: '/cantoChoke.png'
-    },
-    {
-        name: 'Collar Choke',
-        content: 'Estrangulación utilizando el cuello del gi (collar) de uke.',
-    },
-    {
+      },
+      {
         name: 'Cross Collar Choke',
-        content: 'Estrangulación utilizando ambas manos, cada una tomando una solapa del gi (collar) de uke. Luego se ejerce una fuerza opuesta para finalizar la estrangulación. Usualmente realizado desde la montada o control de espalda.',
+        content: 'Estrangulación utilizando ambas manos, cada una tomando una solapa del gi (collar) de uke. Luego se ejerce una fuerza opuesta para finalizar la estrangulación. Usualmente realizado desde la montada o control de espalda. ',
         img: '/crossCollarChoke.png'
-    },
-    {
+      },
+      {
+        name: 'Bow and Arrow / Arco y Flecha',
+        content: 'Estrangulación con el collar (cuello) de la chaqueta del gi de uke pasando el brazo por debajo de la nuca y a su vez el ejecutante desde un costado asegura la pierna para limitar el movimiento y finalizar el ataque.',
+        img: '/bowAndArrow.png'
+      },
+      {
+        name: 'Brabo Choke',
+        content: 'Estrangulación hecha comúnmente con uno de los extremos inferiores de la chaqueta del Gi llamado lapel. Así, desde posiciones como el Side Control o Knee on Belly, tori buscará abrir parte superior del Gi y tomar la lapel para luego cruzarla tras la nuca de uke y tomar ese extremo con la mano inversa de la posición. Más la otra tomada o Grip cruzando el cuello con el antebrazo desde el excedente de la tela creada por la misma tomada; generando una especie de x con ambos antebrazos sobre el cuello para asfixiar al uke.',
+        img: '/braboChoke.png'
+      },
+      {
+        name: 'Buggy Choke',
+        content: 'Estrangulación realizada estando bajo el Side Control del rival. De esta manera, estando en situación de desventaja, tori busca extender el brazo más cercano a la cabeza del oponente y lo pasará completamente tras el cuello y nuca del adversario, para tomar nuestra pierna más cercana, atravesandola bajo la corva y cerrando la tomada palma con palma, formando una figura similar a la llamada Rubber Guard, pero desde el inconveniente señalado más arriba. Combinadamente el cierre de la llave será con el gancho (Hook Véase) del pie a nuestra pierna libre. Además de la tomada de las manos, el objetivo será ocasionar constricción y disminución del movimiento del rival hasta la asfixia. También, la técnica es conocida popularmente como pretzel. Existe además una variante donde tori puede ejecutar un buggy choke solo con la tomada de un brazo con el borde interno de su pie ipsilateral. La constricción del choke se realiza finalmente con el musculo dorsal ancho.',
+        img: '/buggyChoke.png'
+      },
+      {
+        name: 'Bulldog Choke',
+        content: 'Clásica estrangulación efectuada en diversos tipos de lucha. Así, situado lateralmente junto a la postura cuadrúpedo defensivo de uke,con un pie semi-extendido en la superficie y su rodilla y pie como bases,  más la cadera y pecho pegados a este , distribuyendo gran parte de nuestro peso sobre la posición descrita; uke utilizará de modo similar a una tomada Seat Belt par luego buscar dominar el cuello del adversario y aislar la cabeza, quedando esta bajo su axila, en una especie de Guillotina invertida, posicionándose a un costado y en la misma dirección del contrincante. Finalmente, uke dará un extenso paso hacia adelante con el pie trasero, llevando su pierna por delante de la forma descrita para bloquear el hombro de uke con su cadera, inclinado hacia atrás la forma para generar la fuerza y torsión necesarios para la ejecución de la técnica.',
+        img: '/bulldogChoke.png'
+      },
+      {
         name: 'Ezequiel Choke',
         content: 'Estrangulación realizada mediante el agarre de las mangas del Gi alrededor del cuello permitiendo generar presión con el canto del antebrazo, mano abierta o puño. También es posible realizarlo utilizando solo los antebrazos (nogi).',
         img: '/ezequielChoke.png'
-    },
-    {
+      },
+      {
         name: 'Gogoplata',
         content: 'Se debe utilizar la tibia para presionar el cuello de uke, ejerciendo fuerza opuesta con las manos sobre la cabeza.',
         img: '/gogoplata.png'
-    },
-    {
+      },
+      {
         name: 'Guillotina',
-        content: 'Contempla usar el brazo para rodear el cuello de uke desde una posición frontal en una forma similar a una guillotina. Esta estrangulación puede ser tanto sanguínea como aérea, o incluso ambas, dependiendo de la posición del brazo y la zona del cuello oprimida.Existe tambien la distinción de guillotina alta y guillotina baja. Nos referimos a guillotine alta cada vez que la mano de tori pase sobre la linea del hombro de uke, aqui incluimos variantes como "high elbow guillotine" popularizada por John Danaher o la "Marcelotina" popularizada por Marcelo Garcia que se caracterizan realizar el agarre solo en la cabeza de uke. Con guillotina baja nos referimos a una gillotina donde se incluye un brazo de uke, como la "Hingertine".',
+        content: 'Contempla usar el brazo para rodear el cuello de uke desde una posición frontal en una forma similar a una guillotina. Esta estrangulación puede ser tanto sanguínea como aérea, o incluso ambas, dependiendo de la posición del brazo y la zona del cuello oprimida. Existe tambien la distinción de guillotina alta y guillotina baja. Nos referimos a guillotine alta cada vez que la mano de tori pase sobre la linea del hombro de uke, aqui incluimos variantes como "high elbow guillotine" popularizada por John Danaher o la "Marcelotina" popularizada por Marcelo Garcia que se caracterizan realizar el agarre solo en la cabeza de uke. Con guillotina baja nos referimos a una gillotina donde se incluye un brazo de uke, como la "Hingertine".',
         img: '/guillotina.png'
-    },
-    {
-        name: 'Rear naked choke / Hadaka jime / Mataleon',
-        content: 'Estrangulación palma con palma desde la espalda.',
-        img: '/mataleon.png'
-    },
-    {
+      },
+      {
         name: 'Hindullotina',
         content: 'Guillotina desde rubber guard.',
         img: '/hindullotina.png'
-    },
-    {
-        name: 'Japanese necktie',
-        content: 'Corbata japonesa. Estrangulación realizada mediante la utilización de un Gable grip alrededor del brazo y cuello del rival, el ejecutante generalmente se encuentra desde posición de pasador y genera la presión al cuello lanzándose sobre su hombro por encima de la cabeza del rival.',
+      },
+      {
+        name: 'Japanese Necktie / Corbata Japonesa',
+        content: 'Estrangulación realizada mediante la utilización de un Gable grip alrededor del brazo y cuello del rival, el ejecutante generalmente se encuentra desde posición de pasador y genera la presión al cuello lanzándose sobre su hombro por encima de la cabeza del rival.',
         img: '/japaneseNecktie.png'
-    },
-    {
-        name: 'Jigoku jime',
-        content: 'Estrangulación donde tori en posición desde tomada de espalda o crucifijo estrangula tomando gola contralateral con una mano y pasando el otro brazo como half nelson para ejercer mas presión.',
+      },
+      {
+        name: 'Jigoku Jime',
+        content: 'Estrangulación donde tori en posición desde tomada de espalda o crucifijo estrangula tomando gola contralateral con una mano y pasando el otro brazo como half nelson para ejercer mayor presión.',
         img: '/jigokuJime.png'
-    },
-    {
+      },
+      {
         name: 'Kata Gatame / Arm Triangle / Triángulo de brazo',
         content: 'Kata Gatame es una técnica de estrangulación sanguínea usada en la que uke es apresado con un grip palma con palma (comúnmente) desde la montada, media guardia o kesa gatame alrededor del cuello y un brazo.',
         img: '/kataGatame.png'
-    },
-    {
-        name: 'Koshi jime',
+      },
+      {
+        name: 'Koshi Jime',
         content: 'Tambien llamada "clock choke" Técnica de estrangulación de Judo aplicando presión desde la cadera.',
         img: '/koshiJime.png'
-    },
-    {
-        name: 'Loop choke',
-        content: 'Loop choke como con cualquier estrangulamiento de solapa, es usar el propio Gi de uke contra ellos. Para que eso funcione, la solapa debe colocarse de manera adecuada y ajustada alrededor de su cuello.',
+      },
+      {
+        name: 'Loop Choke',
+        content: 'Como con cualquier estrangulamiento de solapa, es usar el propio Gi de uke contra ellos. Para que eso funcione, la solapa debe colocarse de manera adecuada y ajustada alrededor de su cuello.',
         img: '/loopChoke.png'
-    },
-    {
-        name: 'Peruvian necktie',
-        content: 'Corbata peruana. Estrangulación donde el ejecutante utiliza un Gable grip alrededor del cuello y un hombro de uke, cerrando la posición con una pierna por encima de la espalda y la otra en la nuca, generalmente el oponente se encuentra en posición turtle o all fours.',
+      },
+      {
+        name: 'Peruvian Necktie / Corbata Peruana',
+        content: 'Estrangulación donde el ejecutante utiliza un Gable grip alrededor del cuello y un hombro de uke, cerrando la posición con una pierna por encima de la espalda y la otra en la nuca, generalmente el oponente se encuentra en posición turtle o all fours.',
         img: '/peruvianNecktie.png'
-    },
-    {
-        name: 'Sankaku jime',
-        content: 'Triángulo, triangle choke. Es una técnica de estrangulación sanguínea usada en varios tipos de artes marciales, en la que se emplean las piernas para rodear la cabeza y un brazo del uke en la forma de un triángulo.',
+      },
+      {
+        name: 'Rear Naked Choke / Hadaka Jime / Mataleon',
+        content: 'Estrangulación palma con palma desde la espalda.',
+        img: '/mataleon.png'
+      },
+      {
+        name: 'Sankaku Jime / Triangle Choke / Triángulo',
+        content: 'Es una técnica de estrangulación sanguínea usada en varios tipos de artes marciales, en la que se emplean las piernas para rodear la cabeza y un brazo del uke en la forma de un triángulo.',
         img: '/sankakuJime.png'
-    },
-    {
+      },
+      {
         name: 'Von flue choke',
         content: 'Es una estrangulación desde Side control, usualmente utilizado para defender la guillotina. La mecánica de finalización es similar a la de kata gatame o arm triangle.',
         img: '/vonFlueChoke.png'
-    },
-    ],
-},
-{
+      }
+    ]
+  },
+  {
     title: 'GUARDIA / GUARD',
     subtitle: '¿QUÉ ES UNA GUARDIA O GUARD?',
     content: 'Nos referimos por guardia a una estructura, construida con nuestras propias extremidades, la que nos permite controlar los movimientos de nuestro oponente en el suelo, desde una posición inferior (cuando nuestro oponente se encuentra sobre nosotros).'
-},
-{
+  },
+  {
     subtitle: 'LISTA DE GUARDIAS'
-},
-{
+  },
+  {
     layout: [
-        {
-            name:'Ashi Garami',
-            content: 'Del Japonés Ashi: Pie, pierna. Garami: Luxación, torsión. Técnica realizada con ambas piernas donde se busca aislar una de las extremidades inferiores del rival. Así, desde el suelo, y cruzando una de las piernas exteriormente sobre la rodilla hasta la cadera y la otra bajo la pierna del adversario cerca de la ingle, presionando conjuntamente entre la acción de la rodilla y el pie. Se genera una torsión para controlar la sección mencionada y encadenar diversos ataques y defensas. El término también es conocido como Single x o Single x guard en inglés. Concepto japonés acuñado a la posición en que Tori, encontrándose de espalda al suelo, cruza una de sus piernas desde afuera y hacia adentro, en la porción superior y por sobre la línea de la rodilla de la pierna del mismo lado de Uke, quien podría encontrarse en pie, o de espalda al suelo. En jiu jitsu, nos referiremos a este concepto como cualquier posición que permita el control de las piernas del oponente y que involucra un grado de torsión de la articulación de la rodilla de la forma anteriormente descrita, o las que se derivan desde la misma: Straight Ashi garami, Reverse Ashi garami, Cross Ashi garami, entre otras.',
-            img: '/ashiGarami.png'
-        },
-        {
-            name:'Backside 50/50',
-            content: 'Guardia 50/50 desde la espalda del oponente. Usualmente utilizada para ejecutar leglocks. Corresponde a una posición más efectiva que su contraparte 50/50, de una jerarquía similar a un inside sunkaku.',
-            img: '/backside5050.png'
-        },
-        {
-            name:'Butterfly Guard',
-            content: 'Guardia Mariposa, inglés. Modo de guardia que responde al Inside Leg Position. Estas son posiciones que responden, primero defensivamente, desde el tren inferior interior del rival. Que en este caso, responden al uso de dos Hooks (véase) o ganchos ejecutados por la dorsiflexión de los pies del defensor. Para finalmente generar otras alternativas de Raspajes o diversas entradas de ataques a las piernas y pies del adversario.',
-            img: '/butterflyGuard.png'
-        },
-        {
-            name:'Butterfly Half Guard',
-            content: 'Similar a half guard o media guardia, en donde la pierna superior realiza un butterfly hook.',
-            img: '/butterflyHalfGuard.png'
-        },
-        {
-            name:'Closed guard',
-            content: 'Guardia Cerrada. Ambas piernas rodean al rival por sobre la cadera.',
-            img: '/closedGuard.png'
-        },
-        {
-            name:'Coyote guard',
-            content: 'Variante de media guardia donde el practicante usa un "Kosoto hook" teniendo una esgrimada y un scoop a la pierna contraria del rival. Luego de ésto el kosoto hook se usa para llevar el pie del rival al glúteo del practicante para que la rodilla del rival y por tanto su cadera se giren hacia adentro.',
-            img: '/coyoteGuard.png'
-        },
-        {
-            name:'Deep half',
-            content: 'Media guardia profunda: Variante de Half Guard/Media guardia, en la que el luchador que realiza esta guardia se sitúa por debajo del centro de la cadera del rival.',
-            img: '/deepHalf.png'
-        },
-        {
-            name:'De La Riva (DLR)',
-            content: 'Guardia De La Riva. Guardia realizada mediante la utilización de un gancho lateral externo ubicado en la parte trasera del muslo del rival.',
-            img: '/deLaRiva.png'
-        },
-        {
-            name:'Fifty Fifty / Guardia 50-50',
-            content: 'Un guardia se clasifica como 50/50 una vez que dos atletas involucrados en un partido de agarre se bloquean, con las piernas entrelazadas (es decir, la pierna derecha del competidor A alrededor de la pierna derecha del competidor B), lo que proporciona el mismo conjunto de circunstancias para ambos luchadores.',
-            img: '/fiftyFifty.png'
-        },
-        {
-            name:'Half guard',
-            content: 'Media guardia. Se habla de media guardia cuando las piernas están cerradas sobre una de las piernas del rival. Esta posición otorga al rival half mount o media montada.',
-            img: '/halfGuard.png'
-        },
-        {
-            name:'High guard / Guardia Alta',
-            content: 'Posición intermedia que habitualmente es realizada en la acción de ataque desde la guardia cerrada, implicando el control de unos de los hombros del rival por el interior del candado de piernas.',
-            img: '/highGuard.png'
-        },
-        {
-            name:'Inverted guard',
-            content: 'Guardia Invertida (pies sobre cabeza, soportado por el trapecio). Usualmente utilizada como método de recuperación de guardia.',
-            img: '/invertedGuard.png'
-        },
-        {
-            name:'Grasshopper guard',
-            content: 'Guardia saltamontes. Se debe tener control de ambas mangas del oponente, luego se deben ubicar ambos pies en la cadera del oponente y ejercer presión en los brazos con las respectivas tibias.',
-            img: '/grasshopperGuard.png'
-        },
-        {
-            name:'K guard',
-            content: 'Guardia K. En esta guardia se toma control de una de las piernas del oponente, al mismo tiempo que se utiliza la pierna directamente opuesta para presionar la cadera del rival y así mantener la distancia. Usualmente utilizada para entradas a llaves de pies o leg locks.',
-            img: '/kGuard.jpg'
-        },
-        {
-            name:'Lasso guard / Guardia lazo',
-            content: 'Se refiere al control de la manga del oponente, donde adicionalmente se ubica la pierna por dentro de la axila, simulando un underhook.',
-            img: '/lassoGuard.jpg'
-        },
-        {
-            name:'Octopus guard',
-            content: 'Guardia que puede nacer desde media guardia, guardia cerrada o incluso mariposa. Se le denomina a la guardia consecuencia de la acción de pasar un brazo por el lado contralateral de uke a lo largo de su espalda donde uke y tori estén de frente.',
-            img: '/octopusGuard.jpg'
-        },
-        {
-            name:'Open guard / Guardia Abierta',
-            content: 'Posición defensiva que prescinde de agarres sobre el rival permitiendo mayor movilidad dentro de la acción de una lucha.',
-            img: '/openGuard.jpg'
-        },
-        {
-            name:'Reverse de la riva (RDLR)',
-            content: 'Guardia De La Riva Invertida. Se debe posicionar un gancho DLR, pero en este caso desde la posición interna del rival. Similar a una half guard o media guardia con el rival de pie.',
-            img: '/rdlr.jpg'
-        },
-        {
-            name:'Rubber Guard',
-            content: 'Guardia de Goma. Guardia utilizada en el sistema de 10th planet. Consta de, comenzando desde una guardia convencional, utilizar la flexibilidad de una pierna para situar sobre la nuca del rival, luego se utiliza un brazo para asegurar la pierna, efectivamente bloqueando un hombro y la cabeza del rival.',
-            img: '/rubberGuard.jpg'
-        },
-        {
-            name:'Seated Guard',
-            content: 'El practicante de la guardia se encuentra sentado, usualmente buscando agarres para transicionar a un derribo u otra guardia.',
-            img: '/seatedGuard.jpg'
-        },
-        {
-            name:'Shin to Shin',
-            content: 'Canilla con canilla. En la posición de seated guard, se debe bloquear la tibia del rival utilizando la propia. Usualmente se bloquea utilizando la pierna directamente opuesta.',
-            img: '/shinToShin.jpg'
-        },
-        {
-            name:'Spider guard / Guardia araña',
-            content: 'Posición en la que el luchador agarra con ambas manos las mangas del GI del rival jalando el brazo del oponente hacia él, y ubicando los pies en el bicep del rival para generar fuerzas contrarias permitiendo que la cadera del luchador pueda desplazarse libremente para atacar o defender.',
-            img: '/spiderGuard.jpg'
-        },
-        {
-            name:'Waiter guard',
-            content: 'Posición en que tori obtiene un scoop grip al muslo  desde media guardia y eleva a uke para obtener un scoop grip con la mano lejana a uke a la canilla de éste.',
-            img: '/waiterGuard.jpg'
-        },
-        {
-            name:'Williams guard',
-            content: 'Desde la guardia cerrada, se inmoviliza un hombro del rival, utilizando la rodilla y los brazos.',
-            img: '/williamsGuard.jpg'
-        },
-        {
-            name:'Worm guard',
-            content: 'Guardia Gusano. Similar a Lasso guard, pero en este caso en vez de la manga del rival se utiliza un lapel.',
-            img: '/wormGuard.jpg'
-        },
-        {
-            name:'X guard',
-            content: 'Guardia X. El practicante debe ubicarse directamente debajo de las piernas del rival, controlando una de ellas mediante los brazos. El control de la otra pierna se realiza mediante las piernas, ubicando un gancho cercano a la ingle y otro detrás de la rodilla.',
-            img: '/xGuard.jpg'
-        },
-        {
-            name:'Z guard',
-            content: 'También conocida como knee shield. Es una variante de la Half guard o media guardia, en donde se ubica la rodilla en forma de frame o escudo.',
-            img: '/zGuard.jpg'
-        },
-    ],
-},
-{
+      {
+        name: 'Ashi Garami',
+        content: 'Del Japonés Ashi/Pie, pierna. Garami: Luxación, torsión. Técnica realizada con ambas piernas donde se busca aislar una de las extremidades inferiores del rival. Así, desde el suelo, y cruzando una de las piernas exteriormente sobre la rodilla hasta la cadera y la otra bajo la pierna del adversario cerca de la ingle, presionando conjuntamente entre la acción de la rodilla y el pie. Se genera una torsión para controlar la sección mencionada y encadenar diversos ataques y defensas. El término también es conocido como Single x o Single x guard en inglés. Concepto japonés acuñado a la posición en que Tori, encontrándose de espalda al suelo, cruza una de sus piernas desde afuera y hacia adentro, en la porción superior y por sobre la línea de la rodilla de la pierna del mismo lado de Uke, quien podría encontrarse en pie, o de espalda al suelo. En jiu jitsu, nos referiremos a este concepto como cualquier posición que permita el control de las piernas del oponente y que involucra un grado de torsión de la articulación de la rodilla de la forma anteriormente descrita, o las que se derivan desde la misma: Straight Ashi garami, Reverse Ashi garami, Cross Ashi garami, entre otras.',
+        img: '/ashiGarami.png'
+      },
+      {
+        name: 'Backside 50/50',
+        content: 'Guardia 50/50 desde la espalda del oponente. Usualmente utilizada para ejecutar leglocks. Corresponde a una posición más efectiva que su contraparte 50/50, de una jerarquía similar a un inside sunkaku.',
+        img: '/backside5050.png'
+      },
+      {
+        name: 'Butterfly Guard / Guardia Mariposa',
+        content: 'Modo de guardia que responde al Inside Leg Position. Estas son posiciones que responden, primero defensivamente, desde el tren inferior interior del rival, que, en este caso, responden al uso de dos Hooks (véase) o ganchos ejecutados por la dorsiflexión de los pies del defensor. Para finalmente generar otras alternativas de Raspajes o diversas entradas de ataques a las piernas y pies del adversario.',
+        img: '/butterflyGuard.png'
+      },
+      {
+        name: 'Butterfly Half Guard',
+        content: 'Similar a half guard o media guardia, en donde la pierna superior realiza un butterfly hook.',
+        img: '/butterflyHalfGuard.png'
+      },
+      {
+        name: 'Closed guard',
+        content: 'Guardia Cerrada. Ambas piernas rodean al rival por sobre la cadera.',
+        img: '/closedGuard.png'
+      },
+      {
+        name: 'Coyote guard',
+        content: 'Variante de media guardia donde el practicante usa un "Kosoto hook" teniendo una esgrimada y un scoop a la pierna contraria del rival. Luego de ésto el kosoto hook se usa para llevar el pie del rival al glúteo del practicante para que la rodilla del rival y por tanto su cadera se giren hacia adentro.',
+        img: '/coyoteGuard.png'
+      },
+      {
+        name: 'De La Riva (DLR)',
+        content: 'Guardia De La Riva. Guardia realizada mediante la utilización de un gancho lateral externo ubicado en la parte trasera del muslo del rival.',
+        img: '/deLaRiva.png'
+      },
+      {
+        name: 'Deep half',
+        content: 'Media guardia profunda: Variante de Half Guard/Media guardia, en la que el luchador que realiza esta guardia se sitúa por debajo del centro de la cadera del rival.',
+        img: '/deepHalf.png'
+      },
+      {
+        name: 'Fifty Fifty / Guardia 50-50',
+        content: 'Una que guardia se clasifica como 50/50 una vez que dos atletas involucrados en un partido de agarre se bloquean, con las piernas entrelazadas (es decir, la pierna derecha del competidor A alrededor de la pierna derecha del competidor B), lo que proporciona el mismo conjunto de circunstancias para ambos luchadores.',
+        img: '/fiftyFifty.png'
+      },
+      {
+        name: 'Half guard',
+        content: 'Media guardia. Se habla de media guardia cuando las piernas están cerradas sobre una de las piernas del rival. Esta posición otorga al rival half mount o media montada.',
+        img: '/halfGuard.png'
+      },
+      {
+        name: 'High guard / Guardia Alta',
+        content: 'Posición intermedia que habitualmente es realizada en la acción de ataque desde la guardia cerrada, implicando el control de unos de los hombros del rival por el interior del candado de piernas.',
+        img: '/highGuard.png'
+      },
+      {
+        name: 'Inverted Guard',
+        content: 'Guardia Invertida (pies sobre cabeza, soportado por el trapecio). Usualmente utilizada como método de recuperación de guardia.',
+        img: '/invertedGuard.png'
+      },
+      {
+        name: 'Grasshopper Guard / Guardia Saltamontes',
+        content: 'Se debe tener control de ambas mangas del oponente, luego se deben ubicar ambos pies en la cadera del oponente y ejercer presión en los brazos con las respectivas tibias.',
+        img: '/grasshopperGuard.png'
+      },
+      {
+        name: 'K guard',
+        content: 'Guardia K. En esta guardia se toma control de una de las piernas del oponente, al mismo tiempo que se utiliza la pierna directamente opuesta para presionar la cadera del rival y así mantener la distancia. Usualmente utilizada para entradas a llaves de pies o leg locks.',
+        img: '/kGuard.jpg'
+      },
+      {
+        name: 'Lasso Guard / Guardia Lazo',
+        content: 'Se refiere al control de la manga del oponente, donde adicionalmente se ubica la pierna por dentro de la axila, simulando un underhook.',
+        img: '/lassoGuard.jpg'
+      },
+      {
+        name: 'Octopus guard',
+        content: 'Guardia que puede nacer desde media guardia, guardia cerrada o incluso mariposa. Se le denomina a la guardia consecuencia de la acción de pasar un brazo por el lado contralateral de uke a lo largo de su espalda donde uke y tori estén de frente.',
+        img: '/octopusGuard.jpg'
+      },
+      {
+        name: 'Open guard / Guardia Abierta',
+        content: 'Posición defensiva que prescinde de agarres sobre el rival permitiendo mayor movilidad dentro de la acción de una lucha.',
+        img: '/openGuard.jpg'
+      },
+      {
+        name: 'Reverse de la Riva (RDLR)',
+        content: 'Guardia De La Riva Invertida. Se debe posicionar un gancho DLR, pero en este caso desde la posición interna del rival. Similar a una half guard o media guardia con el rival de pie.',
+        img: '/rdlr.jpg'
+      },
+      {
+        name: 'Rubber Guard / Guardia de Goma',
+        content: 'Guardia utilizada en el sistema de 10th planet. Consta de, comenzando desde una guardia convencional, utilizar la flexibilidad de una pierna para situar sobre la nuca del rival, luego se utiliza un brazo para asegurar la pierna, efectivamente bloqueando un hombro y la cabeza del rival.',
+        img: '/rubberGuard.jpg'
+      },
+      {
+        name: 'Seated Guard',
+        content: 'El practicante de la guardia se encuentra sentado, usualmente buscando agarres para transicionar a un derribo u otra guardia.',
+        img: '/seatedGuard.jpg'
+      },
+      {
+        name: 'Shin to Shin',
+        content: 'Canilla con canilla. En la posición de seated guard, se debe bloquear la tibia del rival utilizando la propia. Usualmente se bloquea utilizando la pierna directamente opuesta.',
+        img: '/shinToShin.jpg'
+      },
+      {
+        name: 'Spider guard / Guardia Araña',
+        content: 'Posición en la que el luchador agarra con ambas manos las mangas del GI del rival jalando el brazo del oponente hacia él, y ubicando los pies en el bicep del rival para generar fuerzas contrarias permitiendo que la cadera del luchador pueda desplazarse libremente para atacar o defender.',
+        img: '/spiderGuard.jpg'
+      },
+      {
+        name: 'Waiter Guard',
+        content: 'Posición en que tori obtiene un scoop grip al muslo  desde media guardia y eleva a uke para obtener un scoop grip con la mano lejana a uke a la canilla de éste.',
+        img: '/waiterGuard.jpg'
+      },
+      {
+        name: 'Williams guard',
+        content: 'Desde la guardia cerrada, se inmoviliza un hombro del rival, utilizando la rodilla y los brazos.',
+        img: '/williamsGuard.jpg'
+      },
+      {
+        name: 'Worm guard',
+        content: 'Guardia Gusano. Similar a Lasso guard, pero en este caso en vez de la manga del rival se utiliza un lapel.',
+        img: '/wormGuard.jpg'
+      },
+      {
+        name: 'X-Guard / Guardia X',
+        content: 'El practicante debe ubicarse directamente debajo de las piernas del rival, controlando una de ellas mediante los brazos. El control de la otra pierna se realiza mediante las piernas, ubicando un gancho cercano a la ingle y otro detrás de la rodilla.',
+        img: '/xGuard.jpg'
+      },
+      {
+        name: 'Z Guard',
+        content: 'También conocida como knee shield. Es una variante de la Half guard o media guardia, en donde se ubica la rodilla en forma de frame o escudo.',
+        img: '/zGuard.jpg'
+      }
+    ]
+  },
+  {
     title: 'GUARDIA DE PIE / STANCE',
     subtitle: '¿QUÉ ES UNA GUARDIA DE PIE O STANCE?',
     content: 'Al igual que en una guardia tradicional, una guardia de pie se basa en una estructura construida con nuestro cuerpo, pero en este caso se realiza estando de pie. Esto busca estar en mejor posición para preparar derribos o evitar derribos de nuestro oponente.'
-},
-{
+  },
+  {
     subtitle: 'LISTA DE GUARDIAS DE PIE'
-},
-{
+  },
+  {
     layout: [
-        {
-            name: 'Square Stance',
-            content: 'Posición en donde ubicamos ambas piernas al mismo nivel, es decir, no existe una pierna guia.',
-            img: 'squareStance.png'
-        },
-        {
-            name: 'Staggered Stance',
-            content: 'Posición en donde tenemos nuestra pierna guia (pierna hábil) delante de nuestra otra pierna. ',
-            img: 'staggeredStance.png'
-        },
-    ],
-},
-{
+      {
+        name: 'Square Stance',
+        content: 'Posición en donde ubicamos ambas piernas al mismo nivel, es decir, no existe una pierna guia.',
+        img: 'squareStance.png'
+      },
+      {
+        name: 'Staggered Stance',
+        content: 'Posición en donde tenemos nuestra pierna guia (pierna hábil) delante de nuestra otra pierna. ',
+        img: 'staggeredStance.png'
+      }
+    ]
+  },
+  {
     title: 'LLAVE / LOCK',
     subtitle: '¿QUÉ ES UNA LLAVE O LOCK?',
     content: 'Nos referimos por llave o lock a una técnica utilizada para aislar una extremidad de nuestro oponente y que además nos permita ejercer una fuerza de rompimiento sobre la extremidad de este. Las podemos categorizar en llaves de pierna y llaves de brazos.'
-},
-{
-    subtitle: 'LLAVES DE BRAZO / ARMLOCKS',
-},
-{
+  },
+  {
+    subtitle: 'LLAVES DE BRAZO / ARMLOCKS'
+  },
+  {
     layout: [
-        {
-            name: 'Americana',
-            content: 'También conocida en otros sistemas como figure four lock, reverse kimura, keylock, ude garami. Llave dirigida al brazo atacando articulaciones de codo y hombro en su ejecución.',
-            img: '/americana.jpg'
-        },
-        {
-            name: 'Armbar / Juji gatame',
-            content: 'Palanca de brazo que en su realización busca la hiperextensión de codo. Es también conocida en otros sistemas como llave de brazo, palanca de brazo, llave recta de brazo, palanca recta de brazo. Se busca el aislamiento del brazo del rival mediante las piernas, ejerciendo fuerza con la cadera sobre el codo, logrando la hiperextensión.',
-            img: '/armbar.jpg'
-        },
-        {
-            name: 'Baratoplata',
-            content: 'Sumisión articular de hombro acuñada por el uso del competidor Rafael “Barata” Freitas. Surge como propuesta a posiciones defensivas, como el cruce de manos y brazos bajo el mentón evitando una posible estrangulación, o la exposición de articulaciones (codos o muñecas), sean desde la montada o desde el control lateral (Side Control).  Seguidamente buscaremos  el espacio para pasar un brazo de los nuestros y sujetar detrás del vértice creado por el codo flectado en forma de V del rival. Y a partir de ese gesto controlar el brazo de este; aislándolo entre nuestras piernas, logrando así tener parte de la dirección articular del hombro, cerrando la forma con la palma de nuestra mano en una de las extremidades inferiores.',
-            img: '/baratoplata.jpg'
-        },
-        {
-            name: 'Biceps Slicer',
-            content: 'Sometimiento en donde se aplica presión al bíceps del rival, utilizando un brazo o pierna y ubicándolo directamente entre el bíceps y antebrazo del oponente, para luego ejercer fuerza sobre la mano del rival, en dirección al hombro de este.',
-            img: '/bicepSlicer.png'
-        },
-        {
-            name: 'Kimura / Ude garami',
-            content: 'Una palanca ejercida sobre el brazo, en la cual se busca la luxación del hombro. Se debe sostener la muñeca del rival con una mano y pasar el otro brazo por dentro de la axila del rival, desde la espalda, tomando el brazo inicial (que sostiene la muñeca). Luego se debe ejercer torsión a favor del brazo ubicado directamente bajo el hombro del rival.',
-            img: '/kimura.jpg'
-        },
-        {
-            name: 'Omoplata',
-            content: 'Consiste en la hiperextensión del hombro mediante la utilización de una pierna, que aísla el brazo del rival al mismo tiempo que ejerce presión sobre su hombro.',
-            img: '/omoplata.jpg'
-        },
-        {
-            name: 'Sankaku gatame',
-            content: 'Llave de brazo desde Triángulo, ya sea normal o invertido.',
-            img: '/sankakuGatame.jpg'
-        },
-        {
-            name: 'Wristlock',
-            content: 'Mano de vaca, corresponde a una palanca a la articulación de la muñeca.',
-            img: '/wristlock.jpg'
-        },
-    ],
-},
-{
+      {
+        name: 'Americana',
+        content: 'También conocida en otros sistemas como figure four lock, reverse kimura, keylock, ude garami. Llave dirigida al brazo atacando articulaciones de codo y hombro en su ejecución.',
+        img: '/americana.jpg'
+      },
+      {
+        name: 'Armbar / Juji Gatame',
+        content: 'Palanca de brazo que en su realización busca la hiperextensión de codo. Es también conocida en otros sistemas como llave de brazo, palanca de brazo, llave recta de brazo, palanca recta de brazo. Se busca el aislamiento del brazo del rival mediante las piernas, ejerciendo fuerza con la cadera sobre el codo, logrando la hiperextensión.',
+        img: '/armbar.jpg'
+      },
+      {
+        name: 'Baratoplata',
+        content: 'Sumisión articular de hombro acuñada por el uso del competidor Rafael “Barata” Freitas. Surge como propuesta a posiciones defensivas, como el cruce de manos y brazos bajo el mentón evitando una posible estrangulación, o la exposición de articulaciones (codos o muñecas), sean desde la montada o desde el control lateral (Side Control).  Seguidamente buscaremos el espacio para pasar un brazo de los nuestros y sujetar detrás del vértice creado por el codo flectado en forma de V del rival. Y a partir de ese gesto controlar el brazo de este; aislándolo entre nuestras piernas, logrando así tener parte de la dirección articular del hombro, cerrando la forma con la palma de nuestra mano en una de las extremidades inferiores.',
+        img: '/baratoplata.jpg'
+      },
+      {
+        name: 'Biceps Slicer',
+        content: 'Sometimiento en donde se aplica presión al bíceps del rival, utilizando un brazo o pierna y ubicándolo directamente entre el bíceps y antebrazo del oponente, para luego ejercer fuerza sobre la mano del rival, en dirección al hombro de este.',
+        img: '/bicepSlicer.png'
+      },
+      {
+        name: 'Kimura / Ude Garami',
+        content: 'Una palanca ejercida sobre el brazo, en la cual se busca la luxación del hombro. Se debe sostener la muñeca del rival con una mano y pasar el otro brazo por dentro de la axila del rival, desde la espalda, tomando el brazo inicial (que sostiene la muñeca). Luego se debe ejercer torsión a favor del brazo ubicado directamente bajo el hombro del rival.',
+        img: '/kimura.jpg'
+      },
+      {
+        name: 'Omoplata',
+        content: 'Consiste en la hiperextensión del hombro mediante la utilización de una pierna, que aísla el brazo del rival al mismo tiempo que ejerce presión sobre su hombro.',
+        img: '/omoplata.jpg'
+      },
+      {
+        name: 'Sankaku Gatame',
+        content: 'Llave de brazo desde Triángulo, ya sea normal o invertido.',
+        img: '/sankakuGatame.jpg'
+      },
+      {
+        name: 'Wristlock',
+        content: 'Mano de vaca, corresponde a una palanca a la articulación de la muñeca.',
+        img: '/wristlock.jpg'
+      }
+    ]
+  },
+  {
     subtitle: 'LLAVE DE PIERNA / LEG LOCK'
-},
-{
+  },
+  {
     layout: [
-        {
-            name: 'Ankle lock',
-            content: 'También conocida como Llave recta de tobillo o Botinha en portugués. Es una palanca que se aplica a cualquiera de las articulaciones de tobillo, típicamente hiperextendiendo la articulación talocrural. suele causar una presión en el tendón de Aquiles y en tríceps sural.',
-            img: '/ankleLock.jpg'
-        },
-        {
-            name: 'Aoki lock',
-            content: 'Se busca reforzar el ankle lock, no solo llevando el empeine del rival bajo la axila y cruzando parte del antebrazo (radio) perpendicularmente al tendón de aquiles. Como comúnmente se ejecuta. Sino que además, buscaremos cerrar en figura de cuatro (véase figure four) con los brazos, dirigiendo el tobillo del rival hacia el interior de la posición. Creando una suerte de corte y presión a la zona mencionada.',
-            img: '/aokiLock.jpg'
-        },
-        {
-            name: 'Calf slicer',
-            content: 'Ataque de prensa a la musculatura de la pantorrilla. Mecánica similar a la del bíceps slicer.',
-            img: '/calfSlicer.jpeg'
-        },
-        {
-            name: 'Heel hook',
-            content: 'Gancho de tobillo. Puede ser Heel Hook Interior (inside heel hook) o Heel Hook Exterior (outside heel hook). Llave prohibida en las normas IBJJF pero permitida en submission wrestling y otras organizaciones de grappling y BJJ Nogi (desde este año se puede en marrón-preta nogi).',
-            img: '/heelHook.jpg'
-        },
-        {
-            name: 'Mickey lock',
-            content: 'Corresponde a un ankle lock con ciertas modificaciones. En situacion donde tori y uke están sentados frente al otro, tori consigue un agarre ankle grip pero el talón de uke queda fuera del agarre. Finalmente tori ejerce presión en el tobillo de uke de manera similar a la que sería un inside heel hook.',
-            img: '/mickeyLock.jpg'
-        },
-        {
-            name: 'Outside heel hook',
-            content: 'Heel Hook Exterior, normalmente realizado desde el outside sankaku.',
-            img: '/outsideHeelHook.jpg'
-        },
-        {
-            name: 'Inside heel hook',
-            content: 'Heel Hook Interior, normalmente realizado desde el inside sankaku.',
-            img: '/insideHeelHook.png'
-        },
-        {
-            name: 'Kneebar',
-            content: 'Llave de Rodilla. Es un bloqueo para las piernas que puede hiperextender la rodilla. La técnica básica de la barra de rodilla es similar a la de un brazo. El practicante luego aplica presión con sus caderas, forzando la pierna del oponente a enderezarse, hiperextendiendo la articulación de la rodilla.',
-            img: '/kneebar.jpg'
-        },
-        {
-            name: 'Toe Hold',
-            content: 'Agarre de dedos (de pie). Americana Al pie.',
-            img: '/toeHold.jpg'
-        },
-        {
-            name: 'Z Lock',
-            content: 'Luxación que se provoca luego de un knee reap profundo donde tori logra enganchar el pie de la pierna que realiza el reap en la fosa poplitea de la pierna contraria de uke, para luego levantar el pie de uke provocando un exceso de rotación interna en la cadera de éste para realizar la luxacion. ',
-            img: '/zLock.jpg'
-        },
-    ],
-},
-{
+      {
+        name: 'Ankle Lock',
+        content: 'También conocida como Llave recta de tobillo o Botinha en portugués. Es una palanca que se aplica a cualquiera de las articulaciones de tobillo, típicamente hiperextendiendo la articulación talocrural. suele causar una presión en el tendón de Aquiles y en tríceps sural.',
+        img: '/ankleLock.jpg'
+      },
+      {
+        name: 'Aoki Lock',
+        content: 'Se busca reforzar el ankle lock, no solo llevando el empeine del rival bajo la axila y cruzando parte del antebrazo (radio) perpendicularmente al tendón de aquiles. Como comúnmente se ejecuta. Sino que, además, buscaremos cerrar en figura de cuatro (véase figure four) con los brazos, dirigiendo el tobillo del rival hacia el interior de la posición. Creando una suerte de corte y presión a la zona mencionada.',
+        img: '/aokiLock.jpg'
+      },
+      {
+        name: 'Calf Slicer',
+        content: 'Ataque de prensa a la musculatura de la pantorrilla. Mecánica similar a la del bíceps slicer.',
+        img: '/calfSlicer.jpeg'
+      },
+      {
+        name: 'Estima Lock',
+        content: 'Denominada así por Braulio Estima, quien la popularizó. Se trata de una variante de toe hold donde uke apoya la planta del pie en la pelvis de uke. Luego tori, cierra una figura 4 con sus brazos para atrapar el canto externo de uke al tiempo que empuja su cadera hacia dentro para levantar el tobillo de uke mientras el canto del pie sigue en contacto con su pelvis para provocar la luxación. ',
+        img: '/estimaLock.jpeg'
+      },
+      {
+        name: 'Heel Hook / Gancho de tobillo',
+        content: 'Puede ser Heel Hook Interior (inside heel hook) o Heel Hook Exterior (outside heel hook). Llave prohibida en las normas IBJJF pero permitida en submission wrestling y otras organizaciones de grappling y BJJ Nogi (desde este año se puede en marrón-preta nogi).',
+        img: '/heelHook.jpg'
+      },
+      {
+        name: 'Mickey Lock',
+        content: 'Corresponde a un ankle lock con ciertas modificaciones. En situacion donde tori y uke están sentados frente al otro, tori consigue un agarre ankle grip pero el talón de uke queda fuera del agarre. Finalmente, tori ejerce presión en el tobillo de uke de manera similar a la que sería un inside heel hook.',
+        img: '/mickeyLock.jpg'
+      },
+      {
+        name: 'Outside Heel Hook',
+        content: 'Heel Hook Exterior, normalmente realizado desde el outside sankaku.',
+        img: '/outsideHeelHook.jpg'
+      },
+      {
+        name: 'Inside Heel Hook',
+        content: 'Heel Hook Interior, normalmente realizado desde el inside sankaku.',
+        img: '/insideHeelHook.png'
+      },
+      {
+        name: 'Kneebar',
+        content: 'Llave de Rodilla. Es un bloqueo para las piernas que puede hiperextender la rodilla. La técnica básica de la barra de rodilla es similar a la de un brazo. El practicante luego aplica presión con sus caderas, forzando la pierna del oponente a enderezarse, hiperextendiendo la articulación de la rodilla.',
+        img: '/kneebar.jpg'
+      },
+      {
+        name: 'Toe Hold',
+        content: 'Agarre de dedos (de pie). Americana Al pie.',
+        img: '/toeHold.jpg'
+      },
+      {
+        name: 'Z Lock',
+        content: 'Luxación que se provoca luego de un knee reap profundo donde tori logra enganchar el pie de la pierna que realiza el reap en la fosa poplitea de la pierna contraria de uke, para luego levantar el pie de uke provocando un exceso de rotación interna en la cadera de éste para realizar la luxacion. ',
+        img: '/zLock.jpg'
+      }
+    ]
+  },
+  {
     title: 'PASADA DE GUARDIA / GUARD PASS',
     subtitle: '¿QUE ES UNA PASADA DE GUARDIA O GUARD PASS?',
     content: 'Nos referimos por pasada de guardia a la serie de movimientos que nos permiten sobrepasar la guardia de nuestro oponente, y nos dejan en una posición de control o cercanos a ella.'
-},
-{
+  },
+  {
     subtitle: 'LISTA DE PASADAS DE GUARDIA O GUARD PASS'
-},
-{
+  },
+  {
     layout: [
-        {
-            name: 'Back Step',
-            content: 'Paso hacia atrás, normalmente con un pie en la posición interna de la guardia del rival, buscando establecer un inside sankaku.',
-            img: '/backStep.jpg'
-        },
-        {
-            name: 'Cartwheel Pass',
-            content: 'Acción donde tori realiza una voltereta de carro o rueda para pasar la guardia de uke. Para esto generalmente sitúa una de sus manos en medio de las piernas de uke mientras que la otra la apoya en el hombro cruzado de uke al momento de realizar la acción.',
-            img: '/cartwheelPass.jpg'
-        },
-        {
-            name: 'Double Under Pass',
-            content: 'Pasaje de guardia utilizando tomadas con los brazos por el interior de las piernas del rival, y elevando su cadera del tatami.',
-            img: '/doubleUnderPass.jpg'
-        },
-        {
-            name: 'Knee Slice',
-            content: 'Corte de rodilla. Pasaje utilizado con una pierna desde la posición interna de la guardia del rival, la rodilla de la misma pierna corta en dirección opuesta, por sobre el muslo del rival.',
-            img: '/kneeSlice.jpg'
-        },
-        {
-            name: 'Leg Drag',
-            content: 'Jalón de pierna. El atacante jalara una de las piernas del defensor al costado directamente opuesto, y luego asegurará la posición a través del uso de cadera y tomadas al cuerpo o gi.',
-            img: '/legDrag.jpg'
-        },
-        {
-            name: 'Leg Weave',
-            content: 'Tejido de pierna. Esta pasada debe ser utilizada en la media guardia del oponente. Ubicamos nuestro brazo por sobre la pierna superior del oponente y controlamos la pierna inferior, formando una especie de “tejido”. Luego se utiliza presión sobre el cuerpo del oponente y se comienza a pasar la guardia en dirección contraria a la presión, moviéndose circularmente en torno al oponente.',
-            img: '/legWeave.png'
-        },
-        {
-            name: 'Long Step',
-            content: 'Paso largo. Usualmente utilizado luego de un knee cut fallido, en donde la rodilla se mantiene sobre el muslo del rival. Se busca establecer control del torso del oponente para liberar la pierna atrapada en la media guardia mediante un paso largo explosivo.',
-            img: '/longStep.jpg'
-        },
-        {
-            name: 'Over Under',
-            content: 'Pasaje de guardia utilizando tomadas mixtas, con una tomada interior de la pierna del rival y otra exterior.',
-            img: '/overUnder.png'
-        },
-        {
-            name: 'Smash Pass',
-            content: 'Pasaje de aplastamiento. Se realiza buscando juntar las piernas del rival en la misma posición, mediante el uso de la cadera propia y direccionamiento de la cadera del rival.',
-            img: '/smashPass.jpg'
-        },
-        {
-            name: 'Step Over',
-            content: 'Paso adelante. Se realiza estando de pie, y a través de un paso penetra la guardia del rival, sobrepasando la línea de sus piernas.',
-            img: '/stepOver.jpg'
-        },
-        {
-            name: 'Stack Pass',
-            content: 'En la posición de double under pass, al forzar al rival a invertir, se considera un stack pass. ',
-            img: '/stackPass.jpeg'
-        },
-    ],
-},
-{
+      {
+        name: 'Back Step',
+        content: 'Paso hacia atrás, normalmente con un pie en la posición interna de la guardia del rival, buscando establecer un inside sankaku.',
+        img: '/backStep.jpg'
+      },
+      {
+        name: 'Cartwheel Pass',
+        content: 'Acción donde tori realiza una voltereta de carro o rueda para pasar la guardia de uke. Para esto generalmente sitúa una de sus manos en medio de las piernas de uke mientras que la otra la apoya en el hombro cruzado de uke al momento de realizar la acción.',
+        img: '/cartwheelPass.jpg'
+      },
+      {
+        name: 'Double Under Pass',
+        content: 'Pasaje de guardia utilizando tomadas con los brazos por el interior de las piernas del rival, y elevando su cadera del tatami.',
+        img: '/doubleUnderPass.jpg'
+      },
+      {
+        name: 'Headquarters Position',
+        content: 'Posición donde tori, siendo el pasador posee variadas opciones de pasar la guardia, al tiempo en que se encuentra en una posición relativamente segura para no ser raspado. En español podría traducirse como "sede central o oficina".',
+        img: '/headrquarters.png'
+      },
+      {
+        name: 'Knee Slice',
+        content: 'Corte de rodilla. Pasaje utilizado con una pierna desde la posición interna de la guardia del rival, la rodilla de la misma pierna corta en dirección opuesta, por sobre el muslo del rival.',
+        img: '/kneeSlice.jpg'
+      },
+      {
+        name: 'Leg Drag',
+        content: 'Jalón de pierna. El atacante jalará una de las piernas del defensor al costado directamente opuesto, y luego asegurará la posición a través del uso de cadera y tomadas al cuerpo o gi.',
+        img: '/legDrag.jpg'
+      },
+      {
+        name: 'Leg Weave',
+        content: 'Tejido de pierna. Esta pasada debe ser utilizada en la media guardia del oponente. Ubicamos nuestro brazo por sobre la pierna superior del oponente y controlamos la pierna inferior, formando una especie de “tejido”. Luego se utiliza presión sobre el cuerpo del oponente y se comienza a pasar la guardia en dirección contraria a la presión, moviéndose circularmente en torno al oponente.',
+        img: '/legWeave.png'
+      },
+      {
+        name: 'Long Step',
+        content: 'Paso largo. Usualmente utilizado luego de un knee cut fallido, en donde la rodilla se mantiene sobre el muslo del rival. Se busca establecer control del torso del oponente para liberar la pierna atrapada en la media guardia mediante un paso largo explosivo.',
+        img: '/longStep.jpg'
+      },
+      {
+        name: 'Over Under',
+        content: 'Pasaje de guardia utilizando tomadas mixtas, con una tomada interior de la pierna del rival y otra exterior.',
+        img: '/overUnder.png'
+      },
+      {
+        name: 'Smash Pass',
+        content: 'Pasaje de aplastamiento. Se realiza buscando juntar las piernas del rival en la misma posición, mediante el uso de la cadera propia y direccionamiento de la cadera del rival.',
+        img: '/smashPass.jpg'
+      },
+      {
+        name: 'Stack Pass',
+        content: 'En la posición de double under pass, al forzar al rival a invertir, se considera un stack pass. ',
+        img: '/stackPass.jpeg'
+      },
+      {
+        name: 'Step Over',
+        content: 'Paso adelante. Se realiza estando de pie, y a través de un paso penetra la guardia del rival, sobrepasando la línea de sus piernas.',
+        img: '/stepOver.jpg'
+      }
+    ]
+  },
+  {
     title: 'RASPAJE / SWEEP',
     subtitle: '¿QUE ES UN RASPAJE O SWEEP?',
     content: 'Nos referimos por raspaje, al movimiento que se realiza estando en un tipo de guardia, en donde se invierte la posición con el rival, pasando a una posición de ataque y dejando al oponente en posición defensiva o bajo algún tipo de control (por ej. side control o 100 kilos).'
-},
-{
-    subtitle:'LISTA DE RASPAJES'
-},
-{
+  },
+  {
+    subtitle: 'LISTA DE RASPAJES'
+  },
+  {
     layout: [
-        {
-            name: 'Elevator',
-            content: 'Raspaje elevador.',
-            img: '/elevator.jpg'
-        },
-        {
-            name: 'Scissor',
-            content: 'Raspaje de tijeras.',
-            img: '/scissor.jpg'
-        },
-        {
-            name: 'Hip Bump',
-            content: 'Raspaje con golpe de cadera.',
-            img: '/hipBump.png'
-        },
-        {
-            name: 'Flower or Pendulum',
-            content: 'Raspaje de flor o péndulo.',
-            img: '/pendulum.png'
-        },
-        {
-            name: 'Butterfly',
-            content: 'Raspaje de mariposa.',
-            img: '/butterfly.jpg'
-        },
-        {
-            name: 'Wrestle Up',
-            content: 'Se refiere a cualquier situación donde tori, partiendo desde guardia, logra ponerse de pie y comienza una acción de derribo antes de que pasen 3 segundos. Ésto provoca que se considere un raspado en vez de un derribo, además de permitir a tori volver a sentarse y seguir luchando desde abajo sin penalización ni la necesidad de llamar nuevamente a la guardia en caso de fallar el derribo.',
-            img: '/wrestleUp.jpg'
-        },
+      {
+        name: 'Elevator',
+        content: 'Raspaje elevador.',
+        img: '/elevator.jpg'
+      },
+      {
+        name: 'Butterfly',
+        content: 'Raspaje de mariposa.',
+        img: '/butterfly.jpg'
+      },
+      {
+        name: 'Flower or Pendulum',
+        content: 'Raspaje de flor o péndulo.',
+        img: '/pendulum.png'
+      },
+      {
+        name: 'Hip Bump',
+        content: 'Raspaje con golpe de cadera.',
+        img: '/hipBump.png'
+      },
+      {
+        name: 'Scissor',
+        content: 'Raspaje de tijeras.',
+        img: '/scissor.jpg'
+      },
+      {
+        name: 'Wrestle Up',
+        content: 'Se refiere a cualquier situación donde tori, partiendo desde guardia, logra ponerse de pie y comienza una acción de derribo antes de que pasen 3 segundos. Ésto provoca que se considere un raspado en vez de un derribo, además de permitir a tori volver a sentarse y seguir luchando desde abajo sin penalización ni la necesidad de llamar nuevamente a la guardia en caso de fallar el derribo.',
+        img: '/wrestleUp.jpg'
+      }
     ]
-},
-{
+  },
+  {
     title: 'TRANSICIONES / DESPLAZAMIENTOS',
     subtitle: '¿QUE ES UNA TRANSICIÓN O DESPLAZAMIENTO?',
     content: 'Nos referimos por transición a la serie de movimientos que nos permiten movernos desde una posición de control a otra, generalmente en respuesta a algún tipo de defensa de nuestro oponente.'
-
-},
-{
+  },
+  {
     subtitle: 'LISTA DE TRANSICIONES'
-},
-{
+  },
+  {
     layout: [
-        {
-            name:'Baby Bolo',
-            content: 'Movimiento que parte desde guardia de la riva. Tori desbalancea a uke hacia atrás provocando que éste de un pequeño backstep. Seguido de ésto tori toma la pierna lejana e inserta un gancho detras de la rodilla cercana de uke, luego toma su cadera con ambas manos y sienta a uke empujandolo para comenzar la tomada de espalda. Es común que este movimiento termine en un sweep debido a alguna reacción de uke.',
-            img: '/babyBolo.png'
-        },
-        {
-            name:'Berimbolo',
-            content: 'Término que se acuña a cualquier tipo de giro que se realice de parte de tori con el objetivo de tomar la espalda del rival. Comúnmente se le llama al movimiento donde tori realiza un raspado desde guardia de la riva y luego gira hombro-trapecio-hombro y expone la espalda de uke.',
-            img: '/berimbolo.jpg'
-        },
-        {
-            name:'False Reap',
-            content: 'Acción donde, generalmente desde guardia de la riva invertida o sit up guard, tori pasa la pierna de afuera hacia adentro manteniendo una tomada a la pierna, luego tori realiza una inversión hacia adentro y dobla la rodilla atacada de uke para liberar su pierna de abajo, una vez hecho ésto lleva las caderas a la cadera de uke para cerrar un inside sunkaku e iniciar el juego de leg locks.',
-            img: '/falseReap.png'
-        },
-        {
-            name:'Rolling Kimura',
-            content: 'Acción donde tori, en situación de pasador realiza un giro por sobre uke tomando una de las muñecas de uke y pasando su otro brazo para cerrar un agarre de kimura. Éste movimiento es parte de lo que se conoce como sistema "Kimura trap", empleado por John Danaher.',
-            img: '/rollingKimura.jpg'
-        },
-        {
-            name:'Side control to Side control',
-            content: '100 kilos a 100 kilos. Cuando el atacante se encuentra en posición de side control, una defensa usual del oponente es buscar el underhook  exterior, para recuperar la guardia. El atacante en este caso puede utilizar el underhook del defensor, generando un underhook con el brazo opuesto, y frotando circularmente por la cabeza del defensor, finalmente ubicándose en Side control desde el lado opuesto.',
-            img: '/sideToSide.jpg'
-        },
-        {
-            name:'Knee on belly to Knee on belly',
-            content: 'Rodilla en la barriga a Rodilla en la barriga. Cuando el atacante se encuentra en posición de Knee on belly, una defensa habitual del oponente es girar en dirección al atacante. En este caso, el atacante puede hacer uso del movimiento del rival, moviendo la pierna que inicialmente era un apoyo y ocupando la rodilla en la barriga del defensor, y la pierna que inicialmente estaba en la barriga, pasa al otro extremo del defensor, volviendo a posición de Knee on belly desde el lado opuesto.',
-            img: '/kneeToKnee.jpg'
-        },
-        {
-            name:'All fours to leg drag',
-            content: 'Cuadrupedo a jalon de pierna. Cuando el defensor se encuentra en posición de all four o turtle, una defensa habitual es realizar un giro para intentar recuperar la guardia (usualmente half guard). El atacante puede hacer uso de este movimiento, ubicando su rodilla entre las piernas del defensor, y siguiendo el giro de este, preferentemente buscando un body lock con uno o ambos brazos, finalmente llegando a la posición de Leg drag.',
-            img: '/a4ToLegDrag.jpg'
-        }
+      {
+        name: 'All fours to leg drag',
+        content: 'Cuadrupedo a jalon de pierna. Cuando el defensor se encuentra en posición de all four o turtle, una defensa habitual es realizar un giro para intentar recuperar la guardia (usualmente half guard). El atacante puede hacer uso de este movimiento, ubicando su rodilla entre las piernas del defensor, y siguiendo el giro de este, preferentemente buscando un body lock con uno o ambos brazos, finalmente llegando a la posición de Leg drag.',
+        img: '/a4ToLegDrag.jpg'
+      },
+      {
+        name: 'Baby Bolo',
+        content: 'Movimiento que parte desde guardia de la riva. Tori desbalancea a uke hacia atrás provocando que éste de un pequeño backstep. Seguido de ésto tori toma la pierna lejana e inserta un gancho detras de la rodilla cercana de uke, luego toma su cadera con ambas manos y sienta a uke empujandolo para comenzar la tomada de espalda. Es común que este movimiento termine en un sweep debido a alguna reacción de uke.',
+        img: '/babyBolo.png'
+      },
+      {
+        name: 'Berimbolo',
+        content: 'Término que se acuña a cualquier tipo de giro que se realice de parte de tori con el objetivo de tomar la espalda del rival. Comúnmente se le llama al movimiento donde tori realiza un raspado desde guardia de la riva y luego gira hombro-trapecio-hombro y expone la espalda de uke.',
+        img: '/berimbolo.jpg'
+      },
+      {
+        name: 'False Reap',
+        content: 'Acción donde, generalmente desde guardia de la riva invertida o sit up guard, tori pasa la pierna de afuera hacia adentro manteniendo una tomada a la pierna, luego tori realiza una inversión hacia adentro y dobla la rodilla atacada de uke para liberar su pierna de abajo, una vez hecho ésto lleva las caderas a la cadera de uke para cerrar un inside sunkaku e iniciar el juego de leg locks.',
+        img: '/falseReap.png'
+      },
+      {
+        name: 'Granby Roll',
+        content: 'Giro que realiza tori para liberar un control de espalda sin ganchos de uke, donde uke puede o no girar junto a tori.',
+        img: '/granbyRoll.jpg'
+      },
+      {
+        name: 'Knee on belly to Knee on belly',
+        content: 'Rodilla en la barriga a Rodilla en la barriga. Cuando el atacante se encuentra en posición de Knee on belly, una defensa habitual del oponente es girar en dirección al atacante. En este caso, el atacante puede hacer uso del movimiento del rival, moviendo la pierna que inicialmente era un apoyo y ocupando la rodilla en la barriga del defensor, y la pierna que inicialmente estaba en la barriga, pasa al otro extremo del defensor, volviendo a posición de Knee on belly desde el lado opuesto.',
+        img: '/kneeToKnee.jpg'
+      },
+      {
+        name: 'Matrix',
+        content: 'Situación donde tori, generalmente partiendo desde k guard, busca un backside 50/50 para luego buscar la espalda del rival. Llamamos matrix entonces, a la transición desde que tori pasa la pierna por detras de la rodilla de uke hasta que tori logra liberar su pierna de abajo para comenzar acción de backtake.',
+        img: '/matrix.png'
+      },
+      {
+        name: 'Rolling Kimura',
+        content: 'Acción donde tori, en situación de pasador realiza un giro por sobre uke tomando una de las muñecas de uke y pasando su otro brazo para cerrar un agarre de kimura. Este movimiento es parte de lo que se conoce como sistema "Kimura trap", empleado por John Danaher.',
+        img: '/rollingKimura.jpg'
+      },
+      {
+        name: 'Side control to Side control',
+        content: '100 kilos a 100 kilos. Cuando el atacante se encuentra en posición de side control, una defensa usual del oponente es buscar el underhook  exterior, para recuperar la guardia. El atacante en este caso puede utilizar el underhook del defensor, generando un underhook con el brazo opuesto, y frotando circularmente por la cabeza del defensor, finalmente ubicándose en Side control desde el lado opuesto.',
+        img: '/sideToSide.jpg'
+      }
     ]
   },
   {
     title: 'ESTRUCTURA DE JUEGO BÁSICA',
-    content: 'En el siguiente segmento, se presenta un diagrama con la estructura básica de juego, tanto en modalidades Gi y Nogi. Cabe destacar que este flujo no es absoluto, pero su objetivo es entregar un acercamiento a un juego básico con el que luego, cada individuo pueda desarrollar un juego personal en base a sus fortalezas y preferencia. Siendo el principal objetivo del jiujitsu el sometimiento del rival, se asume que en cada uno de estos pasos, es posible generar una finalización y por consecuencia someter al defensor. Sin embargo, es importante recalcar que llegar a posiciones de control, nos permitirá trabajar y preparar de mejor forma las distintas finalizaciones. Finalmente, también es importante mencionar que hay ciertas posiciones de control que generan mas oportunidades de finalizacion que otras, y es por esto que en torneos en base a puntos, estas son generalmente puntuadas con un mayor valor. Para estos fines, podemos considerar el orden de las posiciones de control, en orden descendiente segun el nivel de peligro que generan para el defensor de esta forma: Back control (Espalda) > Mount (Montada) > Knee on belly (Rodilla en la barriga) > Side control (100 kilos) > Top half guard (Media montada) > Guard / Stance (Guardia de suelo o guardia de pie)'
+    content: 'En el siguiente segmento, se presenta un diagrama con la estructura básica de juego, tanto en modalidades Gi y Nogi. Cabe destacar que este flujo no es absoluto, pero su objetivo es entregar un acercamiento a un juego básico con el que luego, cada individuo pueda desarrollar un juego personal en base a sus fortalezas y preferencias.'
+  },
+  {
+    content: 'Siendo el principal objetivo del jiujitsu el sometimiento del rival, se asume que en cada uno de estos pasos, es posible generar una finalización y por consecuencia someter al defensor. Sin embargo, es importante recalcar que llegar a posiciones de control, nos permitirá trabajar y preparar de mejor forma las distintas finalizaciones.'
+  },
+  {
+    content: 'Finalmente, también es importante mencionar que hay ciertas posiciones de control que generan mas oportunidades de finalizacion que otras, y es por esto que en torneos en base a puntos, estas son generalmente puntuadas con un mayor valor.'
+  },
+  {
+    content: 'Para estos fines, podemos considerar el orden de las posiciones de control, en orden descendiente segun el nivel de peligro que generan para el defensor de esta forma:'
+  },
+  {
+    subtitle: 'Back control (Espalda) > Mount (Montada) > Knee on belly (Rodilla en la barriga) > Side control (100 kilos) > Top half guard (Media montada) > Guard / Stance (Guardia de suelo o guardia de pie)'
   },
   {
     img: '/gamePlan.png'
   },
   {
-    title: 'POSICIONES DE CONTROL PARA LEGLOCKS',
-    content: 'A continuación, se presenta un esquema para entender de mejor forma las posiciones de control desarrolladas para la aplicación de llaves de pie o leglocks.'
+    title: 'CONCEPTOS TRANSVERSALES',
+    content: 'En el siguiente segmento, se presentan conceptos que son transversales a múltiples técnicas, representan principios que permiten entender de mejor manera y son críticos a la hora de la ejecución misma de las técnicas.'
+  },
+  {
+    content: 'Estos principios pueden ser aplicados tanto a la guardia como a la lucha de pie'
+  },
+  {
+    layout2: [
+      {
+        name: 'Ángulo',
+        content: 'se refiere a la orientación espacial con respecto al uke que maximiza la eficacia de un derribo por ejemplo, o también incluso al ángulo que maximiza la ejecución de una técnica, guardia, etc. Por ejemplo una media guardia implica estar en un ángulo más bien perpendicular al piso, o al estar de pie debo evitar estar en un ángulo que exponga demasiado mi espalda al oponente, etc.'
+      },
+      {
+        name: 'Backtracking',
+        content: 'Se refiere al concepto de habiendo alcanzado una posición de dominación, volver a una posición levemente inferior, pero que garantiza el desgaste de mi oponente.'
+      },
+      {
+        name: 'Cambio de ritmo',
+        content: 'es la aplicación del concepto de timing, pero considerando que debe integrar no solo un ritmo alto, si no que también a veces bajar el ritmo para cuidar energía o manejar los tiempos en la lucha, considerando que la energía es limitada y debe ser administrada.También los cambios de ritmo pueden ayudar en términos de generar desgaste sobre las defensas del compañero.'
+      },
+      {
+        name: 'Distancia',
+        content: 'Es el espacio libre entre el uke y quien realiza la técnica, no es considerado algo positivo o negativo, simplemente es.'
+      },
+      {
+        name: 'Framing',
+        content: 'Se refiere al uso de extremidades ya sea para bloquear la presión de mi rival, o para crear estructuras o soporte sobre mi propio cuerpo,que permitan un correcto manejo de la distancia (self farming).'
+      },
+      {
+        name: 'Fuerza',
+        content: 'Se dice que cuando la técnica es similar y las condiciones son muy parejas, lo que puede marcar la diferencia es la estrategia y también la condición física (entre ellas la resistencia física y la fuerza)..'
+      },
+      {
+        name: 'Kuzushi',
+        content: 'En el marco de la realización de una técnica, la desestabilización del centro de gravedad del adversario es considerado Kuzushi.'
+      },
+      {
+        name: 'Postura',
+        content: 'Se refiere al correcto posicionamiento del cuerpo en determinada instancia de la lucha , donde de alguna manera este se transforma en una estructura segura que no genera vulnerabilidad en mi posicion ,por ejemplo , que permite soportar peso cuando estoy en guardia sin estresar mi posición. Una mala postura en una guardia se puede identificar porque produce desgaste por solo estar en esa posición, la correcta postura permite  también moverme con libertad para poder iniciar un ataque por ejemplo desde abajo (wrestle up). También este concepto puede ser aplicado a la lucha de pie, donde la correcta postura garantiza no exponer demasiado mis zonas vulnerables frente a mi rival. Garantizando también que yo pueda iniciar ataques de correcta manera. Cuando la postura se rompe, es cuando puedo encontrar los puntos vulnerables ya sea para un barrido, raspado, finalización, o cualquier posición de ventaja que desee alcanzar.'
+      },
+      {
+        name: 'Presión',
+        content: 'Físicamente corresponde a la fuerza partido por el área en que se ejerce, por ende hace referencia al uso efectivo de la fuerza que posee el atleta, o también a como ejerce presión sobre una guardia por ejemplo, mediante un ritmo alto de ataque continuado, en ambos casos se puede aplicar el término. En un podcast, Lucas Hulk Barbosa, que le hace honor a su apodo pues aparte de ser técnico es muy fuerte, cosa que lo ha llevado al nivel top del mundo. Comenta algo muy interesante con respecto este punto: «No es tanto el tamaño, es la presión y explosion. Por ejemplo, Kaynan Duarte aplica diferente la fuerza y presión que yo, el te agarra y empieza a aplicar mas y mas presión de forma continua, como una maquina hasta que te hace vencerte. Yo lo uso para explosiones, exploto y cuando llego a donde quiero meto esa presión para mantener la posición. Hay diferentes tipos de fuerza y presión en el jiujitsu. Hay gente que es delgada, pero la forma en que aplican la presión es efectiva. Por ejemplo Gustavo Batista, el pone una gran presión con su cadera y también de forma lenta, avanza cm. a cm. y ya no te regresa ese espacio.'
+      },
+      {
+        name: 'Ritmo',
+        content: 'Ritmo corresponde a todo movimiento regular que se repite en el tiempo de manera recurrente, en la lucha hace referencia a mantener o ser consciente de establecer una posición de ataque por ejemplo, con cierto ritmo, con pausas administradas conscientemente. De tal manera que pueda desgastar gradualmente las defensas, como aquella frase que dice “La gota de agua perfora la roca no por su fuerza, sino por su constancia”.'
+      },
+      {
+        name: 'Timing',
+        content: 'Se refiere a ejecutar las técnicas en el momento preciso en qué su ejecución genera mayor resultado.'
+      }
+    ]
+  },
+  {
+    title: 'ANEXOS'
+  },
+  {
+    subtitle: '1- Diagrama referencial de guardias'
+  },
+  {
+    img: '/anexo1.jpg'
+  },
+  {
+    subtitle: '2- Diagrama referencial lucha de pie'
+  },
+  {
+    img: '/anexo2.jpg'
+  },
+  {
+    title: 'Edición',
+    subtitle: 'Marzo 2024'
+  },
+  {
+    title: 'Agradecimientos'
+  },
+  {
+    subtitle: '- Jonathan Ortega'
+  },
+  {
+    subtitle: '- Jaime Galeano'
+  },
+  {
+    subtitle: '- Matías Muñoz'
+  },
+  {
+    subtitle: '- Cristian Toro'
+  },
+  {
+    subtitle: '- Nicolás Gatica'
+  },
+  {
+    subtitle: '- Lyuben Atanassov'
+  },
+  {
+    subtitle: '- Renato Gatica'
+  },
+  {
+    subtitle: '- Boris Astudillo'
+  },
+  {
+    subtitle: '- Julián Millar'
   }
 ]
