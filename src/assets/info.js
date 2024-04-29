@@ -1196,7 +1196,7 @@ export const info = [
       {
         name: 'Headquarters Position',
         content: 'Posición donde tori, siendo el pasador posee variadas opciones de pasar la guardia, al tiempo en que se encuentra en una posición relativamente segura para no ser raspado. En español podría traducirse como "sede central o oficina".',
-        img: '/headrquarters.png'
+        img: '/headquarters.png'
       },
       {
         name: 'Knee Slice',
