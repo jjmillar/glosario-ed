@@ -19,7 +19,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .background > img {
@@ -65,79 +64,49 @@
 }
 
 .layout-wrapper {
-  width: 100svw;
-  height: auto;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-flow: row wrap;
-  justify-items: center;
-  align-items: center;
+  --gap: clamp(1rem, 5vmin, 2rem);
+  columns: 40svw;
+  gap: var(--gap);
+  width: 90svw;
+  margin: 20px auto;
 }
 
 .layout {
-  width: 50svw;
-  height: auto;
-  box-sizing: border-box;
-  padding: 0 20px 20px 20px;
+  break-inside: avoid;
+  margin-bottom: var(--gap);
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.layout-content {
-  max-width: 90%;
-  min-width: 50%;
-  box-sizing: border-box;
-  padding: 10px;
-}
-
-.layout-content > div:first-child {
-  padding: 0 20px 20px 20px;
-}
-
-.layout-content > div:last-child {
-  text-align: justify;
-  text-indent: 10%;
-}
-
-.layout-img {
-  min-width: 50%;
-  box-sizing: border-box;
-  padding: 10px;
+.layout > img {
+  width: 50%;
+  padding: 1rem;
+  object-fit: contain;
   border-radius: $borderRadius;
 }
 
 .layout2-wrapper {
-  width: 100svw;
-  height: fit-content;
-  box-sizing: content-box;
-
-  display: flex;
-  flex-wrap: wrap;
+  --gap: clamp(1rem, 5vmin, 2rem);
+  columns: 180px;
+  gap: var(--gap);
+  width: 90svw;
+  margin: 20px auto;
 }
 
 .layout2 {
-  width: 24svw;
-  height: auto;
-  margin: calc(2svw/4);
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  break-inside: avoid;
+  margin-bottom: var(--gap);
 }
 
 .layout2 > div:first-child {
-  padding: 10px 0 0 0;
+  padding: 0.5rem 0 0 0;
 }
 
-.layout2-content {
-  padding: 0 10px 10px 10px;
-  text-align: justify;
-  text-indent: 10%;
+.layout-content, .layout2-content {
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .button-wrapper {
@@ -174,42 +143,18 @@
   .content {
     width: 90svw;
   }
+  
+  .layout-wrapper {
+    columns: 90svw;
+  }
 
   .layout {
-    width: 100svw;
-    padding: 0 0 20px 0;
+    display: flex;
     flex-direction: column;
   }
 
-  .layout2 {
-    width: 100svw;
-  }
-
-  .card {
-    background-color: transparent;
-    border-radius: 0;
-    box-shadow: none;
-  }
-
-  .layout-content {
+  .layout > img {
     width: 90%;
-    padding: 10px 0 10px 0;
-  }
-
-  .layout2-content {
-    width: 90%;
-    padding: 0 0 10px 0;
-    text-align: center;
-    text-indent: 0%;
-  }
-
-  .layout2 > div:first-child {
-    padding: 20px 10px 0 10px;
-  }
-
-  .layout-img {
-    width: 90%;
-    padding: 0;
   }
 
   .image {

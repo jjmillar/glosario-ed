@@ -23,10 +23,10 @@ function App () {
               <div key='layout-wrapper' id='layout-wrapper' className='layout-wrapper'>
                 {item.layout.map((layout) => {
                   return (
-                    <div key={layout.name} id={layout.name} className='layout'>
+                    <div key={layout.name} id={layout.name} className='layout card'>
                       <div className='layout-content'>
                         <div className='subtitle'>{layout.name}</div>
-                        <div>{layout.content}</div>
+                        <div className='layout-content'>{layout.content}</div>
                       </div>
                       {layout.img && (<img src={layout.img} alt={layout.name} className='layout-img' />)}
                     </div>
