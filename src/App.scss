@@ -74,15 +74,11 @@
 .layout {
   break-inside: avoid;
   margin-bottom: var(--gap);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .layout > img {
-  width: 50%;
-  padding: 1rem;
+  width: 100%;
+  margin-top: 1rem;
   object-fit: contain;
   border-radius: $borderRadius;
 }
@@ -105,7 +101,7 @@
 }
 
 .layout-content, .layout2-content {
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
   text-align: center;
 }
 
@@ -148,21 +144,8 @@
     columns: 90svw;
   }
 
-  .layout {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .layout > img {
-    width: 90%;
-  }
-
   .layout .subtitle {
-    font-size: 1.3rem;
-  }
-
-  .layout-content {
-    padding: 0 0.5rem 0 0.5rem;
+    font-size: 1.75rem;
   }
 
   .image {
@@ -173,7 +156,6 @@
   .button-wrapper {
     bottom: 10px;
     right: 10px;
-
   }
   
 }
