@@ -1,8 +1,10 @@
 /*VARIABLES*/
-$backgroundColor: #242424;
+$background: 7%;
+$backgroundColor: hsl(0, 0%, $background);
 $borderRadius: 1.5rem;
 $borderBtn: 5px;
 $box-shadow:4px 4px 15px -6px rgba(0,0,0,0.75);
+$cardColor: hsl(0, 0%, calc($background * 1.5));
 $intro-text-shadow: 3px 3px 5px hsla(0, 0%, 40%, 0.6);
 $lightText: hsla(0, 0%, 100%, 0.87);
 $subListText: hsla(0, 0%, 80%, 0.87);

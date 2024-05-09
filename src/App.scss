@@ -65,7 +65,7 @@
 
 .layout-wrapper {
   --gap: clamp(1rem, 5vmin, 2rem);
-  columns: 40svw;
+  columns: 20svw;
   gap: var(--gap);
   width: 90svw;
   margin: 20px auto;
@@ -130,18 +130,18 @@
 }
 
 .card {
-  background-color: #242424;
+  background-color: $cardColor;
   border-radius: $borderRadius;
   box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.1);
 }
 
-@media ( max-width: 1100px ) {
+@media ( width < 780px ) {
   .content {
     width: 90svw;
   }
   
   .layout-wrapper {
-    columns: 90svw;
+    columns: 30svw;
   }
 
   .layout .subtitle {
@@ -158,4 +158,10 @@
     right: 10px;
   }
   
+}
+
+@media ( width < 450px ) {
+  .layout-wrapper {
+    columns: 90svw;
+  }
 }
