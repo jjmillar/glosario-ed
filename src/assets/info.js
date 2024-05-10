@@ -1436,30 +1436,16 @@ export const info = [
     title: 'Agradecimientos'
   },
   {
-    subtitle: '- Jonathan Ortega'
-  },
-  {
-    subtitle: '- Jaime Galeano'
-  },
-  {
-    subtitle: '- Matías Muñoz'
-  },
-  {
-    subtitle: '- Cristian Toro'
-  },
-  {
-    subtitle: '- Nicolás Gatica'
-  },
-  {
-    subtitle: '- Lyuben Atanassov'
-  },
-  {
-    subtitle: '- Renato Gatica'
-  },
-  {
-    subtitle: '- Boris Astudillo'
-  },
-  {
-    subtitle: '- Julián Millar'
+    greetings: [
+      'Jonathan Ortega',
+      'Jaime Galeano',
+      'Matías Muñoz',
+      'Cristian Toro',
+      'Nicolás Gatica',
+      'Lyuben Atanassov',
+      'Renato Gatica',
+      'Boris Astudillo',
+      'Julián Millar'
+    ]
   }
 ]

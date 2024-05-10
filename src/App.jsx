@@ -49,6 +49,13 @@ function App () {
           </section>
         )
       })}
+      <ul key='greetings' id='greetings' className='greetings'>
+        {info[info.length - 1].greetings.map((i) => {
+          return (
+            <li key={i} id={i} className='greetings--item'>{i}</li>
+          )
+        })}
+      </ul>
       <div key='background' id='background' className='background'>
         <img src='/LogoED.svg' alt='logo elemental dojo' />
       </div>
