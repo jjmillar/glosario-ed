@@ -10,6 +10,7 @@ const Edit = () => {
   const isOpen = () => open ? setOpen(false) : setOpen(true)
 
   function delay (ms) { return new Promise(resolve => setTimeout(resolve, ms)) }
+
   async function close () { await delay(100); setOpen(false) }
 
   const form = useRef()
