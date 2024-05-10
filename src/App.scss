@@ -85,7 +85,7 @@
 
 .layout2-wrapper {
   --gap: clamp(1rem, 5vmin, 2rem);
-  columns: 180px;
+  columns: 20svw;
   gap: var(--gap);
   width: 90svw;
   margin: 20px auto;
@@ -102,7 +102,8 @@
 
 .layout-content, .layout2-content {
   padding: 0.5rem 0.5rem 1rem 0.5rem;
-  text-align: center;
+  text-align: justify;
+  text-indent: 10%;
 }
 
 .button-wrapper {
