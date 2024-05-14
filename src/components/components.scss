@@ -249,4 +249,8 @@ textarea {
           opacity: 1;
         }
       }
-      
+
+a[href="#Dentro-de-los-inside-trip-se-pueden-encontrar"],
+a[href="#Dentro-de-los-outside-trip-se-pueden-encontrar"] {
+        display: none;
+}
