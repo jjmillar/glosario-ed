@@ -708,8 +708,31 @@ export const info = [
       },
       {
         name: 'Inside Trip',
-        content: 'También conocido como Ouchi gari (japones). Esta técnica se realiza desde una posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Acción donde tori pasa una de sus piernas entremedio de las piernas de uke y desbalancea hacia el lado ipsilateral de la pierna que pasa, luego realiza acccion de zancadilla para derribar a uke.',
+        content: 'También conocido como Ouchi gari (japonés). Esta técnica se realiza desde una posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Acción donde tori pasa una de sus piernas entremedio de las piernas de uke y desbalancea hacia el lado ipsilateral de la pierna que pasa, luego realiza acción de zancadilla para derribar a uke.',
         img: '/insideTrip.png'
+      },
+      {
+        name: 'Dentro de los inside trip se pueden encontrar'
+      },
+      {
+        name: 'Ouchi Gari',
+        content: 'Ouchi Gari se traduce como "gran barrido interior". En esta técnica, el tori (quien ejecuta la técnica) utiliza su pierna para barrer la pierna interior del uke (el oponente) desde adentro hacia afuera.',
+        img: '/ouchiGari.png'
+      },
+      {
+        name: 'Ouchi Gake',
+        content: 'Ouchi Gake se traduce como "enganchamiento interior". En esta técnica, el tori utiliza un enganche con la pierna para atrapar o enganchar la pierna del uke, desestabilizando al oponente.',
+        img: '/ouchiGake.png'
+      },
+      {
+        name: 'Kouchi Gari',
+        content: 'Kouchi Gari se traduce como "pequeño barrido interior". En esta técnica, el tori (quien ejecuta la técnica) utiliza su pierna para realizar un barrido desde adentro hacia afuera, apuntando a la pierna interior del uke (el oponente).',
+        img: '/kouchiGari.png'
+      },
+      {
+        name: 'Kouchi Gake',
+        content: 'Kouchi Gake se traduce como "enganchamiento interior". En esta técnica, el tori utiliza un enganche con la pierna para atrapar o enganchar la pierna del uke, desestabilizando al oponente.',
+        img: '/kouchiGake.png'
       },
       {
         name: 'Kani Basami / Flying Scissor',
@@ -725,6 +748,29 @@ export const info = [
         name: 'Outside Trip',
         content: 'Esta técnica se realiza desde una posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Consiste en utilizar las piernas desde una posición externa al cuerpo de nuestro uke, para conseguir desestabilizar su pierna cercana o lejana.',
         img: '/outsideTrip.png'
+      },
+      {
+        name: 'Dentro de los outside trip se pueden encontrar'
+      },
+      {
+        name: 'Osoto Gari',
+        content: 'Osoto Gari se traduce como "gran barrido exterior". Es una técnica de barrido en la que el tori (el que ejecuta la técnica) utiliza su pierna para barrer la pierna exterior del uke (el oponente).',
+        img: '/osotoGari.png'
+      },
+      {
+        name: 'Osoto Gake',
+        content: 'Osoto Gake se traduce como "enganchamiento exterior". A diferencia de Osoto Gari, Osoto Gake implica un enganche o gancho con la pierna en lugar de un barrido.',
+        img: '/osotoGake.png'
+      },
+      {
+        name: 'Kosoto Gari',
+        content: 'Kosoto Gari se traduce como "pequeño barrido exterior". En esta técnica, el tori (el que ejecuta la técnica) utiliza su pierna para barrer la pierna exterior del uke (el oponente) desde afuera hacia adentro.',
+        img: '/kosotoGari.png'
+      },
+      {
+        name: 'Kosoto Gake',
+        content: 'Kosoto gake se traduce como "enganchamiento pequeño exterior". En esta técnica, el tori engancha la pierna del uke desde afuera hacia adentro, similar a Kosoto Gari, pero con la diferencia de que Kosoto gake es más específicamente un enganche.',
+        img: '/kosotoGake.png'
       },
       {
         name: 'O-Goshi',

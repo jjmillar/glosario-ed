@@ -138,6 +138,7 @@
 
 .layout-content .subtitle {
   padding: 0;
+  text-indent: 0;
 }
 
 .greetings {
@@ -189,3 +190,17 @@ ul {
     columns: 90svw;
   }
 }
+
+/* INSIDE TRIP CARD COLOR */
+
+#Inside-Trip, #Dentro-de-los-inside-trip-se-pueden-encontrar, #Ouchi-Gari, #Ouchi-Gake, #Kouchi-Gari, #Kouchi-Gake {
+  background-color: $clr--inside-trip;
+}
+
+#Outside-Trip, #Dentro-de-los-outside-trip-se-pueden-encontrar, #Kosoto-Gari, #Kosoto-Gake, #Osoto-Gari, #Osoto-Gake {
+  background-color: $clr--outside-trip;
+}
+
+#Dentro-de-los-inside-trip-se-pueden-encontrar .layout-content, #Dentro-de-los-outside-trip-se-pueden-encontrar .layout-content  {
+  padding: 1rem 1rem 0.5rem 1rem;
+} 

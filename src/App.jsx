@@ -3,6 +3,7 @@ import './App.scss'
 import Index from './components'
 import Edit from './components/edit'
 import IntroAnimation from './components/intro'
+import { editId } from './assets/utils'
 
 function App () {
   return (
@@ -23,7 +24,7 @@ function App () {
               <div key='layout-wrapper' id='layout-wrapper' className='layout-wrapper'>
                 {item.layout.map((layout) => {
                   return (
-                    <div key={layout.name} id={layout.name} className='layout card'>
+                    <div key={layout.name} id={editId(layout.name)} className='layout card'>
                       {layout.img && (<img src={layout.img} alt={layout.name} className='layout-img' />)}
                       <div className='layout-content'>
                         <div className='subtitle'>{layout.name}</div>
