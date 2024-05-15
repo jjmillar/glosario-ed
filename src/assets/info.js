@@ -707,6 +707,16 @@ export const info = [
         img: '/imanariRoll.jpg'
       },
       {
+        name: 'Kani Basami / Flying Scissor',
+        content: 'Es una técnica originaria del jiujitsu cuya ejecución contempla a tori usando las piernas a modo de tijeras para derribar a uke. Es considerada en judo una de las cuatro técnicas prohibidas o Kinshi-waza.',
+        img: '/kaniBasami.png'
+      },
+      {
+        name: 'Kata Guruma',
+        content: 'Proyección del Bombero Kata guruma "rueda de brazo" o " técnica de torneado de brazo ". Es la 24a técnica de judo de Gokyo. Este prefiere el uso de manos y brazos (Te-Waza).',
+        img: '/kataGuruma.png'
+      },
+      {
         name: 'Inside Trip',
         content: 'También conocido como Ouchi gari (japonés). Esta técnica se realiza desde una posición cercana al oponente y estableciendo algún tipo de control sobre el mismo (underhook, overhook, body lock). Acción donde tori pasa una de sus piernas entremedio de las piernas de uke y desbalancea hacia el lado ipsilateral de la pierna que pasa, luego realiza acción de zancadilla para derribar a uke.',
         img: '/insideTrip.png'
@@ -733,16 +743,6 @@ export const info = [
         name: 'Kouchi Gake',
         content: 'Kouchi Gake se traduce como "enganchamiento interior". En esta técnica, el tori utiliza un enganche con la pierna para atrapar o enganchar la pierna del uke, desestabilizando al oponente.',
         img: '/kouchiGake.png'
-      },
-      {
-        name: 'Kani Basami / Flying Scissor',
-        content: 'Es una técnica originaria del jiujitsu cuya ejecución contempla a tori usando las piernas a modo de tijeras para derribar a uke. Es considerada en judo una de las cuatro técnicas prohibidas o Kinshi-waza.',
-        img: '/kaniBasami.png'
-      },
-      {
-        name: 'Kata Guruma',
-        content: 'Proyección del Bombero Kata guruma "rueda de brazo" o " técnica de torneado de brazo ". Es la 24a técnica de judo de Gokyo. Este prefiere el uso de manos y brazos (Te-Waza).',
-        img: '/kataGuruma.png'
       },
       {
         name: 'Outside Trip',
@@ -773,14 +773,14 @@ export const info = [
         img: '/kosotoGake.png'
       },
       {
-        name: 'O-Goshi',
-        content: 'Tori, situado frente a uke, lo atrae hacia sí tirando de sus brazos, girando levemente hacia un lado para presionar su cadera contra el abdomen del defensor y situando el brazo más cercano al defensor en la parte baja de su espalda y el más alejado apresando el brazo correspondiente. Desde esa posición, tori tira de uke hacia delante por la presa del brazo y hacia arriba por la de la espalda y gira sobre sí mismo usando la cadera como pivote, alzando en vilo a uke y haciéndole caer al piso.',
-        img: '/ogoshi.png'
-      },
-      {
         name: 'O-Soto Guruma',
         content: 'En este movimiento, tori se sitúa frente a uke y agarra su brazo con una mano y su solapa con la otra. Entonces, estirando una pierna y situándose detrás de las de uke, la retrae al tiempo que empuja la parte superior de su cuerpo y proyecta a su oponente sobre el piso. También puede ser utilizado en nogi cambiando el tipo de control (underhook, overhook, bodylock).',
         img: '/osotoGuruma.png'
+      },
+      {
+        name: 'O-Goshi',
+        content: 'Tori, situado frente a uke, lo atrae hacia sí tirando de sus brazos, girando levemente hacia un lado para presionar su cadera contra el abdomen del defensor y situando el brazo más cercano al defensor en la parte baja de su espalda y el más alejado apresando el brazo correspondiente. Desde esa posición, tori tira de uke hacia delante por la presa del brazo y hacia arriba por la de la espalda y gira sobre sí mismo usando la cadera como pivote, alzando en vilo a uke y haciéndole caer al piso.',
+        img: '/ogoshi.png'
       },
       {
         name: 'Seoi nage',

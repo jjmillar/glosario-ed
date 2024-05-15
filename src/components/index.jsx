@@ -24,8 +24,8 @@ const Index = () => {
               return (
                 <div key='section'>
                   {item.title && <li><a href={`#${editId(item.title)}`} className='list' onClick={close}>{item.title}</a></li>}
-                  {item.layout && item.layout.map((i) => { return (<li key={`1${i.name}`}><a href={`#${editId(i.name)}`} className='sub-list' onClick={close}>{i.name}</a></li>) })}
-                  {item.layout2 && item.layout2.map((i) => { return (<li key={`2${i.name}`}><a href={`#${editId(i.name)}`} className='sub-list' onClick={close}>{i.name}</a></li>) })}
+                  {item.layout && item.layout.map((i) => { return (<li key={`1${i.name}`}><a id={`#${editId(i.name)}`} href={`#${editId(i.name)}`} className='sub-list' onClick={close}>{i.name}</a></li>) })}
+                  {item.layout2 && item.layout2.map((i) => { return (<li key={`2${i.name}`}><a id={`#${editId(i.name)}`} href={`#${editId(i.name)}`} className='sub-list' onClick={close}>{i.name}</a></li>) })}
                 </div>
               )
             })}

@@ -254,3 +254,11 @@ a[href="#Dentro-de-los-inside-trip-se-pueden-encontrar"],
 a[href="#Dentro-de-los-outside-trip-se-pueden-encontrar"] {
         display: none;
 }
+
+a[id="#Inside-Trip"], a[id="#Ouchi-Gari"], a[id="#Ouchi-Gake"], a[id="#Kouchi-Gari"], a[id="#Kouchi-Gake"] {
+        color: $clr--inside-trip;
+}
+
+a[id="#Outside-Trip"], a[id="#Kosoto-Gake"], a[id="#Osoto-Gari"], a[id="#Osoto-Gake"], a[id="#Kosoto-Gari"], a[id="#O-Soto-Guruma"] {
+        color: $clr--outside-trip;
+}
