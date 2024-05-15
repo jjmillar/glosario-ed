@@ -1175,7 +1175,7 @@ export const info = [
       {
         name: 'Estima Lock',
         content: 'Denominada así por Braulio Estima, quien la popularizó. Se trata de una variante de toe hold donde uke apoya la planta del pie en la pelvis de uke. Luego tori, cierra una figura 4 con sus brazos para atrapar el canto externo de uke al tiempo que empuja su cadera hacia dentro para levantar el tobillo de uke mientras el canto del pie sigue en contacto con su pelvis para provocar la luxación. ',
-        img: '/estimaLock.jpeg'
+        img: '/estimaLock.png'
       },
       {
         name: 'Heel Hook / Gancho de tobillo',
