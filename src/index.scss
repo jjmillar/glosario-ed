@@ -23,3 +23,32 @@ body {
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
+/* ANIMATIONS */
+
+@keyframes introAnimation {
+  0%, 100% {
+    opacity: (0);
+  }
+
+  30%, 70% {
+    opacity: (1);
+  }
+}
+
+.introAnimation {
+  animation: introAnimation 3.5s ease;
+}
+
+@keyframes mainIntroAnimation {
+  0%, 50% {
+    opacity: (0);
+  }
+  100% {
+    opacity: (1);
+  }
+}
+
+.mainIntroAnimation {
+  animation: mainIntroAnimation 3.5s ease;
+}
