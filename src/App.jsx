@@ -9,7 +9,7 @@ function App () {
   return (
     <div className='wrapper'>
       <IntroAnimation />
-      <div key='button-wrapper' id='button-wrapper' className='button-wrapper'>
+      <div key='button-wrapper' id='button-wrapper' className='button-wrapper mainIntroAnimation'>
         <Edit />
         <Index />
       </div>
