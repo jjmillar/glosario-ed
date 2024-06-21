@@ -23,7 +23,7 @@ const Index = () => {
             {info.map((item) => {
               return (
                 <div key='section'>
-                  {item.title && <li><a href={`#${editId(item.title)}`} className='list' onClick={close}>{item.title}</a></li>}
+                  {item.title && <li><a href={`#${item.title}`} className='list' onClick={close}>{item.title}</a></li>}
                   {item.layout && item.layout.map((i) => { return (<li key={`1${i.name}`} className='sub-list'><a id={`#${editId(i.name)}`} href={`#${editId(i.name)}`} onClick={close}>{i.name}</a></li>) })}
                   {item.layout2 && item.layout2.map((i) => { return (<li key={`2${i.name}`} className='sub-list'><a id={`#${editId(i.name)}`} href={`#${editId(i.name)}`} onClick={close}>{i.name}</a></li>) })}
                 </div>
