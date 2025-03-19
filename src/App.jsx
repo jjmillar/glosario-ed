@@ -40,7 +40,7 @@ function App () {
                 <div key='layout2-wrapper' id='layout2-wrapper' className='layout2-wrapper'>
                   {item.layout2.map((layout2) => {
                     return (
-                      <div key={layout2.name} id={layout2.name} className='layout2 card'>
+                      <div key={layout2.name} id={editId(layout2.name)} className='layout2 card'>
                         <div className='subtitle'>{layout2.name}:</div>
                         <div className='layout2-content'>{layout2.content}</div>
                       </div>
